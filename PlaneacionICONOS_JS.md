@@ -20,7 +20,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * [Tutoriales JavaScript de Bextlán](http://bextlan.com/tutoriales/javascript/)
 
 
-## :school: Sesión 1: 14 Abril 2016
+## :school: Sesión 1: 13 Agosto 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * [Introducción al mundo de JavaScript](./teoria-intro-js.md)
@@ -42,7 +42,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 4. Programación avanzada](http://librosweb.es/libro/javascript/capitulo_4.html)
 
 
-## :school: Sesión 2: 21 Abril 2016
+## :school: Sesión 2: 20 Agosto 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * [Sintaxis JavaScript](./teoria-poo-js.md#sintaxis-javascript)
@@ -56,7 +56,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 6. Eventos](http://librosweb.es/libro/javascript/capitulo_6.html)
 
 
-## :school: Sesión 3: 28 Abril 2016
+## :school: Sesión 3: 27 Agosto 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * [DOM](./teoria-poo-js.md#dom)
@@ -67,7 +67,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 7. Formularios](http://librosweb.es/libro/javascript/capitulo_7.html)
 
 
-## :school: Sesión 4: 05 Mayo 2016
+## :school: Sesión 4: 03 Septiembre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * [Agente de Usuario](./teoria-poo-js.md#agente-de-usuario)
@@ -79,7 +79,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 7. Primeros pasos con AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 
-## :school: Sesión 5: 12 Mayo 2016
+## :school: Sesión 5: 10 Septiembre 2016
 ### :clipboard: Temas y conceptos revisados: 
 * [JSON](./teoria-poo-js.md#json)
 * [AJAX](./teoria-poo-js.md#ajax)
@@ -90,12 +90,20 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Entrega de Proyecto
 
 ## :mortar_board: Evaluación:
-* 50% Actividades
-* 50% Implementar en el Sitio (HTML y CSS) 10 interacciones justificadas con JS
+* 10% Definición conceptual de objeto
+* 20% Maquetado de Portafolio Web en HTML y CSS
+* 10% Objeto programado en JS
+* 60% Implementar en el Portafolio Web 6 interacciones justificadas con JS una por cada uno de los siguientes temas:
+	1. Objetos
+	1. DOM
+	1. Eventos
+	1. Agente de Usuario y/o Media Queries
+	1. Formularios
+	1. JSON y/o AJAX
 * Prohibido usar frameworks o librerías debe ser con JavaScript puro
 * El uso de frameworks o librerías es causa de reprobación inmediata
 * Para la entrega incluir un archivo `readme.txt` describiendo en que secciones se implementaron las interacciones JS, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlo el estudiante acepta la percepción del docente al evaluar dicho sitio
 
 ## :date: Entrega Final: 
-**Jueves 19 Mayo 2016 11:59:59pm**
+**Lunes 19 Septiembre 2016 11:59:59pm**
 La entrega puede ser vía email, dropbox, google drive, one drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com
