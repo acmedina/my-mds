@@ -47,7 +47,11 @@ La programación es:
 
 * **Algoritmo**: Serie de pasos ordenados y finitos para realizar o resolver una tarea o problema
 * **Diagrama de Flujo**: Es es la representación gráfica de un algoritmo
+
+#### Símbolos de los Diagramas de Flujo
 ![Símbolos de los Diagramas de Flujo](http://bextlan.com/img/para-cursos/simbolos-diagramas-flujo.png)
+
+#### Ejemplo de un diagrama de flujo para determinar si un número dado es par o impar
 ![Ejemplo Diagrama de Flujo](http://bextlan.com/img/para-cursos/diagrama-par-impar.jpg)
 
 **[⬆ regresar al índice](#Índice)**
