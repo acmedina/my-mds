@@ -21,7 +21,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 #Módulo MySQL
 
 
-## :school: Sesión 1: 26 Mayo 2016
+## :school: Sesión 1: 24 Septiembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Base de Datos
@@ -39,28 +39,18 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Análisis de la información de un sitio web 
 
 ### :pencil: Actividades para la siguiente sesión: 
-* Que proyecto voy a desarrollar:
-	* Mapa de Sitio
-	* En una lista numerar la info que se desea almacenar (Lógica de Negocio)
-* Conceptos:
-	* Modelo Entidad-Relación
-		* Definición
-		* Elementos
-		* Tipos de Relaciones
-	* Normalización de BDs
-		* Concepto
-		* Formas Normales
-* Analizar la información de un sitio web
+* Que proyecto voy a desarrollar
+* En una lista numerar la info que se desea almacenar (Lógica de Negocio)
 
 
-## :school: Sesión 2: 02 Junio 2016
+## :school: Sesión 2: 01 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Modelo Entidad-Relación
 * Tipos de Relaciones
+* Herramientas de Modelado de Datos
 * Normalización de BDs
 * Formas Normales
-* Herramientas de Modelado de Datos
 
 ### :pencil: Actividades para la siguiente sesión: 
 * Lista de Tablas y Campos del Proyecto (Lógica de Negocio)
@@ -68,7 +58,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Excel con Registros de Información (mínimo 10)
 
 
-## :school: Sesión 3: 09 Junio 2016
+## :school: Sesión 3: 08 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Sintaxis SQL
@@ -92,7 +82,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Modelo Relacional de la BD del Proyecto
 
 
-## :school: Sesión 4: 16 Junio 2016
+## :school: Sesión 4: 15 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * Inserción de Registros Iniciales
@@ -106,10 +96,11 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ### :pencil: Actividades para la siguiente sesión:
 * Correcciones del Proyecto
 * Inserción de Registros de Catálogos
-* Inserción de Registros de Datos (por lo menos 5 completos)
+* Inserción de Registros de Datos (por lo menos 10 completos)
+* Operaciones CRUD del Proyecto
 
 
-## :school: Sesión 5:  23 Junio 2016
+## :school: Sesión 5: 22 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * Sintaxis SQL Avanzada
@@ -134,5 +125,5 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	5. Queries CRUD de la lógica de negocio (sql) 
 
 ## :date: Entrega:
-**Jueves 30 Junio 2016 11:59:59pm**
+**Jueves 31 Octubre 2016 11:59:59pm**
 La entrega puede ser vía email, dropbox, google drive, zip en cualquier medio de transferencia de archivos al correo jonmircha@gmail.com

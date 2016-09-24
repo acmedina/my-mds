@@ -20,7 +20,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * [Teoría del Curso](./teoria-wp.md)
 
 
-## :school: Sesión 1: 28 Mayo 2016
+## :school: Sesión 1: 22 Septiembre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * Introducción a WP
@@ -36,7 +36,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * Taxonomía del Proyecto (Archivo txt)
 
 
-## :school: Sesión 2: 04 Junio 2016
+## :school: Sesión 2: 29 Septiembre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * Administador de WP
@@ -49,7 +49,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * Taxonomía definida en el Adminitrador de WP
 
 
-## :school: Sesión 3: 11 Junio 2016
+## :school: Sesión 3: 06 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Creación de Temas
@@ -62,7 +62,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * Avanzar en Proyecto Final
 
 
-## :school: Sesión 4: 18 Junio 2016
+## :school: Sesión 4: 13 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * Buenas Prácticas de Código PHP en WP
@@ -75,7 +75,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * Avanzar en Proyecto Final
 
 
-## :school: Sesión 5: 25 Junio 2016
+## :school: Sesión 5: 20 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
 * Menús
@@ -98,5 +98,5 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 	1. Queda prohibido usar temas de terceros, en caso de hacerlo estará reprobado
 
 ## :date: Entrega:
-**Lunes 04 Julio 2016**
+**Lunes 31 Octubre 2016**
 La entrega puede ser vía email, dropbox, google drive, zip en cualquier medio de transferencia de archivos al correo jonmircha@gmail.com

@@ -751,6 +751,7 @@ En JavaScript tenemos 2 tipos de API's:
 	* WebSockets
 	* WebWorkers
 	* Touch
+	* [What Web Can Do Today](https://whatwebcando.today/)
 	* etc
 
 * Externas
