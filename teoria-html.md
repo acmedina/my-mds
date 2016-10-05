@@ -1,27 +1,19 @@
 # HTML Hyper Text Markup Language
-**(Lenguaje de Marcado de Hiper Texto)**
+
+**Lenguaje de Marcado de Hiper Texto basado en etiquetas y atributos, nos define estructura y contenido**
 
 ![HTML](http://bextlan.com/img/para-cursos/html5-logo.png)
 
+
 ## Índice
-1. [Estructura y Contenido](#estructura-y-contenido)
+
 1. [Etiquetas HTML](#etiquetas-html)
+1. [Estructura y Contenido](#estructura-y-contenido)
+1. [HTML5](html5)
 1. [Semántica](#semántica)
 1. [Buenas Prácticas de Código HTML](#buenas-prácticas-de-código-html)
 1. [Estructura Básica HTML5](#estructura-básica-html5)
 1. [Más Info](#más-info)
-
-
-## Estructura y Contenido
-
-* Lenguaje de marcado basado en etiquetas y atributos, nos define estructura y contenido
-* El contenido es el Rey
-* Planear bien nuestra estructura de HTML (uso de etiquetas)
-* Trabajar la semántica
-* La semántica de nuestras etiquetas la define el contenido y su distribución
-* Los motores de búsqueda son ciegos, si tu contenido esta bien estructurado, tu contenido será bien posicionado
-
-**[⬆ regresar al índice](#Índice)**
 
 
 ## Etiquetas HTML
@@ -32,9 +24,41 @@
 **[⬆ regresar al índice](#Índice)**
 
 
-## Semántica
+## Estructura y Contenido
 
-La semántica es sólo una de las 8 implementaciones de [HTML5](https://www.w3.org/html/logo/)
+* El contenido es el rey
+* Planear bien nuestra estructura HTML (uso de etiquetas)
+* Trabajar la semántica (significado de nuestro contenido)
+* La semántica de nuestras etiquetas la define el contenido y su distribución
+* Los motores de búsqueda son ciegos, si tu contenido esta bien estructurado, tu contenido será bien posicionado
+
+**[⬆ regresar al índice](#Índice)**
+
+
+#HTML5
+
+* Sitio Oficial [HTML5](https://www.w3.org/html/logo/)
+* No es un software, no se instala, no se descarga, no se necesita licencia, no cuesta, vive y existe en los navegadores web
+* Es el paradigma actual de diseño y desarrollo web
+* Define los actuales estándares de diseño y desarrollo web, tanto para equipos de escritorio, como para dispositivos móviles
+* Es la sinergia de 3 tecnologías que se complementan en el Front end:
+	1. **HTML** (estructura y contenido)
+	1. **CSS** (diseño y presentación)
+	1. **JS** (interactividad y funcionalidad)
+* Se subdivide en 8 implementaciones:
+	1. Semántica (HTML)
+	1. CSS3 (CSS)
+	1. Multimedia (HTML y JS)
+	1. Desconexión y Almacenamiento Local (JS)
+	1. Acceso al Dispositivo (JS)
+	1. 3D, Gráficos y Efectos (HTML, CSS y JS)
+	1. Conectividad (JS)
+	1. Rendimiento e Integración (JS)
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Semántica
 
 Con las etiquetas semánticas mejoramos la definición de nuestro contenido, es más entendible tanto para humanos como para máquinas(algoritmos de buscadores)
 
@@ -76,13 +100,6 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 * Scripts antes de `</body>`
 * **NO** Cerrar etiquetas únicas así **`<img src=" ">`** en vez de **`<img src=" "/>`**
 * Definir atributos booleanos así **`<input type="button" disabled>`** en vez de **`<input type="button" disabled="disabled">`**
-* Definir atributos en el siguiente orden:
-	* class (si se tiene más de una clase separar con 2 espacios)
-	* id, name
-    * data-*
-    * src, for, type, href, value
-    * title, alt
-    * aria-*, role
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -114,8 +131,10 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 
 
 ## Más Info
+* [Introducción a XHTML](http://librosweb.es/libro/xhtml/)
 * [Guía de Referencia HTML en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
-* [Introducción a HTML](http://librosweb.es/libro/xhtml/)
+* [Estandar HTML 5.1](https://www.w3.org/TR/html51/)
+* [Estandar HTML 5.2](https://www.w3.org/TR/html52/)
 * [Guía de Buenas Prácticas en Código Front end](http://mdo.github.io/code-guide/)
 * [La dieta del Navegador](https://browserdiet.com/es/)
 * [Can I Use](http://caniuse.com/)
