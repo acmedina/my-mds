@@ -398,7 +398,7 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
 
 ## Sistemas de Nomenclaturas
 
-* [BEM - Bloque Elemento Modificador](https://en.bem.info/)
+### [BEM - Bloque Elemento Modificador](https://en.bem.info/)
 
 ##### Estructura
 
@@ -412,7 +412,7 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
     .menu__item { ... }
     .menu__item--hover{ ... }
 
-* [SUIT CSS - Utilidades y Componentes CSS](https://suitcss.github.io/)
+### [SUIT CSS - Utilidades y Componentes CSS](https://suitcss.github.io/)
 
 ##### Estructura
 
