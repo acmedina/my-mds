@@ -500,7 +500,7 @@ El objetivo de los preprocesadores es tener un código más sencillo de mantener
 
 Es una herramienta para transformar tu CSS con JavaScript
 
-PostCSS es un módulo de Node.js que analiza el CSS y lo transforma en un árbol de sintaxis abstracto [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
+PostCSS es un módulo de Node.js que analiza el CSS y lo transforma en un árbol de sintaxis abstracto [(Abstract Syntax Tree)](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
 
 * [PostCSS](http://postcss.org/)
 * Plugins PostCSS
