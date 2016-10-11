@@ -1,4 +1,6 @@
-# Bases de Datos
+# Bases de Datos con MySQL
+
+![MySQL + PHP](http://bextlan.com/img/para-cursos/poo-php-mysql.jpg)
 
 ## Índice
 
