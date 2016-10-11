@@ -5,6 +5,7 @@
 ## "Es el único lenguaje en el que me doy cuenta que las personas sienten que no necesitan aprenderlo antes de empezar a utilizarlo." ([Douglas Crockford](http://www.crockford.com/))
 
 ## Índice
+
 1. [JavaScript: BEGINS (1995)](#javascript-begins-1995)
 1. [JavaScript: AGE OF FLASH (2000)](#javascript-age-of-flash-2000)
 1. [JavaScript: AGE OF HTML5 (2008)](#javascript-age-of-html5-2008)
@@ -51,6 +52,7 @@
 ### JavaScript: AGE OF HTML5 (2008)
 
 ![Implementaciones HTML5](http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png)
+
 * De 2008 a 2014 se define e implementa [HTML5](https://www.w3.org/html/logo/)
 * HTML5 apesta a JavaScript (6 de sus 8 implementaciones son JS)
 * Comienzan a proliferar librerías y frameworks para todo propósito
@@ -68,7 +70,6 @@
     * Front end (JavaScript)
     * Back end (Node.js)
     * Persistencia de Datos (Varias opciones)
-
 * JavaScript hoy nos permite crear:
     * Sitios Web Front end
     * Aplicaciones SPA (_Single Page Application_)
