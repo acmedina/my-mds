@@ -535,7 +535,7 @@ DELETE FROM table WHERE field = value;
 		field4 VARCHAR(80),
 		FULLTEXT KEY a_search(field1, field2, field3, field4)
 	);
-	
+
 	SELECT * FROM table
 		WHERE MATCH(field1, field2, field3, field4)
 		AGAINST('a_search' IN BOOLEAN MODE);
@@ -547,7 +547,7 @@ DELETE FROM table WHERE field = value;
 		WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
 		AGAINST('a_search' IN BOOLEAN MODE);
 	```
-* **[TRANSACCIONES SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/):** Cuando varias sentencias se tienen que ejecutar al mismo tiempo como si fueran una sola
+* **[TRANSACCIONES SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/):** Cuando varias sentencias se tienen que ejecutar al mismo tiempo como si fueran una sola, en caso de que exista un error los cambios efectuados en la base de datos se cancelan
 	```SQL
 	START TRANSACTION;
 
