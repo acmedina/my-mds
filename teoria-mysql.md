@@ -515,14 +515,14 @@ DELETE FROM table WHERE field = value;
 			SELECT COUNT(*)
 			FROM table2 AS t2
 			WHERE t2.field1 = t1.field1
-		) as subquery_field
+		) AS subquery_field
 		FROM table1 AS t1;
 
 	SELECT t1.field1, t1.field2, t1.field3, ( 
 			SELECT field1
 			FROM table2 AS t2
 			WHERE t2.field1 = t1.field1
-		) as subquery_field
+		) AS subquery_field
 		FROM table1 AS t1;
 	```
 * **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
