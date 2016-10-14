@@ -538,18 +538,18 @@ DELETE FROM table WHERE field = value;
 		WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
 		AGAINST('a_search' IN BOOLEAN MODE);
 	```
-* [Transacciones SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/)
+* **[TRANSACCIONES SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/):** Cuando varias sentencias se tienen que ejecutar al mismo tiempo como si fueran una sola
 	```SQL
 	START TRANSACTION;
 
-		INSERT INTO table1 (a_field, another_field, one_field_more)
-			VALUES ('a_value', 'anothe_value', 'one_value_more');
+		INSERT INTO table1 (field1, field2, field3)
+			VALUES ('value1', 'value2', 'value3');
 
-		INSERT INTO table3 (a_field, another_field, one_field_more)
-			VALUES ('a_value', 'anothe_value', 'one_value_more');
+		INSERT INTO table3 (field1, field2, field3)
+			VALUES ('value1', 'value2', 'value3');
 
-		INSERT INTO table2 (a_field, another_field, one_field_more)
-			VALUES ('a_value', 'anothe_value', 'one_value_more');
+		INSERT INTO table2 (field1, field2, field3)
+			VALUES ('value1', 'value2', 'value3');
 
 	COMMIT; /* ROLLBACK; */
 	```
