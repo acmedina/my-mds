@@ -345,19 +345,19 @@ Objetos básicos en SQL: Bases de Datos, Tablas y Usuarios (y sus Privilegios)
 ### Bases de Datos
 
 ```SQL
-CREATE DATABASE
-DROP DATABASE
-SHOW DATABASES
-USE
+CREATE DATABASE a_data_base;
+DROP DATABASE a_data_base;
+SHOW DATABASES;
+USE a_data_base;
 ```
 		
 ### Tablas
 
 ```SQL
-CREATE TABLE
-DROP TABLE
-ALTER TABLE [ADD COLUMN || DROP COLUMN || MODIFY]
-DESCRIBE
+CREATE TABLE a_table();
+DROP TABLE a_table;
+ALTER TABLE a_table [ADD COLUMN || DROP COLUMN || MODIFY];
+DESCRIBE a_table;
 ```
 
 * Motores de Tablas
