@@ -450,6 +450,12 @@ Leer un registro en particular buscando el valor de un campo
 SELECT * FROM table WHERE field_1 = 'value_1';
 ```
 
+Leer registros en particular buscando diferentes valores en un campo
+
+```SQL
+SELECT * FROM table WHERE field_1 IN ('value_1', 'value_2', 'value_n');
+```
+
 Leer un registro en particular buscando el valor similar en un campo
 
 ```SQL
