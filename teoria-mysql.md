@@ -1,6 +1,6 @@
 # Bases de Datos con MySQL
 
-![MySQL + PHP](http://bextlan.com/img/para-cursos/MySQL.png)
+![MySQL](http://bextlan.com/img/para-cursos/MySQL.png)
 
 ## Índice
 
@@ -12,6 +12,7 @@
 1. [Sintaxis SQL](#sintaxis-sql)
 1. [Sentencias de Objetos](#sentencias-de-objetos)
 1. [Sentencias de Datos](#sentencias-de-datos)
+1. [MySQL Avanzado](#mysql-avanzado)
 
 
 ## Conceptos Básicos
@@ -336,6 +337,7 @@ Es una buena práctica aplicar la 5FN, cuando tenemos una extensa y compleja est
 
 **[⬆ regresar al índice](#Índice)**
 
+
 ## Sentencias de Objetos
 
 Objetos básicos en SQL: Bases de Datos, Tablas y Usuarios (y sus Privilegios)
@@ -358,6 +360,18 @@ ALTER TABLE [ADD COLUMN || DROP COLUMN || MODIFY]
 DESCRIBE
 ```
 
+* Motores de Tablas
+	* [MyISAM vs InnoDB](http://www.webreunidos.es/blog/myisam-vs-innodb/)
+	* [¿Qué motor elegir?](http://blog.arsys.es/myisam-o-innodb-elige-tu-motor-de-almacenamiento-mysql/)
+	* [Diferencias](http://blog.openalfa.com/diferencias-entre-innodb-y-myisam-en-mysql)
+* [Tipos de Datos en MySQL](http://mysql.conclase.net/curso/index.php?cap=005#)
+* [Restricciones](http://blog.openalfa.com/como-trabajar-con-restricciones-de-clave-externa-en-mysql)
+	* ON DELETE y ON UPDATE
+		* RESTRICT
+		* CASCADE
+		* SET NULL
+		* NO ACTION
+
 ### Usuarios
 
 ```SQL
@@ -376,24 +390,10 @@ REVOKE [PRIVILEGES], GRANT OPTION FROM 'my_user'@'my_host';
 FLUSH PRIVILEGES;
 ```
 
-### Más info interesante sobre objetos
-
-* Motores de Tablas
-	* [MyISAM vs InnoDB](http://www.webreunidos.es/blog/myisam-vs-innodb/)
-	* [¿Qué motor elegir?](http://blog.arsys.es/myisam-o-innodb-elige-tu-motor-de-almacenamiento-mysql/)
-	* [Diferencias](http://blog.openalfa.com/diferencias-entre-innodb-y-myisam-en-mysql)
 * [Usuarios y Privilegios](http://rm-rf.es/usuario-mysql-como-crear-borrar-y-asignar-privilegios/)
-* [Tipos de Datos en MySQL](http://mysql.conclase.net/curso/index.php?cap=005#)
-* [Búsquedas FULLTEXT](http://dev.mysql.com/doc/internals/en/full-text-search.html)
-* [Restricciones](http://blog.openalfa.com/como-trabajar-con-restricciones-de-clave-externa-en-mysql)
-	* ON DELETE y ON UPDATE
-		* RESTRICT
-		* CASCADE
-		* SET NULL
-		* NO ACTION
-* [Encriptación](http://dev.mysql.com/doc/refman/5.7/en/encryption-functions.html)
 
 **[⬆ regresar al índice](#Índice)**
+
 
 ## Sentencias de Datos
 
@@ -485,10 +485,12 @@ Siempre agregar la clausula WHERE para evitar eliminar toda la tabla
 DELETE FROM table WHERE field = value
 ```
 
-### CONSULTAS MÚLTIPLES
+**[⬆ regresar al índice](#Índice)**
 
-Datos de 2 o más tablas
 
+## MySQL Avanzado
+
+* **CONSULTAS MÚLTIPLES:** Datos de 2 o más tablas
 ```SQL
 SELECT * FROM table1 AS t1 
 	INNER JOIN table2 AS t2
@@ -505,13 +507,19 @@ SELECT t1.field1, t1.field2, t1.field3, t2.field1, t2.field5
 	WHERE t1.field1 = 'a_value'
 	ORDER BY t1.field3 DESC
 ```
-
-* [Definición de Join](https://es.wikipedia.org/wiki/Join)
-* [Tipos de Joins](http://www.nebaris.com/post/77/tipos-de-join-en-sql)
-* [Joins de Manera Gráfica](http://www.genbetadev.com/bases-de-datos/explicacion-grafica-de-los-join-en-sql-y-sus-resultados)
-
-### CONSULTAS FULLTEXT KEY
-
+	* [Definición de Join](https://es.wikipedia.org/wiki/Join)
+	* [Tipos de Joins](http://www.nebaris.com/post/77/tipos-de-join-en-sql)
+	* [Joins de Manera Gráfica](http://www.genbetadev.com/bases-de-datos/explicacion-grafica-de-los-join-en-sql-y-sus-resultados)
+* **SUBCONSULTAS:** Una consulta dentro de otra
+```SQL
+SELECT t1.a_field, t1.another_field, ( 
+		SELECT COUNT(*)
+		FROM table2 AS t2
+		WHERE t2.a_field = t1.a_field
+	) as a_subquery_field
+	FROM table1 AS t1;
+```
+* **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
 ```SQL
 SELECT * FROM table
 	WHERE MATCH(field1, field2, field3, field4)
@@ -524,5 +532,20 @@ SELECT t1.field1, t1.field2, t2.field1, t2.field4
 	WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
 	AGAINST('a_search' IN BOOLEAN MODE);
 ```
+* [Transacciones SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/)
+```SQL
+START TRANSACTION;
+
+	INSERT INTO table1 (a_field, another_field, one_field_more) VALUES ('a_value', 'anothe_value', 'one_value_more');
+
+	INSERT INTO table3 (a_field, another_field, one_field_more) VALUES ('a_value', 'anothe_value', 'one_value_more');
+
+	INSERT INTO table2 (a_field, another_field, one_field_more) VALUES ('a_value', 'anothe_value', 'one_value_more');
+
+COMMIT; /* ROLLBACK; */
+```
+* [Procedimientos Almacenados](https://www.codejobs.biz/es/blog/2014/07/09/como-hacer-un-procedimiento-almacenado-en-mysql-sin-morir-en-el-intento)
+* [Función GROUP_CONCAT](http://otroblogmas.com/funcion-group_concat-de-mysql/)
+* [Funciones de Encriptación](http://dev.mysql.com/doc/refman/5.7/en/encryption-functions.html)
 
 **[⬆ regresar al índice](#Índice)**
