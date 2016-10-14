@@ -536,11 +536,14 @@ SELECT t1.field1, t1.field2, t2.field1, t2.field4
 ```SQL
 START TRANSACTION;
 
-	INSERT INTO table1 (a_field, another_field, one_field_more) VALUES ('a_value', 'anothe_value', 'one_value_more');
+	INSERT INTO table1 (a_field, another_field, one_field_more)
+		VALUES ('a_value', 'anothe_value', 'one_value_more');
 
-	INSERT INTO table3 (a_field, another_field, one_field_more) VALUES ('a_value', 'anothe_value', 'one_value_more');
+	INSERT INTO table3 (a_field, another_field, one_field_more)
+		VALUES ('a_value', 'anothe_value', 'one_value_more');
 
-	INSERT INTO table2 (a_field, another_field, one_field_more) VALUES ('a_value', 'anothe_value', 'one_value_more');
+	INSERT INTO table2 (a_field, another_field, one_field_more)
+		VALUES ('a_value', 'anothe_value', 'one_value_more');
 
 COMMIT; /* ROLLBACK; */
 ```
