@@ -438,20 +438,19 @@ Leer algunos campos de la tabla:
 SELECT field_1, field_2, field_n FROM table;
 ```
 
-Leer un registro en particular buscando el valor de un campo
+Saber cuantos registros tiene mi tabla:
+
+```SQL
+SELECT COUNT(*) FROM table;
+```
+
+Leer un registro en particular buscando o el valor de un campo
 
 ```SQL
 SELECT * FROM table WHERE field_1 = 'valor_1';
 ```
 
-Leer un registro en particular buscando el valor de más de 2 campos con operadores lógicos
-
-```SQL
-SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2';
-SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2';
-```
-
-Leer un registro en particular buscando el valor similar de un campo
+Leer un registro en particular buscando el valor similar en un campo
 
 ```SQL
 SELECT * FROM table WHERE field_1 LIKE '%valor_1';
@@ -459,10 +458,13 @@ SELECT * FROM table WHERE field_1 LIKE 'valor_1%';
 SELECT * FROM table WHERE field_1 LIKE '%valor_1%';
 ```
 
-Saber cuantos registros tiene mi tabla:
+Leer un registro en particular buscando el valor con operadores lógicos
 
 ```SQL
-SELECT COUNT(*) FROM table;
+SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2';
+SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2';
+SELECT * FROM table WHERE NOT field_1 = 'valor_1';
+SELECT * FROM table WHERE field_1 != 'valor_1';
 ```
 
 ### UPDATE
