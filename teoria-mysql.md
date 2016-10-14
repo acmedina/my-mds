@@ -512,6 +512,13 @@ DELETE FROM table WHERE field = value
 	* [Joins de Manera Gráfica](http://www.genbetadev.com/bases-de-datos/explicacion-grafica-de-los-join-en-sql-y-sus-resultados)
 * **SUBCONSULTAS:** Una consulta dentro de otra
 	```SQL
+	SELECT t1.a_field, t1.another_field, ( 
+			SELECT COUNT(*)
+			FROM table2 AS t2
+			WHERE t2.a_field = t1.a_field
+		) as a_subquery_field
+		FROM table1 AS t1;
+		
 	SELECT * FROM table
 		WHERE MATCH(field1, field2, field3, field4)
 		AGAINST('a_search' IN BOOLEAN MODE);
@@ -525,12 +532,16 @@ DELETE FROM table WHERE field = value
 	```
 * **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
 	```SQL
-	SELECT t1.a_field, t1.another_field, ( 
-			SELECT COUNT(*)
-			FROM table2 AS t2
-			WHERE t2.a_field = t1.a_field
-		) as a_subquery_field
-		FROM table1 AS t1;
+	SELECT * FROM table
+		WHERE MATCH(field1, field2, field3, field4)
+		AGAINST('a_search' IN BOOLEAN MODE);
+
+	SELECT t1.field1, t1.field2, t2.field1, t2.field4
+		FROM table1 AS t1
+		INNER JOIN table2 AS t2
+		ON t1.field1 = t2.field4
+		WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
+		AGAINST('a_search' IN BOOLEAN MODE);
 	```
 * [Transacciones SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/)
 	```SQL
