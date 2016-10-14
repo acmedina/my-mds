@@ -527,6 +527,15 @@ DELETE FROM table WHERE field = value;
 	```
 * **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
 	```SQL
+	CREATE TABLE a_table(
+		table_id INTEGER UNSIGNED PRIMARY KEY,
+		field1 VARCHAR(80),
+		field2 VARCHAR(80),
+		field3 VARCHAR(80),
+		field4 VARCHAR(80),
+		FULLTEXT KEY a_search(field1, field2, field3, field4)
+	);
+	
 	SELECT * FROM table
 		WHERE MATCH(field1, field2, field3, field4)
 		AGAINST('a_search' IN BOOLEAN MODE);
