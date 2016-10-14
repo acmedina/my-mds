@@ -435,28 +435,28 @@ SELECT * FROM table;
 Leer algunos campos de la tabla:
 
 ```SQL
-SELECT field_1, field_2, field_n FROM table
+SELECT field_1, field_2, field_n FROM table;
 ```
 
 Leer un registro en particular buscando el valor de un campo
 
 ```SQL
-SELECT * FROM table WHERE field_1 = 'valor_1'
+SELECT * FROM table WHERE field_1 = 'valor_1';
 ```
 
 Leer un registro en particular buscando el valor de más de 2 campos con operadores lógicos
 
 ```SQL
-SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2'
-SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2'
+SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2';
+SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2';
 ```
 
 Leer un registro en particular buscando el valor similar de un campo
 
 ```SQL
-SELECT * FROM table WHERE field_1 LIKE '%valor_1'
-SELECT * FROM table WHERE field_1 LIKE 'valor_1%'
-SELECT * FROM table WHERE field_1 LIKE '%valor_1%'
+SELECT * FROM table WHERE field_1 LIKE '%valor_1';
+SELECT * FROM table WHERE field_1 LIKE 'valor_1%';
+SELECT * FROM table WHERE field_1 LIKE '%valor_1%';
 ```
 
 Saber cuantos registros tiene mi tabla:
@@ -472,7 +472,7 @@ Siempre agregar la clausula WHERE para evitar actualizar toda la tabla
 ```SQL
 UPDATE table 
 	SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n  
-	WHERE field = value
+	WHERE field = value;
 ```
 
 ### DELETE
@@ -482,7 +482,7 @@ Siempre agregar la clausula WHERE para evitar eliminar toda la tabla
 **[NO TE OLVIDES DEL WHERE EN EL DELETE FROM](https://www.youtube.com/watch?v=i_cVJgIz_Cs)**
 
 ```SQL
-DELETE FROM table WHERE field = value
+DELETE FROM table WHERE field = value;
 ```
 
 **[⬆ regresar al índice](#Índice)**
@@ -493,37 +493,36 @@ DELETE FROM table WHERE field = value
 * **CONSULTAS MÚLTIPLES:** Datos de 2 o más tablas
 	```SQL
 	SELECT * FROM table1 AS t1 
-		INNER JOIN table2 AS t2
+		INNER JOIN table2 AS t2;
 
 	SELECT * FROM table1 AS t1 
 		INNER JOIN table2 AS t2
-		ON t1.a_field = t2.a_field
+		ON t1.a_field = t2.a_field;
 
 	SELECT t1.field1, t1.field2, t1.field3, t2.field1, t2.field5
 		FROM table1 AS t1 
 		INNER JOIN table2 AS t2
 		ON t1.field1 = t2.field5
-
 		WHERE t1.field1 = 'a_value'
-		ORDER BY t1.field3 DESC
+		ORDER BY t1.field3 DESC;
 	```
 	* [Definición de Join](https://es.wikipedia.org/wiki/Join)
 	* [Tipos de Joins](http://www.nebaris.com/post/77/tipos-de-join-en-sql)
 	* [Joins de Manera Gráfica](http://www.genbetadev.com/bases-de-datos/explicacion-grafica-de-los-join-en-sql-y-sus-resultados)
 * **SUBCONSULTAS:** Una consulta dentro de otra
 	```SQL
-	SELECT t1.a_field, t1.another_field, ( 
+	SELECT t1.field1, t1.field2, ( 
 			SELECT COUNT(*)
 			FROM table2 AS t2
-			WHERE t2.a_field = t1.a_field
-		) as a_subquery_field
+			WHERE t2.field1 = t1.field1
+		) as subquery_field
 		FROM table1 AS t1;
 
-	SELECT t1.a_field, t1.another_field, ( 
-			SELECT a_field
+	SELECT t1.field1, t1.field2, t1.field3, ( 
+			SELECT field1
 			FROM table2 AS t2
-			WHERE t2.a_field = t1.a_field
-		) as a_subquery_field
+			WHERE t2.field1 = t1.field1
+		) as subquery_field
 		FROM table1 AS t1;
 	```
 * **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
