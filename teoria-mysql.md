@@ -518,6 +518,13 @@ DELETE FROM table WHERE field = value
 			WHERE t2.a_field = t1.a_field
 		) as a_subquery_field
 		FROM table1 AS t1;
+
+	SELECT t1.a_field, t1.another_field, ( 
+			SELECT a_field
+			FROM table2 AS t2
+			WHERE t2.a_field = t1.a_field
+		) as a_subquery_field
+		FROM table1 AS t1;
 	```
 * **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
 	```SQL
