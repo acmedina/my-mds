@@ -91,12 +91,12 @@ mac: cd /Applications/XAMPP/bin
 mysql -u root -p
 ENTER PASSWORD: 
 SHOW DATABASES;
-USE nombre_bd;
+USE db_name;
 SHOW TABLES;
-DESCRIBE nombre_tabla
-SHOW COLUMNS FROM nombre_tabla
-SELECT campos_tabla FROM nombre_tabla;
-SELECT * FROM nombre_tabla;
+DESCRIBE table_name
+SHOW COLUMNS FROM table_name
+SELECT table_fields FROM table_name;
+SELECT * FROM table_name;
 ```
 
 #### WebApp
@@ -377,7 +377,7 @@ DESCRIBE a_table;
 ```SQL
 CREATE USER my_user IDENTIFIED BY 'my_password';
 SELECT PASSWORD('my_password'); //contraseña en hash
-CREATE USER my_user IDENTIFIED BY PASSWORD 'clave hash';
+CREATE USER my_user IDENTIFIED BY PASSWORD 'hash_value';
 DROP USER my_user;
 ```
 
@@ -447,24 +447,24 @@ SELECT COUNT(*) FROM table;
 Leer un registro en particular buscando el valor de un campo
 
 ```SQL
-SELECT * FROM table WHERE field_1 = 'valor_1';
+SELECT * FROM table WHERE field_1 = 'value_1';
 ```
 
 Leer un registro en particular buscando el valor similar en un campo
 
 ```SQL
-SELECT * FROM table WHERE field_1 LIKE '%valor_1';
-SELECT * FROM table WHERE field_1 LIKE 'valor_1%';
-SELECT * FROM table WHERE field_1 LIKE '%valor_1%';
+SELECT * FROM table WHERE field_1 LIKE '%value_1';
+SELECT * FROM table WHERE field_1 LIKE 'value_1%';
+SELECT * FROM table WHERE field_1 LIKE '%value_1%';
 ```
 
 Leer un registro en particular buscando el valor con operadores lógicos
 
 ```SQL
-SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2';
-SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2';
-SELECT * FROM table WHERE NOT field_1 = 'valor_1';
-SELECT * FROM table WHERE field_1 != 'valor_1';
+SELECT * FROM table WHERE field_1 = 'value_1' AND field_2 = 'value_2';
+SELECT * FROM table WHERE field_1 = 'value_1' OR field_2 = 'value_2';
+SELECT * FROM table WHERE NOT field_1 = 'value_1';
+SELECT * FROM table WHERE field_1 != 'value_1';
 ```
 
 ### UPDATE
@@ -494,73 +494,73 @@ DELETE FROM table WHERE field = value;
 
 * **CONSULTAS MÚLTIPLES:** Datos de 2 o más tablas
 	```SQL
-	SELECT * FROM table1 AS t1 
-		INNER JOIN table2 AS t2;
+	SELECT * FROM table_1 AS t1 
+		INNER JOIN table_2 AS t2;
 
-	SELECT * FROM table1 AS t1 
-		INNER JOIN table2 AS t2
+	SELECT * FROM table_1 AS t1 
+		INNER JOIN table_2 AS t2
 		ON t1.a_field = t2.a_field;
 
-	SELECT t1.field1, t1.field2, t1.field3, t2.field1, t2.field5
-		FROM table1 AS t1 
-		INNER JOIN table2 AS t2
-		ON t1.field1 = t2.field5
-		WHERE t1.field1 = 'a_value'
-		ORDER BY t1.field3 DESC;
+	SELECT t1.field_1, t1.field_2, t1.field_3, t2.field_1, t2.field_5
+		FROM table_1 AS t1 
+		INNER JOIN table_2 AS t2
+		ON t1.field_1 = t2.field_5
+		WHERE t1.field_1 = 'a_value'
+		ORDER BY t1.field_3 DESC;
 	```
 	* [Definición de Join](https://es.wikipedia.org/wiki/Join)
 	* [Tipos de Joins](http://www.nebaris.com/post/77/tipos-de-join-en-sql)
 	* [Joins de Manera Gráfica](http://www.genbetadev.com/bases-de-datos/explicacion-grafica-de-los-join-en-sql-y-sus-resultados)
 * **SUBCONSULTAS:** Una consulta dentro de otra
 	```SQL
-	SELECT t1.field1, t1.field2, ( 
+	SELECT t1.field_1, t1.field_2, ( 
 			SELECT COUNT(*)
-			FROM table2 AS t2
-			WHERE t2.field1 = t1.field1
+			FROM table_2 AS t2
+			WHERE t2.field_1 = t1.field_1
 		) AS subquery_field
-		FROM table1 AS t1;
+		FROM table_1 AS t1;
 
-	SELECT t1.field1, t1.field2, t1.field3, ( 
-			SELECT field1
-			FROM table2 AS t2
-			WHERE t2.field1 = t1.field1
+	SELECT t1.field_1, t1.field_2, t1.field_3, ( 
+			SELECT field_1
+			FROM table_2 AS t2
+			WHERE t2.field_1 = t1.field_1
 		) AS subquery_field
-		FROM table1 AS t1;
+		FROM table_1 AS t1;
 	```
 * **[CONSULTAS FULLTEXT KEY](http://dev.mysql.com/doc/internals/en/full-text-search.html):** Consulta que busca en varios campos de una tabla, se debe definir el campo FULLTEXT en la estructura de la tabla
 	```SQL
 	CREATE TABLE a_table(
 		table_id INTEGER UNSIGNED PRIMARY KEY,
-		field1 VARCHAR(80),
-		field2 VARCHAR(80),
-		field3 VARCHAR(80),
-		field4 VARCHAR(80),
-		FULLTEXT KEY a_search(field1, field2, field3, field4)
+		field_1 VARCHAR(80),
+		field_2 VARCHAR(80),
+		field_3 VARCHAR(80),
+		field_4 VARCHAR(80),
+		FULLTEXT KEY a_search(field_1, field_2, field_3, field_4)
 	);
 
 	SELECT * FROM table
-		WHERE MATCH(field1, field2, field3, field4)
+		WHERE MATCH(field_1, field_2, field_3, field_4)
 		AGAINST('a_search' IN BOOLEAN MODE);
 
-	SELECT t1.field1, t1.field2, t2.field1, t2.field4
-		FROM table1 AS t1
-		INNER JOIN table2 AS t2
-		ON t1.field1 = t2.field4
-		WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
+	SELECT t1.field_1, t1.field_2, t2.field_1, t2.field_4
+		FROM table_1 AS t1
+		INNER JOIN table_2 AS t2
+		ON t1.field_1 = t2.field_4
+		WHERE MATCH(t1.field_1, t1.field_2, t2.field_1, t2.field_4)
 		AGAINST('a_search' IN BOOLEAN MODE);
 	```
 * **[TRANSACCIONES SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/):** Cuando varias sentencias se tienen que ejecutar al mismo tiempo como si fueran una sola, en caso de que exista un error los cambios efectuados en la base de datos se cancelan
 	```SQL
 	START TRANSACTION;
 
-		INSERT INTO table1 (field1, field2, field3)
-			VALUES ('value1', 'value2', 'value3');
+		INSERT INTO table_1 (field_1, field_2, field_3)
+			VALUES ('value_1', 'value_2', 'value_3');
 
-		INSERT INTO table3 (field1, field2, field3)
-			VALUES ('value1', 'value2', 'value3');
+		INSERT INTO table_2 (field_1, field_2, field_3)
+			VALUES ('value_1', 'value_2', 'value_3');
 
-		INSERT INTO table2 (field1, field2, field3)
-			VALUES ('value1', 'value2', 'value3');
+		INSERT INTO table_3 (field_1, field_2, field_3)
+			VALUES ('value_1', 'value_2', 'value_3');
 
 	COMMIT; /* ROLLBACK; */
 	```
