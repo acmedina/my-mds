@@ -444,7 +444,7 @@ Saber cuantos registros tiene mi tabla:
 SELECT COUNT(*) FROM table;
 ```
 
-Leer un registro en particular buscando o el valor de un campo
+Leer un registro en particular buscando el valor de un campo
 
 ```SQL
 SELECT * FROM table WHERE field_1 = 'valor_1';
