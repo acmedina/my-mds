@@ -525,11 +525,11 @@ DELETE FROM table WHERE field = value;
 	* Si el valor del campo clave y/o único  del registro a insertar existe, REPLACE lo elimina y agrega el nuevo registro (ejecuta 2 consultas: 1 DELETE y 1 INSERT)
 	* Si el valor del campo clave y/o único  del registro a insertar NO existe, REPLACE agrega el nuevo registro (ejecuta 1 consulta: 1 INSERT)
 	```SQL
-		REPLACE INTO table (field_1, field_2, ..., field_n)
-			VALUES (value_1, value2, ..., value_n);
+	REPLACE INTO table (field_1, field_2, ..., field_n)
+		VALUES (value_1, value2, ..., value_n);
 
-		REPLACE INTO table
-			SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n;
+	REPLACE INTO table
+		SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n;
 	```
 * **[TRANSACCIONES SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/):** Cuando varias sentencias se tienen que ejecutar al mismo tiempo como si fueran una sola, en caso de que exista un error los cambios efectuados en la base de datos se cancelan
 	```SQL
