@@ -522,8 +522,8 @@ DELETE FROM table WHERE field = value;
 		AGAINST('a_search' IN BOOLEAN MODE);
 	```
 * **[Función REPLACE](http://dev.mysql.com/doc/refman/5.7/en/replace.html):** INSERT + ¿ UPDATE ?
-	* Si el valor del campo clave y/o único  del registro a insertar existe, REPLACE lo elimina y agrega el nuevo registro (ejecuta 2 consultas 1 DELETE y 1 INSERT)
-	* Si el valor del campo clave y/o único  del registro a insertar NO existe, REPLACE agrega el nuevo registro (ejecuta 1 consultas 1 INSERT)
+	* Si el valor del campo clave y/o único  del registro a insertar existe, REPLACE lo elimina y agrega el nuevo registro (ejecuta 2 consultas: 1 DELETE y 1 INSERT)
+	* Si el valor del campo clave y/o único  del registro a insertar NO existe, REPLACE agrega el nuevo registro (ejecuta 1 consulta: 1 INSERT)
 	```SQL
 		REPLACE INTO table (field_1, field_2, ..., field_n)
 			VALUES (value_1, value2, ..., value_n);
