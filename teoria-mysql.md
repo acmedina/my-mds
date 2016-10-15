@@ -521,7 +521,9 @@ DELETE FROM table WHERE field = value;
 		WHERE MATCH(t1.field_1, t1.field_2, t2.field_1, t2.field_4)
 		AGAINST('a_search' IN BOOLEAN MODE);
 	```
-* [Función REPLACE (INSERT + UPDATE)](http://dev.mysql.com/doc/refman/5.7/en/replace.html)
+* [Función REPLACE (INSERT + ¿UPDATE?)](http://dev.mysql.com/doc/refman/5.7/en/replace.html)
+	* Si el valor del campo clave y/o único  del registro a insertar existe, REPLACE lo elimina y agrega el nuevo registro (ejecuta 2 consultas 1 DELETE y 1 INSERT)
+	* Si el valor del campo clave y/o único  del registro a insertar NO existe, REPLACE agrega el nuevo registro (ejecuta 1 consultas 1 INSERT)
 * **[TRANSACCIONES SQL](https://styde.net/transacciones-de-bases-de-datos-mysql-en-php/):** Cuando varias sentencias se tienen que ejecutar al mismo tiempo como si fueran una sola, en caso de que exista un error los cambios efectuados en la base de datos se cancelan
 	```SQL
 	START TRANSACTION;
