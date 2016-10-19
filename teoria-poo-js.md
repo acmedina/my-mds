@@ -15,6 +15,7 @@
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
 1. [Eventos](#eventos)
+1. [BOM](#bom)
 1. [Agente de Usuario](#agente-de-usuario)
 1. [Media Queries](#media-queries)
 1. [Formularios](#formularios)
@@ -368,6 +369,7 @@ Es un patrón el cual produce un scope léxico usando las funciones de scoping d
 ## DOM
 
 El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API para documentos HTML y XML. Este prevee una representación estructural del documento, permitiéndole modificar su contenido y presentación visual mediante el uso de un lenguaje de scripting tal como JavaScript.
+
 ![DOM](http://bextlan.com/img/para-cursos/dom.png)
 
 ### Métodos para acceder a los elementos del DOM (Selectores)
@@ -608,6 +610,42 @@ Hay un tercer parámetro de tipo **`boolean`**, si éste no se especifica, por d
 * Más sobre [Bubbling & Capturing](https://www.youtube.com/watch?v=lgkqf6hldEk&index=12&list=PLvq-jIkSeTUaw9krmA6bf5inYcuvUNWI3)
 
 ![Bubbling & Capturing](http://bextlan.com/img/para-cursos/capturing-bubbling.png)
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## BOM
+
+El **Modelo de Objetos del Navegador** (BOM - Browser Object Model) es un API que permite acceder y modificar las propiedades de las ventanas del propio navegador.
+
+Mediante BOM, es posible redimensionar y mover la ventana del navegador, modificar el texto que se muestra en la barra de estado y realizar muchas otras manipulaciones no relacionadas con el contenido de la página HTML.
+
+El mayor inconveniente de BOM es que, al contrario de lo que sucede con DOM, ninguna entidad se encarga de estandarizarlo o definir unos mínimos de interoperabilidad entre navegadores.
+
+![BOM](http://bextlan.com/img/para-cursos/bom.gif)
+
+### Atributos, Métodos y Eventos de la ventana del navegador
+
+* Atributos de la ventana:
+	* **`.innerWidth`** devuelve al ancho del viewport
+	* **`.innerHeight`** devuelve el alto del viewport
+	* **`.outerWidth`** devuelve al ancho del navegador
+	* **`.outerHeight`** devuelve el alto del navegador
+	* **`.pageXOffset`** devuelve la distancia recorrida en el scroll horizontal
+	* **`.pageYOffset`** devuelve la distancia recorrida en el scroll vertical
+	* **`.screenX`** devuelve la posición de la ventana del navegador respecto de la pantalla
+	* **`.screenY`** devuelve la posición de la ventana del navegador respecto de la pantalla
+* Métodos de la ventana:
+	* **`alert('string')`**: Muestra una ventana con un mensaje y un botón de aceptar que devuelve **`true`**
+	* **`confirm('string')`**: Muestra una ventana con un mensaje y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
+	* **`prompt('string')`**: Muestra una ventana con un mensaje solicitando información al usuario y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
+	* **`open('url')`**: Abre una ventana nueva o la url especificada
+	* **`close()`**: Cerrar la ventana actual, siempre y cuando haya sido abierta con el método **`open`**
+	* **`print()`**: Mandar a imprimir la ventana actual
+* Eventos de la ventana:
+	* **`load`**: Sucede al cargar la ventana del navegador
+	* **`resize`**: Sucede al redimensionar la ventana del navegador
+	* **`scroll`**: Sucede al mover las barras de desplazamiento de la ventana del navegador
 
 **[⬆ regresar al índice](#Índice)**
 
