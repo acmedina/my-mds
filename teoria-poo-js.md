@@ -633,8 +633,8 @@ El mayor inconveniente de BOM es que, al contrario de lo que sucede con DOM, nin
 	* **`.outerHeight`** devuelve el alto del navegador
 	* **`.scrollX`** devuelve la distancia recorrida en el scroll horizontal
 	* **`.scrollY`** devuelve la distancia recorrida en el scroll vertical
-	* **`.screenX`** devuelve la posición de la ventana del navegador respecto de la pantalla
-	* **`.screenY`** devuelve la posición de la ventana del navegador respecto de la pantalla
+	* **`.screenX`** devuelve la posición de la ventana del navegador respecto de la pantalla en el eje horizontal
+	* **`.screenY`** devuelve la posición de la ventana del navegador respecto de la pantalla en el eje vertical
 * Métodos de la ventana:
 	* **`alert('string')`**: Muestra una ventana con un mensaje y un botón de aceptar que devuelve **`true`**
 	* **`confirm('string')`**: Muestra una ventana con un mensaje y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
