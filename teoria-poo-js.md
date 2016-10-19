@@ -641,7 +641,7 @@ El mayor inconveniente de BOM es que, al contrario de lo que sucede con DOM, nin
 	* **`prompt('string')`**: Muestra una ventana con un mensaje solicitando información al usuario y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
 	* **`open('url')`**: Abre una ventana nueva o la url especificada
 	* **`close()`**: Cerrar la ventana actual, siempre y cuando haya sido abierta con el método **`open`**
-	* **`print()`**: Mandar a imprimir la ventana actual
+	* **`print()`**: Manda a imprimir la ventana actual
 * Eventos de la ventana:
 	* **`load`**: Sucede al cargar la ventana del navegador
 	* **`resize`**: Sucede al redimensionar la ventana del navegador
