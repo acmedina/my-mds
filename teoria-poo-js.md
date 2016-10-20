@@ -636,16 +636,16 @@ El mayor inconveniente de BOM es que, al contrario de lo que sucede con DOM, nin
 	* **`.screenX`** devuelve la posición de la ventana del navegador respecto de la pantalla en el eje horizontal
 	* **`.screenY`** devuelve la posición de la ventana del navegador respecto de la pantalla en el eje vertical
 * Métodos de la ventana:
-	* **`alert('string')`**: Muestra una ventana con un mensaje y un botón de aceptar que devuelve **`true`**
-	* **`confirm('string')`**: Muestra una ventana con un mensaje y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
-	* **`prompt('string')`**: Muestra una ventana con un mensaje solicitando información al usuario y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
-	* **`open('url')`**: Abre una ventana nueva o la url especificada
-	* **`close()`**: Cerrar la ventana actual, siempre y cuando haya sido abierta con el método **`open`**
-	* **`print()`**: Manda a imprimir la ventana actual
+	* **`alert('string')`** muestra una ventana con un mensaje y un botón de aceptar que devuelve **`true`**
+	* **`confirm('string')`** muestra una ventana con un mensaje y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
+	* **`prompt('string')`** muestra una ventana con un mensaje solicitando información al usuario y 2 botones: aceptar que devuelve **`true`** y cancelar que devuelve **`false`**
+	* **`open('url')`** abre una ventana nueva o la url especificada
+	* **`close()`** cierra la ventana actual, siempre y cuando haya sido abierta con el método **`open()`**
+	* **`print()`** imprime la ventana actual
 * Eventos de la ventana:
-	* **`load`**: Sucede al cargar la ventana del navegador
-	* **`resize`**: Sucede al redimensionar la ventana del navegador
-	* **`scroll`**: Sucede al mover las barras de desplazamiento de la ventana del navegador
+	* **`load`** sucede al cargar la ventana del navegador
+	* **`resize`** sucede al redimensionar la ventana del navegador
+	* **`scroll`** sucede al mover las barras de desplazamiento de la ventana del navegador
 
 **[⬆ regresar al índice](#Índice)**
 
