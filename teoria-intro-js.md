@@ -110,7 +110,7 @@
 * Librerías basadas en Componentes Web
     * [React](https://facebook.github.io/react/)
     * [Polymer](https://www.polymer-project.org/)
-* Frameworks Back end para [Node](https://nodejs.org/)
+* Frameworks Back end para [Node.js](https://nodejs.org/)
     * [Express](http://expressjs.com/)
     * [Socket.IO](http://socket.io/)
     * [Sails](http://sailsjs.org/)
