@@ -746,6 +746,7 @@ Las tecnologías que forman AJAX son:
 * **JavaScript**, para unir todas las demás tecnologías.
 * [Más info de AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 * [AJAX en MDN](https://developer.mozilla.org/es/docs/AJAX)
+* [AJAX sin jQuery](http://blog.garstasio.com/you-dont-need-jquery/ajax/)
 
 ![Tecnologías AJAX](http://bextlan.com/img/para-cursos/tecnologias-ajax.gif)
 
