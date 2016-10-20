@@ -138,12 +138,16 @@
 * Gestores de Paquetes
     * [NPM](https://www.npmjs.com/)
     * [Bower](http://bower.io/)
+    * [Yarn](https://yarnpkg.com/)
 * Linters
     * [JSLint](http://www.jslint.com/)
     * [JSHint](http://jshint.com/)
 * Preprocesadores
     * [CoffeeScript](http://coffeescript.org/)
     * [TypeScript](https://www.typescriptlang.org/)
+* Micro Controladores
+    * [NodeBots](http://nodebots.io/)
+    * [Johnny-Five](http://johnny-five.io/)
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -198,7 +202,7 @@
 
 * [Introducción a JavaScript](http://librosweb.es/libro/javascript/)
 * [Introducción a AJAX](http://librosweb.es/libro/ajax/)
-* [JavaScript The Good Parts](https://www.ebooks-it.net/ebook/javascript-the-good-parts)
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [JavaScript The Good Parts](https://www.ebooks-it.net/ebook/javascript-the-good-parts)
 
 **[⬆ regresar al índice](#Índice)**
