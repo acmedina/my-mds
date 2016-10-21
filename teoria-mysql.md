@@ -513,13 +513,6 @@ DELETE FROM table WHERE field = value;
 	SELECT * FROM table
 		WHERE MATCH(field_1, field_2, field_3, field_4)
 		AGAINST('a_search' IN BOOLEAN MODE);
-
-	SELECT t1.field_1, t1.field_2, t2.field_1, t2.field_4
-		FROM table_1 AS t1
-		INNER JOIN table_2 AS t2
-		ON t1.field_1 = t2.field_4
-		WHERE MATCH(t1.field_1, t1.field_2, t2.field_1, t2.field_4)
-		AGAINST('a_search' IN BOOLEAN MODE);
 	```
 * **[Función REPLACE](http://dev.mysql.com/doc/refman/5.7/en/replace.html):** INSERT + ¿ UPDATE ?
 	* Si el valor del campo clave y/o único  del registro a insertar existe, REPLACE lo elimina y agrega el nuevo registro (ejecuta 2 consultas: 1 DELETE y 1 INSERT)
@@ -561,6 +554,14 @@ DELETE FROM table WHERE field = value;
 		ON t1.field_1 = t2.field_5
 		WHERE t1.field_1 = 'a_value'
 		ORDER BY t1.field_3 DESC;
+
+	/* Con FULLTEXT */
+	SELECT t1.field_1, t1.field_2, t2.field_1, t2.field_4
+		FROM table_1 AS t1
+		INNER JOIN table_2 AS t2
+		ON t1.field_1 = t2.field_4
+		WHERE MATCH(t1.field_1, t1.field_2, t2.field_1, t2.field_4)
+		AGAINST('a_search' IN BOOLEAN MODE);
 	```
 	* [Definición de Join](https://es.wikipedia.org/wiki/Join)
 	* [Tipos de Joins](http://www.nebaris.com/post/77/tipos-de-join-en-sql)
