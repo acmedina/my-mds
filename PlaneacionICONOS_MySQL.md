@@ -138,5 +138,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	5. Queries CRUD de la lógica de negocio (sql) 
 
 ## :date: Entrega:
+
 **Al final de la sesión 5**
+
 La entrega se hace presencialmente en horario de clase
