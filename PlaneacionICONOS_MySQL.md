@@ -24,91 +24,104 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 1: 24 Septiembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
-* Base de Datos
-* Dato
-* Información
-* Lógica de Negocio
+* Conceptos Básicos de Bases de Datos
 * Sistemas Gestores de Bases de Datos
-* Conceptos de BDs SQL
-	* Tabla
-	* Campo
-	* Registro
-* Herramientas de Gestión MySQL
-* Servidor Web
-* XAMPP
-* Análisis de la información de un sitio web 
+	* Tipos
+	* SQL vs NoSQL
+* MySQL
+	* Conceptos de BDs SQL
+	* Herramientas de Gestión MySQL
+	* Servidor Web XAMPP
+* Análisis de la Arquitectura de Información de sitios web
+* Modelo Entidad-Relación
+	* Conceptos Básicos
+	* Tipos de Relaciones
+	* Herramientas de Modelado de Datos
 
 ### :pencil: Actividades para la siguiente sesión: 
 * Que proyecto voy a desarrollar
-* En una lista numerar la info que se desea almacenar (Lógica de Negocio)
+* Lógica de Negocio de mi proyecto
+* Modelo Entidad-Relación del Proyecto
 
 
 ## :school: Sesión 2: 01 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
-* Modelo Entidad-Relación
-* Tipos de Relaciones
-* Herramientas de Modelado de Datos
-* Normalización de BDs
+* Normalización de Bases de Datos
 * Formas Normales
+* Sintaxis SQL
+	* Tipos de Sentencias
+	* Concepto de CRUD
+	* Sentencias de Objetos
+		* Bases de Datos
+		* Tablas y Motores
+		* Usuarios y Privilegios
+		* Tipos de Datos en MySQL
+		* Relaciones y Restricciones
+		* Modelo Relacional de la Base de Datos
 
 ### :pencil: Actividades para la siguiente sesión: 
-* Lista de Tablas y Campos del Proyecto (Lógica de Negocio)
-* Modelo Entidad-Relación del Proyecto
-* Excel con Registros de Información (mínimo 10)
+* Correcciones de Proyecto
+	* Lógica de Negocio
+	* Modelo E-R
+* Esquema SQL de la BD del Proyecto
+* Modelo Relacional de la BD del Proyecto
 
 
 ## :school: Sesión 3: 08 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Sintaxis SQL
-	* Sentencias de Objetos
-		* Bases de Datos
-		* Tablas y Motores
-		* Usuarios y Privilegios
 	* Sentencias de Datos
-		* Concepto de CRUD
-		* Cláusulas Condicionales y de Ordenación
-* Modelado de Datos en SQL
-	* Creación de Tablas y Campos
-	* Atributos y Tipos de Datos en SQL
-	* Relaciones de Tablas
-	* Normalización de BD
-	* Modelo Relacional de la BD
+		* Inserciones
+		* Consultas
+			* Cláusulas Condicionales
+			* Cláusulas Lógicas
+			* Cláusulas de Ordenación
+		* Actualizaciones
+		* Eliminaciones
+		* Restricciones CRUD por Integridad Referencial
+* MySQL Avanzado
+	* Encriptación
+	* Consultas FULLTEXT
+	* Función REPLACE
 
 ### :pencil: Actividades para la siguiente sesión: 
-* Correcciones de la Lógica de Negocio y Modelo E-R
-* Esquema en SQL de la BD del Proyecto
-* Modelo Relacional de la BD del Proyecto
+* Correcciones de Proyecto
+	* Lógica de Negocio
+	* Modelo E-R
+	* Esquema SQL
+	* Modelo Relacional
+* Inserción de Registros:
+	* de Catálogos
+	* de Datos (por lo menos 10 completos)
 
 
 ## :school: Sesión 4: 15 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
-* Inserción de Registros Iniciales
-	* Precarga de Catálogos
-	* Precarga de Datos
+* MySQL Avanzado
+	* Transacciones SQL
+	* Consultas Múltiples
+	* Subconsultas
+	* Función GROUP_CONCAT
+	* Procedimientos Almacenados
 * Operaciones CRUD del Proyecto
-	* Definición en la Lógica de Negocio
-	* Definición de Sentencias SQL
-* Restricciones CRUD por Integridad Referencial
 
 ### :pencil: Actividades para la siguiente sesión:
-* Correcciones del Proyecto
-* Inserción de Registros de Catálogos
-* Inserción de Registros de Datos (por lo menos 10 completos)
+* Correcciones de Proyecto
+	* Lógica de Negocio
+	* Modelo E-R
+	* Esquema SQL
+	* Modelo Relacional
 * Operaciones CRUD del Proyecto
 
 
 ## :school: Sesión 5: 22 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
-* Sintaxis SQL Avanzada
-	* Consultas Múltiples (JOINS)
-	* Encriptación
-	* Búsquedas FULLTEXT
-	* Sentencia REPLACE
 * Dominios, Hospedaje Compartido y FTP
+* Introducción a PHP
 
 ### :pencil: Actividades para la siguiente sesión:
 * [Conceptos Básicos de PHP](https://www.youtube.com/watch?v=9VyLJy6tNgI&index=2&list=PL469D93BF3AE1F84F)	
@@ -125,5 +138,5 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	5. Queries CRUD de la lógica de negocio (sql) 
 
 ## :date: Entrega:
-**Jueves 31 Octubre 2016 11:59:59pm**
-La entrega puede ser vía email, dropbox, google drive, zip en cualquier medio de transferencia de archivos al correo jonmircha@gmail.com
+**Al final de la sesión 5**
+La entrega se hace presencialmente en horario de clase
