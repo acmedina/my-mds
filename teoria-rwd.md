@@ -171,6 +171,7 @@ Ethan Marcotte en su libro Responsive Design (113-114 pags) nos propone la sigui
 
 Aunque los pixeles se consideran una unidad de medida absoluta, en realidad son unidades relativas a la resolución de pantalla del dispositivo que lo visualiza, si dicho dispositivo tiene una densidad mayor a la normal, entonces la proporción de los pixeles cambiará, por ello es importante que los breakpoints de las media queries se conviertan a ems que si son unidades relativas y proporcionales
 
+* [PX, EM or REM Media Queries?](https://zellwk.com/blog/media-query-units/)
 * [The EMs have it: Proportional Media Queries](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 * [Why Ems?](https://css-tricks.com/why-ems/)
 * [CSS px is an Angular Measurement](http://inamidst.com/stuff/notes/csspx)
