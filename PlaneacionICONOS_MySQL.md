@@ -122,6 +122,12 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ### :clipboard: Temas y conceptos revisados:
 * Dominios, Hospedaje Compartido y FTP
 * Introducción a PHP
+* Entrega de Proyecto MySQL
+	* Lógica de Negocio
+	* Modelo E-R
+	* Esquema SQL
+	* Modelo Relacional
+	* Operaciones CRUD
 
 ### :pencil: Actividades para la siguiente sesión:
 * [Conceptos Básicos de PHP](https://www.youtube.com/watch?v=9VyLJy6tNgI&index=2&list=PL469D93BF3AE1F84F)	
