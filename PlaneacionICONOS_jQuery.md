@@ -21,7 +21,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * [Curso de jQuery en Bextlán](https://www.youtube.com/playlist?list=PLvq-jIkSeTUYvLDfVUXOhnZ6QSouIfQQ7)
 
 
-## :school: Sesión 1: 11 Agosto 2016
+## :school: Sesión 1: 03 Diciembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
 * [Slides](http://bextlan.com/slides/jquery)
@@ -38,7 +38,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Avanzar en proyecto final
 
 
-## :school: Sesión 2: 18 Agosto 2016
+## :school: Sesión 2: 10 Diciembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
 * Funciones Callbacks y Anónimas
@@ -53,7 +53,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Avanzar en proyecto final
 
 
-## :school: Sesión 3: 25 Agosto 2016
+## :school: Sesión 3: 17 Diciembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
 * Entender el concepto de componente en jQuery
@@ -67,7 +67,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Avanzar en proyecto final
 
 
-## :school: Sesión 4: 01 Septiembre 2016
+## :school: Sesión 4: 07 Enero 2017
 
 ### :clipboard: Temas y conceptos aprendidos:
 * Funcionalidad extra a componentes propios
@@ -79,7 +79,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Avanzar en proyecto final
 
 
-## :school: Sesión 5: 08 Septiembre 2016
+## :school: Sesión 5: 14 Enero 2017
 
 ### :clipboard: Temas y conceptos aprendidos:
 * Componentes [jQueryUI](http://jqueryui.com/)
@@ -110,5 +110,5 @@ Desarrollo de sitio web basado en la base de datos y administrador de contenidos
 * Para la entrega incluir un archivo **`readme.txt`** describiendo en que secciones se implementaron las interacciones jQuery solicitadas, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlos el estudiante acepta la percepción del docente al evaluar dicho proyecto
 
 ## :date: Entrega Final: 
-**Lunes 19 Septiembre 2016 11:59:59pm**
+**Lunes 23 Enero 2017 11:59:59pm**
 La entrega puede ser vía email, dropbox, google drive, one drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com

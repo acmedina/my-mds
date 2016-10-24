@@ -1,10 +1,13 @@
 # Materia: Sitios Web Dinámicos
+
 ![MySQL + PHP](http://bextlan.com/img/para-cursos/poo-php-mysql.jpg)
 
 ## :chart_with_upwards_trend: Objetivo de la Materia:
+
 Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP y el gestor MySQL, para el desarrollo de bases de datos y su integración en sitios web dinámicos.
 
 ## :bow: Docente:
+
 * [Jonathan MirCha](http://jonmircha.com)
 * Instructor Web y Arquitecto de Front end
 * Creador de **[Bextlán](http://bextlan.com)** y **[Responsimple](http://jonmircha.github.io/responsimple/)**
@@ -12,6 +15,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)**
 
 ## :books: Fuentes bibliográficas del curso:
+
 * [Documentación Oficial de MySQL](http://dev.mysql.com/doc/)
 * [MySQL con Clase](http://mysql.conclase.net/curso/index.php)
 * [Curso de Diseño y Programación Web de Bextlán](http://bextlan.com/cursos/web/)
@@ -24,6 +28,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 1: 24 Septiembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Conceptos Básicos de Bases de Datos
 * Sistemas Gestores de Bases de Datos
 	* Tipos
@@ -39,6 +44,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Herramientas de Modelado de Datos
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Que proyecto voy a desarrollar
 * Lógica de Negocio de mi proyecto
 * Modelo Entidad-Relación del Proyecto
@@ -47,6 +53,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 2: 01 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Normalización de Bases de Datos
 * Formas Normales
 * Sintaxis SQL
@@ -61,6 +68,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 		* Modelo Relacional de la Base de Datos
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Correcciones de Proyecto
 	* Lógica de Negocio
 	* Modelo E-R
@@ -71,6 +79,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 3: 08 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Sintaxis SQL
 	* Sentencias de Datos
 		* Inserciones
@@ -87,6 +96,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Función REPLACE
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Correcciones de Proyecto
 	* Lógica de Negocio
 	* Modelo E-R
@@ -100,6 +110,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 4: 15 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
+
 * MySQL Avanzado
 	* Transacciones SQL
 	* Consultas Múltiples
@@ -109,6 +120,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Operaciones CRUD del Proyecto
 
 ### :pencil: Actividades para la siguiente sesión:
+
 * Correcciones de Proyecto
 	* Lógica de Negocio
 	* Modelo E-R
@@ -120,6 +132,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 5: 22 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados:
+
 * Dominios, Hospedaje Compartido y FTP
 * Introducción a PHP
 * Entrega de Proyecto MySQL
@@ -130,11 +143,13 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Operaciones CRUD
 
 ### :pencil: Actividades para la siguiente sesión:
+
 * [Conceptos Básicos de PHP](https://www.youtube.com/watch?v=9VyLJy6tNgI&index=2&list=PL469D93BF3AE1F84F)	
 * [Envío de Datos GET y POST](https://www.youtube.com/watch?v=uxi5zaqs_yc&index=3&list=PL469D93BF3AE1F84F)
 
 
 ## :mortar_board: Evaluación Módulo MySQL:
+
 * 50% Actividades
 * 50% Avance de Proyecto Final
 	1. Lógica de Negocio (txt)
