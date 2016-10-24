@@ -20,7 +20,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 #Módulo PHP
 
 
-## :school: Sesión 1: 30 Junio 2016
+## :school: Sesión 1: 29 Octubre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Introducción a PHP
@@ -45,19 +45,21 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 		* Abstractas
 
 ### :pencil: Actividades para la siguiente sesión: 
-* Definir una clase en PHP con las siguientes carcaterísticas:
-	* mínimo 5 atributos
-	* mínimo 3 métodos
-	* generar una subclase y aplicar el concepto de herencia y polimorfismo
-* Conceptos:
-	* ¿Qué es la Arquitectura de Software?
-	* ¿Qué es un Patrón de Software?
-	* ¿Qué es el Patrón Modelo Vista Controlador (MVC)?
-		* Definición
-		* Elementos
+* Hacer un ejercicio de POO en PHP con los conceptos vistos en clase y con las siguientes carcaterísticas:
+	* Crear una clase con:
+		* 3 atributos mínimos
+		* 3 métodos mínimos
+	* Generar una subclase y aplicar:
+		* Herencia
+		* Polimorfismo
+	* Crear de forma justificada las clases necesarias para tener una de cada tipo vistas en clase:
+		* Instanciables
+		* Heredadas
+		* Finales
+		* Abstractas
 
 
-## :school: Sesión 2: 07 Julio 2016
+## :school: Sesión 2: 05 Noviembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * [Patrón de Arquitectura de Software: Modelo Vista Controlador](http://jonmircha.github.io/slides-poo-php-mysql/#/71)
@@ -70,10 +72,10 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ### :pencil: Actividades para la siguiente sesión: 
-* Realizar una Clase por cada Tabla del Modelo de la aplicación a desarrollar
+* Realizar una clase por cada tabla del modelo de la aplicación a desarrollar
 
 
-## :school: Sesión 3: 14 Julio 2016
+## :school: Sesión 3: 12 Noviembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Clases PHP del Controlador
@@ -86,7 +88,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Replicar lo visto en clase en el Proyecto Final
 
 
-## :school: Sesión 4: 21 Julio 2016
+## :school: Sesión 4: 19 Noviembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Archivos de Vistas
@@ -96,10 +98,9 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ### :pencil: Actividades para la siguiente sesión: 
 * Replicar lo visto en clase en el Proyecto Final
 
-## :school: Sesión 5: 28 Julio 2016
+## :school: Sesión 5: 26 Noviembre 2016
 
 ### :clipboard: Temas y conceptos revisados: 
-* Controlador de Modelos
 * Lógica de Vistas y Rutas
 * Templates de Vistas
 * Programación Orientada a Objetos con MVC y filosofía DRY (Don´t Repeat Yourself)
@@ -109,8 +110,9 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ## :mortar_board: Evaluación Módulo PHP:
-* 50% Actividades
-* 50% Entrega Final de Aplicación Web CRUD con MVC:
+* 20% Actividad para la sesión 2 (Ejercicio de POO en PHP)
+* 10% Actividad para la sesión 3 (Clases PHP del Modelo del Proyecto)
+* 70% Entrega Final de Aplicación Web CRUD con MVC:
 	* Todas las tablas de la BD replicadas en Modelos PHP
 	* Todas las operaciones CRUD aplicadas a cada Modelo PHP
 	* Aplicación con Módulo de Autenticación de Usuarios
@@ -120,5 +122,5 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* El código fuente de la aplicación junto con el archivo .sql de la BD deberá entregarse en un archivo **.zip**
 
 ## :date: Entrega:
-**Lunes 08 Agosto 2016 11:59:59pm**
+**Lunes 05 Diciembre 2016 11:59:59pm**
 La entrega puede ser vía email, dropbox, google drive, zip en cualquier medio de transferencia de archivos al correo jonmircha@gmail.com
