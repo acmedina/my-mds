@@ -1,10 +1,13 @@
 # Materia: Diseño de Interfaces Enriquecidas (jQuery)
+
 ![jQuery](http://bextlan.com/img/para-cursos/jquery.jpg)
 
 ## :chart_with_upwards_trend: Objetivo de la Materia:
+
 Al final del curso el estudiante tendrá los conocimientos necesarios para proveer de interactividad y dinamismos sitios y aplicaciones web con la librería JavaScript: jQuery
 
 ## :bow: Docente:
+
 * [Jonathan MirCha](http://jonmircha.com)
 * Instructor Web y Arquitecto de Front end
 * Creador de **[Bextlán](http://bextlan.com)** y **[Responsimple](http://jonmircha.github.io/responsimple/)**
@@ -12,6 +15,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)**
 
 ## :books: Fuentes bibliográficas del curso:
+
 * [jQuery.com](http://jquery.com/)
 * [Fundamentos de jQuery](http://librojquery.com/)
 * [jQuery Quick API Reference](https://oscarotero.com/jquery/)
@@ -24,6 +28,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 ## :school: Sesión 1: 03 Diciembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
+
 * [Slides](http://bextlan.com/slides/jquery)
 * Usar jQuery sin saber jQuery
 * Invocar jQuery
@@ -35,12 +40,14 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Interacción con HTML y CSS
 
 ### :pencil: Actividades para la sesión 2:
+
 * Avanzar en proyecto final
 
 
 ## :school: Sesión 2: 10 Diciembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
+
 * Funciones Callbacks y Anónimas
 * AJAX y cargas asíncronas con efectos visuales
 * Detección de eventos, teclado, mouse, scroll, pantalla
@@ -50,12 +57,14 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 
 
 ### :pencil: Actividades para la sesión 3:
+
 * Avanzar en proyecto final
 
 
 ## :school: Sesión 3: 17 Diciembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
+
 * Entender el concepto de componente en jQuery
 * Aprender la estructura básica de un componente jQuery
 * Programar componentes jQuery propios
@@ -63,6 +72,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 
 
 ### :pencil: Actividades para la sesión 4:
+
 * Agregar la funcionalidad de deslizamiento horizontal al componente hecho en clase
 * Avanzar en proyecto final
 
@@ -70,24 +80,28 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 ## :school: Sesión 4: 07 Enero 2017
 
 ### :clipboard: Temas y conceptos aprendidos:
+
 * Funcionalidad extra a componentes propios
 * Análisis e Implementación de componentes de terceros
 	* [Flexslider 2](http://flexslider.woothemes.com/)
 	* [Fancybox 2](http://fancyapps.com/fancybox/)
 
 ### :pencil: Actividades para la sesión 5:
+
 * Avanzar en proyecto final
 
 
 ## :school: Sesión 5: 14 Enero 2017
 
 ### :clipboard: Temas y conceptos aprendidos:
+
 * Componentes [jQueryUI](http://jqueryui.com/)
 * [Modernizr](https://modernizr.com/)
 * [Métodos AJAX en jQuery](http://api.jquery.com/category/ajax/)
 * Framework [jQueryMobile](http://jquerymobile.com/)
 
 ### :pencil: Actividades:
+
 * Avanzar en proyecto final
 
 
@@ -110,5 +124,7 @@ Desarrollo de sitio web basado en la base de datos y administrador de contenidos
 * Para la entrega incluir un archivo **`readme.txt`** describiendo en que secciones se implementaron las interacciones jQuery solicitadas, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlos el estudiante acepta la percepción del docente al evaluar dicho proyecto
 
 ## :date: Entrega Final: 
+
 **Lunes 23 Enero 2017 11:59:59pm**
+
 La entrega puede ser vía email, dropbox, google drive, one drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com

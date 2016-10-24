@@ -1,10 +1,13 @@
 # Materia: Sitios Web Dinámicos
+
 ![MySQL + PHP](http://bextlan.com/img/para-cursos/poo-php-mysql.jpg)
 
 ## :chart_with_upwards_trend: Objetivo de la Materia:
+
 Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP y el gestor MySQL, para el desarrollo de bases de datos y su integración en sitios web dinámicos.
 
 ## :bow: Docente:
+
 * [Jonathan MirCha](http://jonmircha.com)
 * Instructor Web y Arquitecto de Front end
 * Creador de **[Bextlán](http://bextlan.com)** y **[Responsimple](http://jonmircha.github.io/responsimple/)**
@@ -12,6 +15,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)**
 
 ## :books: Fuentes bibliográficas del curso:
+
 * [Documentación Oficial de MySQL](http://dev.mysql.com/doc/)
 * [Documentación Oficial de PHP](http://php.net/manual/es/)
 * [POO y MVC en PHP de Eugenia Bahit](http://www.etnassoft.com/biblioteca/poo-y-mvc-en-php/)
@@ -24,12 +28,14 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 # Primer Parcial
+
 ## Módulo de Regularización de CSS y JS
 
 
 ## :school: Sesión 1: 04 Febrero 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Examen de conocimientos de Front end
 * Reglamento de Clase
 	* Hora de inicio de clase 8:10am
@@ -39,6 +45,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Tipos de Posicionamiento en CSS
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 1. Traer una breve descripción del proyecto integrador a desarrollar en el cuatrimeste (en un archivo .txt)
 2. Del proyecto integrador, para nuestra materia se desarrollará un sitio web, traer una primer propuesta de mapa de sitio (en un archivo .txt)
 3. Traer descargado todas las carpetas de este repositorio, para poder trabajar en la sesión 2
@@ -47,6 +54,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 2: 11 Febrero 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Tipos de Visualización en CSS
 * Como crear un Sistema de Maquetación CSS (Framework)
 * Mapa de Sitio propuesto para proyecto:
@@ -59,6 +67,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Administrador de Contenidos
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 1. Maquetación del Home con lo visto en clase (en html)
 2. La Maquetación del Home debe ser para multidispositivos (en html)
 3. Definir el diseño de su navegación (en versión mobile/desktop) a nivel de layout (traer un .jpg)
@@ -67,6 +76,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 3: 18 Febrero 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Técnicas de Maquetación
 	* Float
 	* display
@@ -81,6 +91,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 1. Elegir algún patrón de navegación responsive
 2. Diseño de la cabecera del sitio (layout)
 	* Versión Móvil
@@ -92,10 +103,12 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 4: 25 Febrero 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Construcción de un Sistema de Navegación Mobile First
 
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Traer maquetado el Home del Sitio con las siguientes características:
 	1. Diseño de Cabecera
 	2. Menú de Navegación con Secciones Definidas (consideren el menú propuesto en la [sesión 2](#school-sesión-2-11-febrero-2016))
@@ -107,6 +120,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 5: 03 Marzo 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Evaluación 1er Parcial
 * Introducción a los Entornos Backend
 * Introducción a PHP 
@@ -114,6 +128,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Pensar en un objeto con sus atributos(características) y con sus métodos(acciones)
 * Investigar los conceptos de:
 	* Qué es un Constructor en POO
@@ -129,6 +144,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ## :mortar_board: Primer Evaluación Parcial:
+
 * 100% Actividades hasta el Jueves 03 Marzo 2016
 
  -------------------------------------------------
@@ -156,6 +172,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 6: 10 Marzo 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * POO en PHP
 * Clases y Objetos
 * Métodos, Atributos y Constantes
@@ -173,6 +190,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Traer una Clase programada en PHP mínimo con 3 métodos y 5 atributos, aplicando los conceptos vistos en clase.
 * En una lista numerar la info que deseo almacenar de mi proyecto (Lógica de Negocio)
 * Conceptos:
@@ -188,17 +206,20 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 7: 17 Marzo 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Herencia y Polimorfismo en PHP
 * Lógica de Negocio en Bases de Datos
 
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Traer una Clase y una Subclase programada en PHP aplicando el concepto de Herencia y Polimorfismo vistos en clase.
 * Desarrollar la Lógica de Negocio del Proyecto Integrador definiendo datos a almacenar y posibles catálogos
 
 ## :school: Sesión 8: 31 Marzo 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Tipos de Clases en PHP
 	* Instanciables
 	* Heredadas
@@ -208,6 +229,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Traer un ejemplo de programación aplicando los diferentes tipos de clases en PHP
 * Archivo de Lógica de Negocio
 * Diagrama Entidad-Relación
@@ -215,11 +237,13 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 9: 07 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Interfaces y Herencia Múltiple en PHP
 * Normalización de Bases de Datos
 * Formas Normales
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Traer un ejemplo de programación aplicando interfaces en PHP
 * Correcciones al archivo de lógica de negocio y al diagrama del modelo entidad-relación
 * Traer un excel con 10 registros y catálogos precargados
@@ -227,6 +251,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 10: 14 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * Sintaxis SQL
 	* Sentencias de Objetos
 		* Bases de Datos
@@ -243,6 +268,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Modelo Relacional de la BD
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Esquema en SQL de la BD del Proyecto
 * Inserción de Registros de Catálogos y Datos
 * Conceptos:
@@ -254,6 +280,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* ¿Qué son los archivos .htaccess y para que sirven?
 
 ## :mortar_board: Segunda Evaluación Parcial:
+
 * 100% Actividades hasta el Jueves 14 Abril 2016
 
  ----------------------------------------
@@ -278,6 +305,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ## :school: Sesión 11: 21 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados: 
+
 * [Patrón de Arquitectura de Software: Modelo Vista Controlador](http://jonmircha.github.io/slides-poo-php-mysql/#/71)
 * Estructura de Proyecto con filosofía MVC
 * Archivos `.htaccess`
@@ -287,13 +315,16 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Clases PHP del Modelo
 
 ### :pencil: Actividades para la siguiente sesión:
+
 * Correcciones de la BD
 * Replicar la estructura de carpeta de Mexflix a su proyecto
 * Realizar una Clase por cada Tabla del Modelo de la aplicación a desarrollar
 
 
 ## :school: Sesión 12: 28 Abril 2016
+
 ### :clipboard: Temas y conceptos revisados: 
+
 * Clases PHP del Controlador
 	* Autocargas de Clases
 	* Controlador de Rutas
@@ -304,6 +335,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Templates de Vistas
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Replicar lo visto en clase en el Proyecto Final
 * Para ensayo mostrar:
 	* Modelo Entidad-Relación de la BD
@@ -313,25 +345,36 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Visualizar en el navegador la aplicación con el Menú de Navegación ya definido
 	* Avanzar lo que puedan en las secciones estáticas
 
+
 ## :school: Sesión 13: 05 Mayo 2016
+
 ### :clipboard: Temas y conceptos revisados:
+
 * Lógica de Vistas y Rutas
 * Templates de Vistas
 * Programación Orientada a Objetos con MVC y filosofía DRY (Don´t Repeat Yourself)
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Replicar lo visto en clase en el Proyecto Final
 
+
 ## :school: Sesión 14: 12 Mayo 2016
+
 ### :clipboard: Temas y conceptos revisados:
+
 * Asesorías Finales
 * Resolución de Dudas
 
 ### :pencil: Actividades para la siguiente sesión: 
+
 * Avanzar en Proyecto Final
 
+
 ## :school: Sesión 15: 19 Mayo 2016
+
 ### :clipboard: Temas y conceptos revisados: 
+
 * Entrega Final de Proyectos
 
 ## :mortar_board: Tercer Evaluación Parcial:
