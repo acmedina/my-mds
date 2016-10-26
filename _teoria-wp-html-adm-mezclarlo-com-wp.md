@@ -1,4 +1,4 @@
-# Diseño de Páginas Web en HTML y Wordpress
+# Diseño de Páginas Web con HTML y Wordpress
 
 ## Índice General
 1. [HTML](#html-hyper-text-markup-language)

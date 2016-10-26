@@ -6,6 +6,7 @@
 
 
 ## Índice
+
 1. [Sintaxis](#sintaxis)
 1. [Selectores](#selectores)
 1. [Unidades de Medida](#unidades-de-medida)
@@ -350,6 +351,7 @@ Un patrón resulta ser una solución a un problema. Para que una solución sea c
 * Ser reutilizable, lo que significa que es aplicable a diferentes problemas en distintas circunstancias
 
 **¿Por qué usar Patrones en CSS?**
+
 * Construimos sistemas, no páginas
 * Necesidad de modularidad
 * Mejora flujo de trabajo
@@ -378,7 +380,9 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y componentes que permitirán aumentar la escalabilidad de manera estructurada
 
 ### Componentes Modulares
+
 > “It's a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS and possibly JavaScript.”
+
 > > [Nicole Sullivan](https://vimeo.com/72759139)
 
 * Son un fragmento de la interfaz que cumple una única función

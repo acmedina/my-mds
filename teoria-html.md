@@ -105,6 +105,7 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 
 
 ## Estructura Básica HTML5
+
 ```HTML
 <!DOCTYPE html>
 <html lang="es">
@@ -131,6 +132,7 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 
 
 ## Más Info
+
 * [Introducción a XHTML](http://librosweb.es/libro/xhtml/)
 * [Guía de Referencia HTML en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 * [Estandar HTML 5.1](https://www.w3.org/TR/html51/)

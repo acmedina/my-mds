@@ -1,10 +1,13 @@
 # ECMAScript 6
+
 # aka ES6 o ES2015
 
 ![ECMAScript 6](http://bextlan.com/img/para-cursos/es6-logo.jpg)
 
 ## Índice
+
 1. [ECMAScript](#ecmascript)
+1. [Babel](#babel)
 1. [Características ECMAScript 6](#características-ecmascript-6)
 	1. [Variables de bloque y constantes](#variables-de-bloque-y-constantes)
 	1. [Plantillas de cadenas de texto](#plantillas-de-cadenas-de-texto)
@@ -20,8 +23,8 @@
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
 	1. [](#)
+	1. [](#)
 	1. Replacing IIFEs with Blocks
-	1. Parametros rest
 	1. Módulos
 	1. 
 	1. Métodos de Arrays
@@ -35,10 +38,6 @@
 	1. Decoradores
 	1. Funciones async
 	1. Map, Weakmap, Set, Weakset
-1. Babel 
-1. Más Info
-	https://kangax.github.io/compat-table/es6/
-	http://es6-features.org/
 
 
 # ECMAScript
@@ -62,12 +61,36 @@
 | 7 |  En progreso | La séptima edición está en una etapa muy temprana de desarrollo, pero está orientada a continuar con la reforma del lenguaje, aislamiento de códigos, control de efectos y librerías/herramientas habilitadas desde ES6. Nuevas características propuestas incluyen promesas/concurrencia, matemáticas y datos numéricos mejorados, guards y trademarks (una alternativa al tipado estático), sobrecarga de operadores, value types (first-class number-like objects), nuevas estructuras de registro (registros, tuplas y vectores tipados), pattern matching, y traits |
 --------------------------------------------------
 
+### Recursos
+
+* [ECMAScript® 2015 Language Specification](http://www.ecma-international.org/ecma-262/6.0/)
+* [ECMAScript 6 Tools](https://github.com/addyosmani/es6-tools)
+* [ECMAScript 6 Features](http://es6-features.org/)
+* [ECMAScript 6 Compatibility Table](https://kangax.github.io/compat-table/es6/)
+* [Exploring ES6](http://exploringjs.com/es6/)
+* [ECMAScript 6 support in Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla)
+* [Airbnb ECMAScript 6 Styles](https://github.com/airbnb/javascript#ecmascript-6-styles)
+
+**[⬆ regresar al índice](#Índice)**
+
+
+# Babel
+
+Es un compilador de JavaScript, te permite usar el JavaScript del futuro, **HOY**
+
+![Babel](http://bextlan.com/img/para-cursos/babel-logo.png)
+
+* [Babel](http://babeljs.io/)
+* [Learn ES2015 Babel](http://babeljs.io/docs/learn-es2015/)
+* [Plugins Babel](http://babeljs.io/docs/plugins/)
+
 **[⬆ regresar al índice](#Índice)**
 
 
 # Características ECMAScript 6
 
 ## Variables de bloque y constantes
+
 ### aka let y const
 
 ### Variables de bloque
@@ -129,6 +152,7 @@ Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se u
 
 
 ## Plantillas de cadenas de texto
+
 ### aka Template Strings
 
 Los template string son una forma más fácil de crear cadenas con variables dentro (interpolación), generar cadenas multilínea, ejecutar expresiones, funciones y etiquetados.
@@ -709,6 +733,7 @@ Es una manera alternativa a las `callbacks` para modelar asincronía
 * [Más info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ### Callbacks VS Promesas
+
 ![Callbacks VS Promesas](http://bextlan.com/img/para-cursos/callbacks-vs-promise.png)
 
 ### Promesas en el navegador
