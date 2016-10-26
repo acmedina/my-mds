@@ -78,11 +78,11 @@
 
 Es un compilador de JavaScript, te permite usar el JavaScript del futuro, **HOY**
 
-![Babel](http://bextlan.com/img/para-cursos/babel-logo.png)
-
 * [Babel](http://babeljs.io/)
 * [Learn ES2015 Babel](http://babeljs.io/docs/learn-es2015/)
 * [Plugins Babel](http://babeljs.io/docs/plugins/)
+
+![Babel](http://bextlan.com/img/para-cursos/babel-logo.png)
 
 **[⬆ regresar al índice](#Índice)**
 
