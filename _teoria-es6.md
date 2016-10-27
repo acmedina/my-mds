@@ -86,6 +86,40 @@ Es un compilador de JavaScript, te permite usar el JavaScript del futuro, **HOY*
 
 ![Babel](http://bextlan.com/img/para-cursos/babel-logo.png)
 
+### Instalación de paquetes
+
+```Terminal
+npm install -D babel-cli babel-preset-es2015
+```
+
+### Crear el archivo de configuarción **`.babelrc`**
+
+```JSON
+{
+  "presets": ["es2015"]
+}
+```
+
+### Crear el script necesario para compilar ES6 con Babel en el archivo **`.package.json`**
+
+```JSON
+{
+  "name": "taller-es6",
+  "version": "1.0.0",
+  "description": "Aprendiendo ECMAScript6",
+  "main": "index.js",
+  "scripts": {
+    "es6": "babel src --watch --out-dir dist"
+  },
+  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
+```
+
 **[⬆ regresar al índice](#Índice)**
 
 
