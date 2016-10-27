@@ -80,6 +80,8 @@ Es un compilador de JavaScript, te permite usar el JavaScript del futuro, **HOY*
 
 * [Babel](http://babeljs.io/)
 * [Learn ES2015 Babel](http://babeljs.io/docs/learn-es2015/)
+* [Using Babel](http://babeljs.io/docs/setup/)
+* [CLI Tools](http://babeljs.io/docs/usage/cli/)
 * [Plugins Babel](http://babeljs.io/docs/plugins/)
 
 ![Babel](http://bextlan.com/img/para-cursos/babel-logo.png)
