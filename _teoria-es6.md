@@ -120,6 +120,12 @@ npm install -D babel-cli babel-preset-es2015
 }
 ```
 
+### Ejecutar el script en la terminal
+
+```Terminal
+npm run es6
+```
+
 **[⬆ regresar al índice](#Índice)**
 
 
@@ -838,6 +844,103 @@ promise
 	})
 	.then((dataPromise) => { console.log(dataPromise); })
 	.catch((err) => { console.log(err.message); });
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Iteradores
+
+### aka Iterators
+
+Un **Iterador** es un mecanismo que tienen los lenguajes de programación para recorrer secuencialmente distintas estructuras de datos
+
+Para que un objeto sea iterable es necesario que:
+* Implemente el tipo `Symbol.iterator`
+* Implemente la función `next` que devuelve un objeto con dos valores:
+	1. `done` que indica si ha terminado de iterar y 
+	1. `value` que devuelve el valor actual
+
+### Ejemplos de Iteradores
+
+```JavaScript
+(function() {
+	'use strict';
+
+	console.log(typeof String.prototype[Symbol.iterator]); // function
+	console.log(typeof Array.prototype[Symbol.iterator]); // function
+	console.log(typeof Map.prototype[Symbol.iterator]); // function
+	console.log(typeof Set.prototype[Symbol.iterator]); // function
+	console.log(typeof Object.prototype[Symbol.iterator]); // undefined
+})();
+```
+
+### Recorriendo iteradores con el bucle `for...of`
+
+Es un ciclo que nos permite recorrer objetos iterables
+
+```JavaScript
+(function() {
+	'use strict';
+
+	//Antes
+	var anArray = ['Hola', 1, true, {}];
+
+	for(var i = 0; i < anArray.length; i++) {
+		console.log( anArray[i] );
+	}
+
+	//Ahora
+	let anArray = ['Hola', 1, true, {}];
+
+	for( let item of anArray ) {
+		console.log( item );
+	}
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Símbolos
+
+### aka Symbols
+
+Un **Símbolo** es ......
+
+### Recorriendo los elementos de un Objeto
+
+```JavaScript
+(function() {
+	'use strict';
+
+	let anObject = {
+		name : 'Jonathan',
+		age : 32,
+		email : 'jonmircha@gmail.com'
+	};
+
+	for( let item of anObject ) {
+		console.log( item ); 
+		//Uncaught TypeError: anObject[Symbol.iterator] is not a function
+	}
+
+	for( let item in anObject ) {
+		console.log( item ); //name, age, email
+	}
+
+
+})();
+```
+
+### Convirtiéndo un Objeto en Iterable
+
+```JavaScript
+(function() {
+	'use strict';
+
+	
+})();
 ```
 
 **[⬆ regresar al índice](#Índice)**
