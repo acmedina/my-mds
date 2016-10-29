@@ -147,7 +147,7 @@ En ES6 se agrega una nueva forma de definir variables usando la palabra `let`, s
 
 	let x = 'Hola kEnAi';
 
-	if(true) {
+	if (true) {
 		let x = 'Hola Jon';
 		console.log(x);  // Imprime en consola Hola Jon
 	}
