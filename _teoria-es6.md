@@ -199,7 +199,11 @@ Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se u
 
 ### aka Template Strings
 
-Los template string son una forma más fácil de crear cadenas con variables dentro (interpolación), generar cadenas multilínea, ejecutar expresiones, funciones y etiquetados.
+Los template string son una forma más fácil de crear:
+
+* Cadenas con variables dentro (interpolación)
+* Generar cadenas multilínea
+* Ejecutar expresiones, funciones y etiquetados
 
 ```JavaScript
 (function () {
@@ -213,10 +217,12 @@ Los template string son una forma más fácil de crear cadenas con variables den
 	tus actos son los que te definen...
 	Batman`;
 	console.log(mensaje); 
-	//Imprime 
+	/*
+	Imprime 
 	No es quien seas en el interior,
 	tus actos son los que te definen...
 	Batman
+	*/
 
 	//variables en strings (interpolación)
 	let nombre = 'Jonathan';
@@ -244,9 +250,9 @@ Los template string son una forma más fácil de crear cadenas con variables den
 		console.log(cadena[0] + variable);
 	};
 
-	let nombre = 'Jon';
+	let otroNombre = 'Ulises';
 
-	etiqueta`Hola ${nombre}`;
+	etiqueta`Hola ${otroNombre}`;
 })();
 ```
 
