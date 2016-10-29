@@ -89,14 +89,15 @@ Es un compilador de JavaScript, te permite usar el JavaScript del futuro, **HOY*
 ### Instalación de paquetes
 
 ```Terminal
-npm install -D babel-cli babel-preset-es2015
+npm install -D babel-cli babel-preset-es2015 babel-preset-stage-2
 ```
 
 ### Crear el archivo de configuarción **`.babelrc`**
 
 ```JSON
 {
-  "presets": ["es2015"]
+  "presets": [ "es2015", "stage-2" ],
+  "plugins": []
 }
 ```
 
@@ -115,7 +116,8 @@ npm install -D babel-cli babel-preset-es2015
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0"
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0"
   }
 }
 ```
@@ -176,7 +178,7 @@ Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se u
 	hola = 'hola mundo'; // Imprime Uncaught TypeError: Assignment to constant variable
 
 	const PI;
-	PI = 3.15; //Imprime Missing initializer in const declaration
+	PI = 3.141592653589793; //Imprime Missing initializer in const declaration
 
 	const obj = {};
 	obj.prop = 'x';
@@ -928,8 +930,6 @@ Un **Símbolo** es ......
 	for( let item in anObject ) {
 		console.log( item ); //name, age, email
 	}
-
-
 })();
 ```
 
