@@ -142,7 +142,7 @@ npm run es6
 En ES6 se agrega una nueva forma de definir variables usando la palabra `let`, se diferencia de `var` en que el scope de una variable definida con `let` es, el bloque en el cual se encuentra la variable y no la función.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	let x = 'Hola kEnAi';
@@ -167,7 +167,7 @@ En ES6 se agrega una nueva forma de definir variables usando la palabra `let`, s
 Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se usa la palabra `const` en lugar de `var`, al igual que `let` su scope es de bloque, son tipos de sólo lectura y se le debe asignar un valor en el momento de su declaración. Son referencias inmutables, pero sus valores no necesariamente.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 	
 	const DIEZ = 10;
@@ -202,7 +202,7 @@ Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se u
 Los template string son una forma más fácil de crear cadenas con variables dentro (interpolación), generar cadenas multilínea, ejecutar expresiones, funciones y etiquetados.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	let saludo = `Hola soy un Template String`;
@@ -264,7 +264,7 @@ Es una nueva forma de definir funciones, hay distintas variantes en la sintaxis:
 Al crear una arrow function de un solo parámetro no es necesario escribír los paréntesis, tampoco es necesario escribír las llaves, esto se puede cuando la función es de una sola línea y devuelve un valor.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 	
 	//Antes
@@ -284,7 +284,7 @@ Al crear una arrow function de un solo parámetro no es necesario escribír los 
 Cuando la función tenga más de un parámetro es necesario envolver el nombre de estos entre paréntesis.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 	
 	//Antes
@@ -304,7 +304,7 @@ Cuando la función tenga más de un parámetro es necesario envolver el nombre d
 Cuando la función no reciba parámetros también son necesarios los paréntesis.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 	
 	//Antes
@@ -324,7 +324,7 @@ Cuando la función no reciba parámetros también son necesarios los paréntesis
 Cuando la función tiene más de una línea (o no devuelve ningún valor) es necesario utilizar las llaves.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//Antes
@@ -386,7 +386,7 @@ Cuando la función tiene más de una línea (o no devuelve ningún valor) es nec
 Las arrow function tienen la capacidad de capturar el objeto `this` del contexto donde la `arrow` se ejecuta y así utilizarlo dentro de su bloque de sentencias
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//El problema de `this` Antes
@@ -448,7 +448,7 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 ### Atajos en la escritura de atributos y métodos
 
 ```JavaScript	
-(function() {
+(function () {
 	'use strict';
 	
 	//Antes
@@ -486,7 +486,7 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 ### Nombres de atributos y métodos calculados (o computados)
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 	
 	let nombreAtributo = 'nombre',
@@ -516,7 +516,7 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 Nuevas formas de asignar valores a Arrays y Objetos. 
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//Destructuración de Arreglos
@@ -562,7 +562,7 @@ Nuevas formas de asignar valores a Arrays y Objetos.
 Ahora es completamente posible definir un valor por defecto a los parámetros de nuestras funciones al igual que en otros lenguajes de programación.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//Antes
@@ -594,7 +594,7 @@ Ahora es completamente posible definir un valor por defecto a los parámetros de
 Los parámetros rest son una forma de utilizar parámetros virtualmente infinitos, se definen agregando **`...`** adelante del nombre del parámetro rest, éste tiene que ser siempre el último parámetro de la función.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	function sumar(a, b, ...c) {
@@ -625,7 +625,7 @@ Los parámetros rest son una forma de utilizar parámetros virtualmente infinito
 Permite que una expresión sea expandida en situaciones donde se esperan múltiples argumentos o elementos.
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	let arr1 = [1, 2, 3, 4],
@@ -657,7 +657,7 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 ### Definición de clase, constructor e instancia de objetos
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	class Animal {
@@ -698,7 +698,7 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 ### Herencia, polimorfismo, métodos estáticos, setters y getters
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//con la palabra extends la clase Humano hereda de Animal
@@ -783,7 +783,7 @@ Es una manera alternativa a las `callbacks` para modelar asincronía
 ### Promesas en el navegador
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	function adivinarNumero() {
@@ -866,7 +866,7 @@ Para que un objeto sea iterable es necesario que:
 ### Ejemplos de Iteradores
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	console.log(typeof String.prototype[Symbol.iterator]); // function
@@ -882,7 +882,7 @@ Para que un objeto sea iterable es necesario que:
 Es un ciclo que nos permite recorrer objetos iterables
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//Antes
@@ -913,7 +913,7 @@ Un **Símbolo** es ......
 ### Recorriendo los elementos de un Objeto
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	let anObject = {
@@ -936,7 +936,7 @@ Un **Símbolo** es ......
 ### Convirtiéndo un Objeto en Iterable
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	
@@ -953,7 +953,7 @@ Un **Símbolo** es ......
 Explicacion
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	
@@ -977,7 +977,7 @@ Nuevos métodos para Cadenas de Texto
 * [**`.raw()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 	
 	let nombre = 'Jonathan';
@@ -995,7 +995,7 @@ Nuevos métodos para Cadenas de Texto
 ## Números octales y binarios
 
 ```JavaScript
-(function() {
+(function () {
 	'use strict';
 
 	//octales
