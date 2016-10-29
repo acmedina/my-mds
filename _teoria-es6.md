@@ -139,7 +139,7 @@ npm run es6
 
 ### Variables de bloque
 
-En ES6 se agrega una nueva forma de definir variables usando la palabra `let`, se diferencia de `var` en que el scope de una variable definida con `let` es, el bloque en el cual se encuentra la variable y no la función.
+En ES6 se agrega una nueva forma de definir variables usando la palabra **`let`**, se diferencia de **`var`** en que el scope de una variable definida con **`let`** es, el bloque en el cual se encuentra la variable y no la función.
 
 ```JavaScript
 (function () {
@@ -164,7 +164,7 @@ En ES6 se agrega una nueva forma de definir variables usando la palabra `let`, s
 
 ### Constantes
 
-Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se usa la palabra `const` en lugar de `var`, al igual que `let` su scope es de bloque, son tipos de sólo lectura y se le debe asignar un valor en el momento de su declaración. Son referencias inmutables, pero sus valores no necesariamente.
+Una constantes es un tipo **INMUTABLE**, NO puede cambiar una vez definida, se usa la palabra **`const`** en lugar de **`var`**, al igual que **`let`** su scope es de bloque, son tipos de sólo lectura y se le debe asignar un valor en el momento de su declaración. Son referencias inmutables, pero sus valores no necesariamente.
 
 ```JavaScript
 (function () {
