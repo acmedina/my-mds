@@ -245,9 +245,9 @@ Los template string son una forma más fácil de crear:
 
 	//función de etiquetado
 	const etiqueta = function (cadena, variable) {
-		console.log(cadena);
-		console.log(variable);
-		console.log(cadena[0] + variable);
+		console.log(cadena); //Imprime ["Hola ", "", raw: Array[2]]
+		console.log(variable); //Imprime Ulises
+		console.log(cadena[0] + variable); //Imprime Hola Ulises
 	};
 
 	let otroNombre = 'Ulises';
