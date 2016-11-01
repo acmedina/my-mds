@@ -460,7 +460,7 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 	
 	//Antes
 	var nombre = 'kEnAi',
-		edad = 3;
+		edad = 4;
 
 	var perro = {
 		nombre : nombre,
@@ -470,12 +470,12 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 		}
 	};
 
-	console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 3}
+	console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
 	perro.ladrar(); //Manda alerta
 
 	//Ahora
 	let nombre = 'kEnAi',
-		edad = 3;
+		edad = 4;
 
 	const perro = {
 		nombre,
@@ -485,7 +485,7 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 		}
 	};
 
-	console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 3}
+	console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
 	perro.ladrar(); //Manda alerta
 })();
 ```
@@ -502,13 +502,13 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 
 	const perro = {
 		[nombreAtributo] : 'kEnAi',
-		[`ed${nombreOtroAtributo}`] : 3,
+		[`ed${nombreOtroAtributo}`] : 4,
 		[nombreMetodo]() {
 			alert('guau guau!!!');
 		}
 	};
 
-	console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 3}
+	console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
 	perro.ladrar(); //Manda alerta
 })();
 ```
