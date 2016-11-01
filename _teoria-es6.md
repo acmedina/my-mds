@@ -441,8 +441,9 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 		}, 1000);
 	}
 
-	var jon = new Persona('Jonathan');
+	const jon = new Persona('Jonathan');
 	console.log(jon); //Imprime el valor de edad más uno por cada segundo que pasa
+	console.log(jon.edad); //Imprime la edad
 })();
 ```
 
