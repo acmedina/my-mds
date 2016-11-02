@@ -777,7 +777,7 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 
 ### aka Promises
 
-Es una manera alternativa a las `callbacks` para modelar asincronía
+Es una manera alternativa a las **`callbacks`** para modelar asincronía
 
 * Construcción explícita del flujo de ejecución
 * Separación en bloques consecutivos
@@ -867,10 +867,10 @@ promise
 Un **Iterador** es un mecanismo que tienen los lenguajes de programación para recorrer secuencialmente distintas estructuras de datos
 
 Para que un objeto sea iterable es necesario que:
-* Implemente el tipo `Symbol.iterator`
-* Implemente la función `next` que devuelve un objeto con dos valores:
-	1. `done` que indica si ha terminado de iterar y 
-	1. `value` que devuelve el valor actual
+* Implemente el tipo **`Symbol.iterator`**
+* Implemente la función **`next`** que devuelve un objeto con dos valores:
+	1. **`done`** que indica si ha terminado de iterar y 
+	1. **`value`** que devuelve el valor actual
 
 ### Ejemplos de Iteradores
 
@@ -886,7 +886,7 @@ Para que un objeto sea iterable es necesario que:
 })();
 ```
 
-### Recorriendo iteradores con el bucle `for...of`
+### Recorriendo iteradores con el bucle **`for...of`**
 
 Es un ciclo que nos permite recorrer objetos iterables
 
