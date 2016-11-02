@@ -20,6 +20,7 @@
 	1. [Clases](#clases)
 	1. [Promesas](#promesas)
 	1. [Iteradores](#iteradores)
+	1. [Símbolos](#símbolos)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
@@ -30,7 +31,6 @@
 	1. 
 	1. Métodos de Arrays
 	1. Métodos de Object
-	1. Símbolos
 	1. Generadores
 	1. Colecciones
 	1. Proxies
@@ -866,7 +866,7 @@ promise
 
 Un **Iterador** es un mecanismo que tienen los lenguajes de programación para recorrer secuencialmente distintas estructuras de datos
 
-Para que un objeto sea iterable es necesario que:
+Para que un objeto sea iterable en JavaScript es necesario que:
 * Implemente el tipo **`Symbol.iterator`**
 * Implemente la función **`next`** que devuelve un objeto con dos valores:
 	1. **`done`** que indica si ha terminado de iterar y 
@@ -878,11 +878,11 @@ Para que un objeto sea iterable es necesario que:
 (function () {
 	'use strict';
 
-	console.log(typeof String.prototype[Symbol.iterator]); // function
-	console.log(typeof Array.prototype[Symbol.iterator]); // function
-	console.log(typeof Map.prototype[Symbol.iterator]); // function
-	console.log(typeof Set.prototype[Symbol.iterator]); // function
-	console.log(typeof Object.prototype[Symbol.iterator]); // undefined
+	console.log(typeof String.prototype[Symbol.iterator]); // Imprime function
+	console.log(typeof Array.prototype[Symbol.iterator]); // Imprime function
+	console.log(typeof Map.prototype[Symbol.iterator]); // Imprime function
+	console.log(typeof Set.prototype[Symbol.iterator]); // Imprime function
+	console.log(typeof Object.prototype[Symbol.iterator]); // Imprime undefined
 })();
 ```
 
@@ -895,17 +895,27 @@ Es un ciclo que nos permite recorrer objetos iterables
 	'use strict';
 
 	//Antes
-	var anArray = ['Hola', 1, true, {}];
+	var anArray = ['Hola', 1, true, {}],
+		aString = 'Hola soy iterable';
 
-	for(var i = 0; i < anArray.length; i++) {
+	for (var i = 0; i < anArray.length; i++) {
 		console.log( anArray[i] );
 	}
 
-	//Ahora
-	let anArray = ['Hola', 1, true, {}];
+	for (var i = 0; i < aString.length; i++) {
+		console.log( aString[i] );
+	}
 
-	for( let item of anArray ) {
-		console.log( item );
+	//Ahora
+	let anArray = ['Hola', 1, true, {}],
+		aString = 'Hola soy iterable';
+
+	for ( let item of anArray ) {
+		console.log( item ); //Imprime cada elemento del arreglo
+	}
+
+	for ( let character of aString ) {
+		console.log( character ); //Imprime cada caracter de la cadena de texto
 	}
 })();
 ```
