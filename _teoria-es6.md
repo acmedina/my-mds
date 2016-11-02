@@ -649,6 +649,8 @@ Permite que una expresión sea expandida en situaciones donde se esperan múltip
 		cuerpo = ['cabeza', ...superiores, ...inferiores, 'pies'];
 
 	console.log(cuerpo); //Imprime ["cabeza", "hombros", "brazos", "tronco", "pelvis", "piernas", "rodillas", "pies"]
+
+	console.log(...cuerpo); //Imprime cabeza hombros brazos tronco pelvis piernas rodillas pies
 })();
 ```
 
