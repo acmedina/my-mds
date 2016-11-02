@@ -19,6 +19,7 @@
 	1. [Operador de propagación](#operador-de-propagación)
 	1. [Clases](#clases)
 	1. [Promesas](#promesas)
+	1. [Iteradores](#iteradores)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
@@ -30,7 +31,6 @@
 	1. Métodos de Arrays
 	1. Métodos de Object
 	1. Símbolos
-	1. Iteradores
 	1. Generadores
 	1. Colecciones
 	1. Proxies
