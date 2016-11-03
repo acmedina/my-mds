@@ -102,7 +102,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 * Avanzar en Proyecto Final
 
 
-## :mortar_board: Evaluación Módulo WordPress:
+## :mortar_board: Evaluación Módulo Dispositivos Móviles:
 
 * 100% Entrega de Proyecto sobre el sitio hecho en WordPress:
 	1. 60% Layout del Sitio Versión Desktop / Tablet / Mobile (20% c/u)
