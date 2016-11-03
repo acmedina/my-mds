@@ -24,14 +24,11 @@
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
-	1. [](#)
-	1. [](#)
+	1. Generadores
 	1. Replacing IIFEs with Blocks
 	1. Módulos
-	1. 
 	1. Métodos de Arrays
 	1. Métodos de Object
-	1. Generadores
 	1. Colecciones
 	1. Proxies
 	1. Reflection
@@ -820,7 +817,7 @@ Es una manera alternativa a las **`callbacks`** para modelar asincronía
 
 const fs = require('fs'),
 	file = './nombres.txt',
-	newFile = './nombres-promises-es6.txt';
+	newFile = './nombres_promises_es6.txt';
 
 let promise = new Promise((resolve, reject) => {
 	fs.access(file, fs.F_OK, (err) => {
@@ -944,7 +941,7 @@ Cuando se recorran las propiedades de un objeto, las que sean definidas como sí
 			age: 32,
 			email: 'jonmircha@gmail.com'
 		},
-		//un símbolo se instancia sin new, porque no es un objeto y por tal no tiene constructor
+		//Un símbolo se instancia sin new, porque no es un objeto y por tal no tiene constructor
 		email = Symbol('email');
 
 	//Asignación de un símbolo en un objeto
@@ -1016,14 +1013,14 @@ Explicacion
 
 Nuevos métodos para Cadenas de Texto
 
-* [**`.fromCodePoint()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
-* [**`.codePointAt()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt)
 * [**`.startsWith()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
 * [**`.endsWith()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
 * [**`.includes()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
 * [**`.repeat()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
 * [**`.normalize()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize)
 * [**`.raw()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
+* [**`.fromCodePoint()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
+* [**`.codePointAt()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt)
 
 ```JavaScript
 (function () {
@@ -1032,9 +1029,9 @@ Nuevos métodos para Cadenas de Texto
 	let nombre = 'Jonathan';
 
 	console.log( nombre.startsWith('jo') ); //Imprime false
-	console.log( nombre.endsWith('an')) ; //Imprime true
-	console.log( nombre.includes('th')) ; //Imprime true
-	nombre.repeat(3); //Imprime JonathanJonathanJonathan
+	console.log( nombre.endsWith('an') ); //Imprime true
+	console.log( nombre.includes('th') ); //Imprime true
+	console.log( nombre.repeat(3) ); //Imprime JonathanJonathanJonathan}
 })();
 ```
 
@@ -1079,5 +1076,29 @@ Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños XP
 * [**`.sinh()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh)
 * [**`.tanh()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh)
 * [**`.trunc()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc)
+
+```JavaScript
+(function () {
+	'use strict';
+
+	console.log( Math.acosh(3) );
+	console.log( Math.asinh(2) );
+	console.log( Math.atanh(1) );
+	console.log( Math.cbrt(4) );
+	console.log( Math.clz32(5) );
+	console.log( Math.cosh(7) );
+	console.log( Math.expm1(8) );
+	console.log( Math.fround(9) );
+	console.log( Math.hypot(11,23) );
+	console.log( Math.imul(13) );
+	console.log( Math.log10(54) );
+	console.log( Math.log1p(34) );
+	console.log( Math.log2(100) );
+	console.log( Math.sign(46) );
+	console.log( Math.sinh(22) );
+	console.log( Math.tanh(19) );
+	console.log( Math.trunc(40.56) );
+})();
+```
 
 **[⬆ regresar al índice](#Índice)**
