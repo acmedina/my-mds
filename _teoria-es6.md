@@ -1089,9 +1089,9 @@ Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños XP
 	console.log( Math.clz32(5) ); //Imprime 29
 	console.log( Math.cosh(7) ); //Imprime 548.317035155212
 	console.log( Math.expm1(8) ); //Imprime 2979.9579870417283
-	console.log( Math.fround(9) ); //Imprime 9
+	console.log( Math.fround(9.56789) ); //Imprime 9.567890167236328
 	console.log( Math.hypot(11,23) ); //Imprime 25.495097567963924
-	console.log( Math.imul(13) ); //Imprime 0
+	console.log( Math.imul(13, 3) ); //Imprime 39
 	console.log( Math.log10(54) ); //Imprime 1.7323937598229686
 	console.log( Math.log1p(34) ); //Imprime 3.5553480614894135
 	console.log( Math.log2(100) ); //Imprime 6.643856189774724
