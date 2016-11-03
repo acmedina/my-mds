@@ -29,6 +29,7 @@
 	1. Módulos
 	1. Métodos de Arrays
 	1. Métodos de Object
+	1. Métodos de Number
 	1. Colecciones
 	1. Proxies
 	1. Reflection
@@ -1081,23 +1082,23 @@ Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños XP
 (function () {
 	'use strict';
 
-	console.log( Math.acosh(3) );
-	console.log( Math.asinh(2) );
-	console.log( Math.atanh(1) );
-	console.log( Math.cbrt(4) );
-	console.log( Math.clz32(5) );
-	console.log( Math.cosh(7) );
-	console.log( Math.expm1(8) );
-	console.log( Math.fround(9) );
-	console.log( Math.hypot(11,23) );
-	console.log( Math.imul(13) );
-	console.log( Math.log10(54) );
-	console.log( Math.log1p(34) );
-	console.log( Math.log2(100) );
-	console.log( Math.sign(46) );
-	console.log( Math.sinh(22) );
-	console.log( Math.tanh(19) );
-	console.log( Math.trunc(40.56) );
+	console.log( Math.acosh(3) ); //Imprime 1.7627471740390859
+	console.log( Math.asinh(2) ); //Imprime 1.4436354751788103
+	console.log( Math.atanh(1) ); //Imprime Infinity
+	console.log( Math.cbrt(4) ); //Imprime 1.5874010519681996
+	console.log( Math.clz32(5) ); //Imprime 29
+	console.log( Math.cosh(7) ); //Imprime 548.317035155212
+	console.log( Math.expm1(8) ); //Imprime 2979.9579870417283
+	console.log( Math.fround(9) ); //Imprime 9
+	console.log( Math.hypot(11,23) ); //Imprime 25.495097567963924
+	console.log( Math.imul(13) ); //Imprime 0
+	console.log( Math.log10(54) ); //Imprime 1.7323937598229686
+	console.log( Math.log1p(34) ); //Imprime 3.5553480614894135
+	console.log( Math.log2(100) ); //Imprime 6.643856189774724
+	console.log( Math.sign(46) ); //Imprime 1
+	console.log( Math.sinh(22) ); //Imprime 1792456423.065796
+	console.log( Math.tanh(19) ); //Imprime 0.9999999999999999
+	console.log( Math.trunc(40.56) ); //Imprime 40
 })();
 ```
 
