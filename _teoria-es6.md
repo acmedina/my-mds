@@ -947,6 +947,7 @@ Cuando se recorran las propiedades de un objeto, las que sean definidas como sí
 		//un símbolo se instancia sin new, porque no es un objeto y por tal no tiene constructor
 		email = Symbol('email');
 
+	//Asignación de un símbolo en un objeto
 	anObject[email] = 'jonmircha@bextlan.com';
 
 	for( let item of anObject ) {
