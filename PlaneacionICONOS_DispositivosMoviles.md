@@ -1,4 +1,4 @@
-# Materia: Dispositivos Móviles
+# Materia: Desarrollo de Aplicaciones para Dispositivos Móviles
 
 ![Dispositivos Móviles](http://bextlan.com/img/para-cursos/responsive-design.jpg)
 
