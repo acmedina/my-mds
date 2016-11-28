@@ -235,7 +235,8 @@ Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.
 * **Fijo**: Permite mantener fijo un elemento
 * **Flotante**: Convierte un elemento en flotante desplazándolo hasta la zona más a la izquierda o más a la derecha de la posición en la que originalmente se encontraba
 * **Pegajoso**: Posicionamiento experimental, permite que el elemento sea relativo o fijo dependiendo del area donde se visualiza
-* [Más info](http://librosweb.es/libro/css/capitulo_5.html)
+* [Teoría](http://librosweb.es/libro/css/capitulo_5.html)
+* [Ejemplos](http://www.w3schools.com/css/css_positioning.asp)
 
 **[⬆ regresar al índice](#Índice)**
 
