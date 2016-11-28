@@ -212,8 +212,11 @@ Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.
 
 ## Visualización
 
-* **Visibility:** Afecta la visualización del contenido de una caja
-* **Display:** Afecta la visualización de la caja
+* **[Visibility](http://www.w3schools.com/cssref/pr_class_visibility.asp):** Afecta la visualización del contenido de una caja
+* **[Overflow](http://www.w3schools.com/css/css_overflow.asp):** Especifica que ocurre con el contenido que desborda su caja contenedora
+    * **[overflow-x]**(http://www.w3schools.com/cssref/css3_pr_overflow-x.asp): a lo ancho
+    * **[overflow-y]**(http://www.w3schools.com/cssref/css3_pr_overflow-y.asp): a lo alto
+* **[Display](http://www.w3schools.com/css/css_display_visibility.asp):** Afecta la visualización de la caja
     * **Tipos de Display Básicos**
         * **`block`:** Ocupa todo el ancho disponible
         * **`inline`:** Ocupa sólo el ancho requerido
