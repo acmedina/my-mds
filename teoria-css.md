@@ -198,6 +198,8 @@ Cuando los navegadores soportan parcialmente un atributo CSS en ocasiones es nec
 * **`-moz-`** para Firefox
 * **`-webkit-`** para Chrome, Safari, Opera, iOS y Android Browsers
 
+Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.github.io/)
+
 #### Ejemplo
 
     -ms-border-radius: 20px;
