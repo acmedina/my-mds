@@ -36,8 +36,10 @@ Provee presentación (diseño) al contenido HTML
 
 Su principal objetivo es separar el contenido (HTML) de su presentación (CSS)
 
-* [Documentación Oficial](https://www.w3.org/Style/CSS/)
+* [Introducción a CSS](http://librosweb.es/libro/css/)
+* [CSS Reference](http://cssreference.io/)
 * [CSS-TRICKS](https://css-tricks.com/)
+* [Documentación Oficial](https://www.w3.org/Style/CSS/)
 
 ~~~~~~~~~~~~~~
 selector {
@@ -167,7 +169,7 @@ En HTML el RGB se maneja en código hexadecimal
     * [Google Fonts](https://www.google.com/fonts)
     
 * Icónicas
-    * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+    * [Font Awesome](http://fontawesome.io/)
     * [IcoMoon](https://icomoon.io/)
     * [FlatIcon - Buscador de Íconos](http://flaticon.com/)
     * [Fontello - Generador de Fuentes Icónicas](http://fontello.com/)
@@ -177,9 +179,11 @@ En HTML el RGB se maneja en código hexadecimal
 
 ## Características CSS3
 
-* [Bordes, colores RGBA, fuentes tipográficas, unidades relativas, sombras y gradientes](http://www.youtube.com/watch?v=p-ZjVEhMt2U)
-* [Ajuste de texto, texto en columnas, tamaño de caja, fondos múltiples, área, origen y tamaño de fondo](http://www.youtube.com/watch?v=QYOujpsVvXE)
-* [Transformaciones 2D y 3D, transiciones y animaciones](http://www.youtube.com/watch?v=yj93AWX0P_k)
+* [Introducción a CSS3](http://www.w3schools.com/css/css3_intro.asp)
+* Videotutoriales
+    * [Bordes, colores RGBA, fuentes tipográficas, unidades relativas, sombras y gradientes](http://www.youtube.com/watch?v=p-ZjVEhMt2U)
+    * [Ajuste de texto, texto en columnas, tamaño de caja, fondos múltiples, área, origen y tamaño de fondo](http://www.youtube.com/watch?v=QYOujpsVvXE)
+    * [Transformaciones 2D y 3D, transiciones y animaciones](http://www.youtube.com/watch?v=yj93AWX0P_k)
 
 ![CSS](http://bextlan.com/img/para-cursos/header-css3.jpg)
 
