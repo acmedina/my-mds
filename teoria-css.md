@@ -218,9 +218,11 @@ Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.
     * [**`overflow-y`**](http://www.w3schools.com/cssref/css3_pr_overflow-y.asp): a lo alto
 * **[Display](http://www.w3schools.com/css/css_display_visibility.asp):** Afecta la visualización de la caja
     * **Tipos de Display Básicos**
-        * **`block`:** Ocupa todo el ancho disponible
-        * **`inline`:** Ocupa sólo el ancho requerido
-        * **`none`:** Quita la caja de la visualización del documento
+        * **`inline`:** Ocupa sólo el espacio requerido, las propiedades `width` y `height` son ignoradas
+        * **`block`:** Ocupa todo el espacio disponible generando saltos de línea con los elementos adyacentes, las propiedades `width` y `height` son consideradas
+        * **`inline-block`:** Se comporta como elemento de línea, pero si se definen las propiedades `width` y `height` serán consideradas
+        * **`none`:** Quita la caja de la visualización del documento, carga en el navegador pero no se muestra
+        * **`list-item`:** Elemento de lista
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -330,20 +332,15 @@ CSS controla el aspecto de todas las cajas (contenedores), permite definir la al
 
 ## Técnicas de Maquetación
 
-* **`float: left | right;`**
-    * [Más Info](http://librosweb.es/libro/css/capitulo_5/posicionamiento_flotante.html)
-* **`display: inline-block;`**
-    * [Puedo usarlo](http://caniuse.com/#search=inline-block)
-    * [Más Info](https://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html)
 * **`display: table;`**
     * [Puedo usarlo](http://caniuse.com/#search=table)
-    * [Más Info](https://www.w3.org/TR/CSS21/tables.html)
+    * [Guía DesarrolloWeb](http://www.desarrolloweb.com/articulos/modelo-tabla-css-propiedad-display-explicaciones-ejemplos.html)
+    * [Más Info W3C](https://www.w3.org/TR/CSS21/tables.html)
 * **`display: flex;`**
     * [Puedo usarlo](http://caniuse.com/#search=flex)
     * [Guía Completa de CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     * [Más Info Propiedad Flex en CSS-Tricks](https://css-tricks.com/almanac/properties/f/flex/)
     * [Más Info W3C](https://www.w3.org/TR/css-flexbox/)
-    * [Más Info MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Usando_las_cajas_flexibles_CSS)
 * **`display: grid;`**
     * [Puedo usarlo](http://caniuse.com/#search=grid)
     * [Guía Completa de CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
