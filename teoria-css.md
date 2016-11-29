@@ -459,10 +459,11 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
     * o crear uno propio :smile:
 * Evitar el uso de selectores de etiquetas e identificadores y trabajar en su mayoria con clases
 * Maquetar bajo un enfoque **Mobile First**
+* Escribir CSS pensando en reutilizar código (**DRY**)
 * Tener precaución con los shorthand de CSS
     * **`padding, margin, font, background, border, border-radius`**
     * preferible **`background-color: #FFF`** que **`background: #FFF`**
-* Ordenar el código en cada selector usando la fórmula de la **PC-TV**:
+* Ordenar el código en cada selector usando la fórmula **PC-TV**:
     * Posicionamiento **`position, top, left, right, bottom, clear, z-index`**
     * Modelo de Caja **`display, float, margin, padding, width, height`**
     * Tipografía **`font-family, font-size, line-height, color, text-align`**
