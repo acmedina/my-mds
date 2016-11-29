@@ -266,7 +266,6 @@ CSS controla el aspecto de todas las cajas (contenedores), permite definir la al
 * **Border**: Borde, es la linea que delimita los elementos divide el margin del padding
 * **Padding**: Relleno, distancia interna que hay entre los márgenes del elemento(top,right,bottom,left) y su contenido
 * **Margin**: Margen, distancia externa que hay entre los elementos y los márgenes del documento u otros elementos (top,right,bottom,left)
-* [Más info](http://librosweb.es/libro/css/capitulo_4.html)
 
 #### Ejemplos de `border`:
 
