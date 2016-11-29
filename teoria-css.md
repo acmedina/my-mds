@@ -247,6 +247,9 @@ El modelo de caja o "**box model**" es una de las característica más important
 
 CSS controla el aspecto de todas las cajas (contenedores), permite definir la altura y anchura de cada caja, el margen existente entre cajas y el espacio de relleno interior que muestra cada una; además controla la forma en la que se visualizan pero la mayoría no muestran ningún color de fondo ni borde, no son visibles a simple vista
 
+* [Teoría](http://librosweb.es/libro/css/capitulo_4.html)
+* [Ejemplos](http://www.w3schools.com/css/css_boxmodel.asp)
+
 ### Partes del modelo de caja:
 
 1. **Contenido**: `content`
