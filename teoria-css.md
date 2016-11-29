@@ -375,11 +375,11 @@ Un patrón resulta ser una solución a un problema. Para que una solución sea c
 
 Genera un código más legible y fácil de mantener, disminuyen la cantidad de errores y refuerzan las buenas prácticas, además permiten trabajar en un mismo proyecto a varios desarrolladores
 
+* [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 * [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
 * [CSS Guidelines](http://cssguidelin.es/)
 * [Code Guide](http://codeguide.co/)
 * [Primer de GitHub](http://primercss.io/guidelines/)
-* [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 
 **[⬆ regresar al índice](#Índice)**
 
