@@ -452,17 +452,15 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
 
 * Preferir **`<link>`** sobre **`@import`** para invocar hojas de estilo
 * Definir siempre un **`font-size`** al elemento root (**`html`**) y hacerlo en **`px`**
-* Ser cuidadoso con la definición de reglas a selectores de etiquetas
-* Evitar el uso de identificadores y trabajar en su mayoria con clases
-* Aprovechar los pseudo-selectores y unidades de medida disponibles
-* Tener precaución con los shorthand de CSS
-    * **`padding, margin, font, background, border, border-radius`**
-    * preferible **`background-color: #FFF`** que **`background: #FFF`**
-* Maquetar bajo un enfoque **Mobile First**
-* Estandarizar los estilos iniciales de nuestras etiquetas HTML en todos los navegadores
+* Estandarizar los estilos iniciales de nuestras etiquetas HTML para todos los navegadores
     * [Reset.css](http://meyerweb.com/eric/tools/css/reset/)
     * [Normalize.css](https://necolas.github.io/normalize.css/)
     * Reseteo básico usando [**`box-sizing: border-box`**](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+* Evitar el uso de selectores de etiquetas e identificadores y trabajar en su mayoria con clases
+* Maquetar bajo un enfoque **Mobile First**
+* Tener precaución con los shorthand de CSS
+    * **`padding, margin, font, background, border, border-radius`**
+    * preferible **`background-color: #FFF`** que **`background: #FFF`**
 * Ordenar el código en cada selector usando la fórmula de la **PC-TV**:
     * Posicionamiento **`position, top, left, right, bottom, clear, z-index`**
     * Modelo de Caja **`display, float, margin, padding, width, height`**
