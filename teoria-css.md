@@ -407,7 +407,6 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
 * [SMACSS](https://smacss.com/)
 * [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
 * [7-1 Pattern​](https://sass-guidelin.es/#architecture)
-* [ITCSS​](http://itcss.io/)
 
 **[⬆ regresar al índice](#Índice)**
 
