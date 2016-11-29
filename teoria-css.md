@@ -456,7 +456,7 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
 * Estandarizar los estilos iniciales de nuestras etiquetas HTML para todos los navegadores
     * [Reset.css](http://meyerweb.com/eric/tools/css/reset/)
     * [Normalize.css](https://necolas.github.io/normalize.css/)
-    * o crear uno propio :simple_smile:
+    * o crear uno propio :smile:
 * Evitar el uso de selectores de etiquetas e identificadores y trabajar en su mayoria con clases
 * Maquetar bajo un enfoque **Mobile First**
 * Tener precaución con los shorthand de CSS
