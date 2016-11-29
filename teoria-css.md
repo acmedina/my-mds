@@ -264,8 +264,8 @@ CSS controla el aspecto de todas las cajas (contenedores), permite definir la al
 ### Propiedades importantes del modelo de caja:
 
 * **Border**: Borde, es la linea que delimita los elementos divide el margin del padding
-* **Padding**: Relleno, distancia interna que hay entre los márgenes del elemento(top,right,bottom,left) y su contenido
-* **Margin**: Margen, distancia externa que hay entre los elementos y los márgenes del documento u otros elementos (top,right,bottom,left)
+* **Padding**: Relleno, distancia interna que hay entre los márgenes del elemento(top, right, bottom, left) y su contenido
+* **Margin**: Margen, distancia externa que hay entre los elementos y los márgenes del documento u otros elementos (top, right, bottom, left)
 
 #### Ejemplos de `border`:
 
