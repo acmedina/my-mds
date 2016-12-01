@@ -15,7 +15,7 @@
 1. [Plugins en WordPress](#plugins-en-wordpress)
 1. [Widgets en WordPress](#widgets-en-wordpress)
 
-Vamos  Aquí =P revisar losplugins que tengo en el archivo pendientes y en malvestida y ednica
+Vamos  Aquí =P revisar losplugins que tengo en el archivo pendientes y en malvestida y ednica, revisar e integrar las versiones de wp-mkt y diseño digital
 
 
 ## Links importantes sobre WordPress
