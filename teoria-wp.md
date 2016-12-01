@@ -15,6 +15,8 @@
 1. [Plugins en WordPress](#plugins-en-wordpress)
 1. [Widgets en WordPress](#widgets-en-wordpress)
 
+Vamos  Aquí =P revisar losplugins que tengo en el archivo pendientes y en malvestida y ednica
+
 
 ## Links importantes sobre WordPress
 * [WordPress.org](http://wordpress.org)
