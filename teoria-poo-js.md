@@ -809,7 +809,7 @@ La sintaxis JSON se deriva de sintaxis de notación de objetos JavaScript:
 #### Más info
 
 * [JSON.org](http://www.json.org/json-es.html)
-* [JSON en w3schools.com](http://www.w3schools.com/json/)
+* [JSON en w3schools.com](http://www.w3schools.com/js/js_json_intro.asp)
 
 #### Métodos
 
