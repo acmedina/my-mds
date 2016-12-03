@@ -73,9 +73,9 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* [Clase MySQLi de PHP](http://php.net/manual/es/class.mysqli.php)
 	* Conexión estructurada
 	* Conexión orientada a objetos
-* Clases PHP de las Tablas del Proyecto
-	* Modelo Abstracto para conectarse a MySQL
-	* Modelo de Tablas
+* Programación del Modelo
+	* Clase Abstracta para conectarse a MySQL
+	* Clases del Modelo para las tablas de la BD
 	* CRUD con PHP
 
 ### :pencil: Actividades para la siguiente sesión: 
@@ -90,7 +90,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * [Patrón de Arquitectura de Software: Modelo Vista Controlador](http://jonmircha.github.io/slides-poo-php-mysql/#/71)
 * Estructura de Proyecto con filosofía MVC
 * Archivos `.htaccess`
-* Clases PHP del Controlador
+* Programación del Controlador
 	* Autocargas de Clases
 	* Controlador de Rutas
 	* Controlador de Vistas
@@ -105,9 +105,10 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 ### :clipboard: Temas y conceptos revisados: 
 
-* Archivos de Vistas
+* Programación de la Vista
+	* Clases de la Vista para las tablas de la BD
 	* Front end de la Aplicación
-	* Maquetación
+	* Maquetación de la Aplicación
 
 ### :pencil: Actividades para la siguiente sesión: 
 
@@ -118,9 +119,10 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 ### :clipboard: Temas y conceptos revisados: 
 
-* Lógica de Vistas y Rutas
-* Templates de Vistas
-* Programación Orientada a Objetos con MVC y filosofía DRY (Don´t Repeat Yourself)
+* Programación de la Vista
+	* Perfiles y Privilegios de los Usuarios de la Aplicación
+	* Lógica de Vistas y Rutas
+	* Templates de Vistas
 
 ### :pencil: Actividades para la siguiente sesión: 
 
