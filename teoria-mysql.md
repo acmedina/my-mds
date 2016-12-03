@@ -147,7 +147,6 @@ Elementos del Modelo Entidad-Relación
 * Cualquier Software de Diseño
 * [Gliffy](https://www.gliffy.com/)
 * [Lucidchart](https://www.lucidchart.com/)
-* [Cacoo](https://cacoo.com/)
 
 **[⬆ regresar al índice](#Índice)**
 
