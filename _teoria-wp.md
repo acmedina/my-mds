@@ -5,7 +5,7 @@
 
 ## Índice
 
-1. [Enlaces importantes sobre WP](#links-importantes-sobre-wordpress)
+1. [Enlaces importantes sobre WP](#enlaces-importantes-sobre-wordpress)
 1. [Taxonomía de WP](#taxonomía-de-wordpress)
 1. [Cuenta en WordPress.com](#cuenta-en-wordpress.com)
 1. [Instalación de WP](#instalación-de-wordpress)
@@ -18,7 +18,7 @@
 1. [Widgets en WordPress](#widgets-en-wordpress)
 
 
-## Links importantes sobre WordPress
+## Enlaces importantes sobre WordPress
 
 * [Slides](http://bextlan.com/slides/wordpress/)
 * [WordPress.org](http://wordpress.org)
