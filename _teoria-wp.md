@@ -1,8 +1,10 @@
 # WordPress
+
 ![WordPress](http://bextlan.com/img/para-cursos/wordpress.jpg)
 
 
 ## Índice
+
 1. [Enlaces importantes sobre WP](#links-importantes-sobre-wordpress)
 1. [Taxonomía de WP](#taxonomía-de-wordpress)
 1. [Cuenta en WordPress.com](#cuenta-en-wordpress.com)
@@ -17,6 +19,7 @@
 
 
 ## Links importantes sobre WordPress
+
 * [Slides](http://bextlan.com/slides/wordpress/)
 * [WordPress.org](http://wordpress.org)
 * [WordPress.com](http://wordpress.com)
@@ -37,26 +40,32 @@
 
 
 ## Taxonomía de WordPress
-Es la forma en como WP estructura el contenido de nuestro sitio y lo hace a través de:
-* Categorías
-* Etiquetas
-* Entradas
-* Páginas
 
-### Categorías (Clasifican el contenido)
+Es la forma en como WP estructura el contenido de nuestro sitio y lo hace a través de:
+
+* Categorías **(Clasifican el contenido)**
+* Etiquetas **(Palabras clave, para búsquedas internas)**
+* Entradas **(Contenido dinámico)**
+* Páginas **(Contenido estático)**
+
+### Categorías
+
 Son la tabla de contenidos de tu sitio web. Son utilizadas para agrupar tus contenidos y mantener una clasificación.
 
 Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar sub-categorías.
 
-### Etiquetas (Palabras clave, para búsquedas internas)
+### Etiquetas
+
 Se utilizan como microdatos que describen detalles específicos del contenido.
 
 Sirven como keywords para el SEO de nuestras publicaciones.
 
-### Entradas (Publicaciones)
+### Entradas
+
 Es el contenido final de nuestras páginas o secciones, pueden tener asociadas más de una categoría, si no le especificamos una, se guardaran como parte de la categoría que trae WP por defecto "Sin Categoría". Podemos agregarles tantas etiquetas como sean necesarias.
 
-### Páginas (Contenido estático)
+### Páginas
+
 Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas
 
 **[⬆ regresar al índice](#Índice)**
