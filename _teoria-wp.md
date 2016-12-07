@@ -7,7 +7,7 @@
 
 1. [Enlaces importantes sobre WP](#enlaces-importantes-sobre-wordpress)
 1. [Taxonomía de WP](#taxonomía-de-wordpress)
-1. [Cuenta en WordPress.com](#cuenta-en-wordpress.com)
+1. [Cuenta en WordPress.com](#cuenta-en-wordpresscom)
 1. [Instalación de WP](#instalación-de-wordpress)
 1. [Importación / Exportación de WP](#importación--exportación-de-wordpress)
 1. [Temas en WP](#temas-en-wordpress)
