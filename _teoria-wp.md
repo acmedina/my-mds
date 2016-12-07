@@ -135,7 +135,7 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 Esto sirve para ir del localhost al servidor en internet o viceversa
 
 1. Respaldar todo el proyecto WordPress ( wp-admin, wp-includes, wp-content, archivos sueltos )
-1. Cargar o Descargar el respaldo ( FTP, SSH, Git, etc )
+1. Cargar o Descargar el respaldo via FTP, SSH, Git, etc
 1. Exportar en formato **.sql** la BD desde el phpMyAdmin
 	* Considera que a veces phpMyAdmin no nos agrega la instrucción `CREATE DATABASE` y `USE`
 1. Abrir el archivo **.sql** y reemplazar todas las rutas locales a las del servidor en internet o viceversa con ayuda del comando buscar y reemplazar de tu editor de código favorito
