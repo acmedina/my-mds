@@ -312,8 +312,10 @@ También se puede modificar el comportamiento de WordPress a través de:
 * [Duplicator](https://wordpress.org/plugins/duplicator/)
 * [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 * [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
-* [WP PageNavi](https://wordpress.org/plugins/wp-pagenavi/)
-* [WP No Category Base](https://wordpress.org/plugins/wp-no-category-base/)
+* [WP-PageNavi](https://wordpress.org/plugins/wp-pagenavi/)
+* [WP Remove Category Base](https://wordpress.org/plugins/wp-remove-category-base/)
+
+
 * [WP No Tag Base](https://wordpress.org/plugins/wp-no-tag-base/)
 * [WP Most Popular](https://wordpress.org/plugins/wp-most-popular/)
 * [Meta Box](https://metabox.io/)
