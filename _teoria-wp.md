@@ -50,15 +50,11 @@ Es la forma en como WP estructura el contenido de nuestro sitio y lo hace a trav
 
 ### Categorías
 
-Son la tabla de contenidos del sitio web. Son utilizadas para agrupar los contenidos y mantener una clasificación.
-
-Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar subcategorías.
+Son la tabla de contenidos del sitio web. Son utilizadas para agrupar los contenidos y mantener una clasificación. Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar subcategorías.
 
 ### Etiquetas
 
-Se utilizan como microdatos que describen detalles específicos del contenido.
-
-Sirven como keywords para el SEO de nuestras publicaciones.
+Se utilizan como microdatos que describen detalles específicos del contenido. Sirven como keywords para el SEO de nuestras publicaciones.
 
 ### Entradas
 
