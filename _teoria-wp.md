@@ -28,6 +28,7 @@
 * [WordPress.org en Español de México](https://es-mx.wordpress.org/)
 * [Empezando con WordPress](https://codex.wordpress.org/es:Getting_Started_with_WordPress)
 * [Codex WordPress](http://codex.wordpress.org/)
+* [Glosario del Codex WordPress](https://codex.wordpress.org/Glossary)
 * [Developers WordPress](https://developer.wordpress.org/)
 * [Buenas prácticas de código PHP en WordPress](https://make.wordpress.org/core/handbook/coding-standards/php/)
 * [Embeds (Objetos Incrustados)](https://codex.wordpress.org/Embeds)
@@ -198,7 +199,7 @@ Los temas pueden incluir archivos de plantilla personalizados, archivos de image
 
 #### Enlaces y Funciones Básicas de un Tema:
 
-* [Temas en WordPress](https://wordpress.org/themes/)
+* [Listado de Temas WP](https://wordpress.org/themes/)
 * [Theme Forest](http://themeforest.net/)
 * [UNDERSCORES (Buenas Prácticas en Temas)](http://underscores.me/)
 * [Función bloginfo()](https://codex.wordpress.org/Function_Reference/bloginfo)
@@ -262,7 +263,7 @@ Son los archivos que el tema va utilizando dependiendo del contenido solicitado,
 	* **search.php** plantilla de búsquedas
 	* **comments.php** plantilla de comentarios
 * Templates personalizados:
-	* Podemos tener plantillas personalizados para: 
+	* Podemos tener plantillas personalizadas para: 
 		* Categorías
 		* Etiquetas
 		* Autores
@@ -283,27 +284,32 @@ Son los archivos que el tema va utilizando dependiendo del contenido solicitado,
 
 
 ## Hooks en WordPress
+
 El archivo **functions.php**  es como una biblioteca personal de funciones, es una manera fácil de agregar o modificar el comportamiento por defecto de WordPress. Se comporta exactamente igual que un plugin, añadiendo características y funcionalidad a un tema, y se puede utilizar tanto para definir nuevas funciones PHP como para modificar las que ya incorpora WordPress, se dividen en:
-* Filtros
+
+* Filtros y
 * Acciones
 
-#### Links y Funciones relacionados con Hooks
-* [Glosario de WP](https://codex.wordpress.org/Glossary)
-* [API de Plugin de WP](http://codex.wordpress.org/Plugin_API)
-* [API de Hooks de WP](http://codex.wordpress.org/Plugin_API/Hooks)
-* [Filtros de WP](http://codex.wordpress.org/Plugin_API/Filter_Reference)
-* [Acciones de WP](http://codex.wordpress.org/Plugin_API/Action_Reference)
-* [Función add_action()](https://codex.wordpress.org/Function_Reference/add_action)
-* [Función add_filter()](https://codex.wordpress.org/Function_Reference/add_filter)
-* [Función add_theme_support()](https://codex.wordpress.org/Function_Reference/add_theme_support)
-* [Función the_post_thumbnail()](https://codex.wordpress.org/Function_Reference/the_post_thumbnail)
-* [Función get_the_post_thumbnail()](https://codex.wordpress.org/Function_Reference/get_the_post_thumbnail)
-* [Función register_nav_menus()](https://codex.wordpress.org/Function_Reference/register_nav_menus)
-* [Función wp_nav_menu()](https://codex.wordpress.org/Function_Reference/wp_nav_menu)
+También se puede modificar el comportamiento de WordPress a través de:
+
+* Widgets y
+* Plugins
+
+#### Enlaces y Funciones relacionados con Hooks
+
+* [API de Hooks WP](http://codex.wordpress.org/Plugin_API/Hooks)
+* [Lista de Filtros WP](http://codex.wordpress.org/Plugin_API/Filter_Reference)
+* [Lista de Acciones WP](http://codex.wordpress.org/Plugin_API/Action_Reference)
+* [Incluir archivos CSS y JS en WP](https://developer.wordpress.org/themes/basics/including-css-javascript/)
+* [API de Plugins WP](http://codex.wordpress.org/Plugin_API)
+* [API de Widgets WP](https://codex.wordpress.org/Widgets_API)
+* [Lista de Plugins WP](https://wordpress.org/plugins/)
 
 **[⬆ regresar al índice](#Índice)**
 
-## [Plugins](https://wordpress.org/plugins/) en WordPress
+
+## Plugins WordPress
+
 * [Jetpack](https://wordpress.org/plugins/jetpack/)
 * [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
 * [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
@@ -316,12 +322,5 @@ El archivo **functions.php**  es como una biblioteca personal de funciones, es u
 * [Insert PHP](https://wordpress.org/plugins/insert-php/)
 * [WP No Category Base](https://wordpress.org/plugins/wp-no-category-base/)
 * [WP No Tag Base](https://wordpress.org/plugins/wp-no-tag-base/)
-
-**[⬆ regresar al índice](#Índice)**
-
-
-## [Widgets](https://codex.wordpress.org/Widgets_API) en WordPress
-* [Función register_sidebar()](https://codex.wordpress.org/Function_Reference/register_sidebar)	
-* [Función dynamic_sidebar()](https://codex.wordpress.org/Function_Reference/dynamic_sidebar)
 
 **[⬆ regresar al índice](#Índice)**

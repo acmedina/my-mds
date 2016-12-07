@@ -1,5 +1,3 @@
-https://developer.wordpress.org/themes/basics/including-css-javascript/
-
     WordPress
         Plugins
             http://metabox.io/
