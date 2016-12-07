@@ -134,34 +134,37 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 
 Esto sirve para ir del localhost al servidor en internet o viceversa
 
-1. Respaldar todo WordPress (wp-admin,wp-includes,wp-content,archivos sueltos)
-2. Cargar/Descargar el respaldo (FTP, SSH, Git)
-3. Exportar en formato .sql la BD desde el phpMyAdmin
-	* Considera que a veces phpMyAdmin no nos agrega la instrucción CREATE DATABASE y USE
-4. Abrir el archivo .sql y reemplazar todas las rutas locales a las del servidor en internet o viceversa con ayuda del comando buscar y reemplazar de tu editor de código favorito
-5. Modificar las rutas de las siguientes lineas del archivo .htaccess:
+1. Respaldar todo el proyecto WordPress ( wp-admin, wp-includes, wp-content, archivos sueltos )
+1. Cargar o Descargar el respaldo ( FTP, SSH, Git, etc )
+1. Exportar en formato **.sql** la BD desde el phpMyAdmin
+	* Considera que a veces phpMyAdmin no nos agrega la instrucción `CREATE DATABASE` y `USE`
+1. Abrir el archivo **.sql** y reemplazar todas las rutas locales a las del servidor en internet o viceversa con ayuda del comando buscar y reemplazar de tu editor de código favorito
+1. Modificar las rutas de las siguientes lineas del archivo .htaccess:
 	* **RewriteBase**
 	* **RewriteRule**
-
-```htaccess
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteBase /perros/
-	RewriteRule ^index\.php$ - [L]
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ./perros/index.php [L]
-</IfModule>
-# END WordPress
-```
-
-6. Modificar BD,USER,PWD y HOST MySQL en el archivo wp-config.php
-7. Importar la BD en el destino y cargar el nuevo contenido
+	```htaccess
+		# BEGIN WordPress
+		<IfModule mod_rewrite.c>
+			RewriteEngine On
+			RewriteBase /perros/
+			RewriteRule ^index\.php$ - [L]
+			RewriteCond %{REQUEST_FILENAME} !-f
+			RewriteCond %{REQUEST_FILENAME} !-d
+			RewriteRule ./perros/index.php [L]
+		</IfModule>
+		# END WordPress
+	```
+1. Modificar **DB_NAME**, **DB_USER**, **DB_PASSWORD** y **DB_HOST** en el archivo **wp-config.php**
+	```php
+		define('DB_NAME', 'database_name_here');
+		define('DB_USER', 'username_here');
+		define('DB_PASSWORD', 'password_here');
+		define('DB_HOST', 'localhost');
+	```
+1. Importar la BD en el destino y cargar el nuevo contenido
 
 **Nota:**
 * Si las estructuras de carpeta se respetan en el servidor y en el localhost, cuando haya nuevos cambios, sólo hay que hacer los pasos 2,3, 4 y 7. los demás sólo la primera vez.
-* Para seguir con el curso usaremos el tema y la base de datos del sitio WordPress que podrán encontrar en el siguiente [repositorio](https://github.com/jonmircha/perros-inicial)
 
 **[⬆ regresar al índice](#Índice)**
 
