@@ -29,9 +29,10 @@
 * [Empezando con WordPress](https://codex.wordpress.org/es:Getting_Started_with_WordPress)
 * [Codex WordPress](http://codex.wordpress.org/)
 * [Developers WordPress](https://developer.wordpress.org/)
+* [Buenas prácticas de código PHP en WordPress](https://make.wordpress.org/core/handbook/coding-standards/php/)
 * [Embeds (Objetos Incrustados)](https://codex.wordpress.org/Embeds)
 * [Roles y Capacidades en WordPress](https://codex.wordpress.org/Roles_and_Capabilities)
-* [Buenas prácticas de código PHP en WordPress](https://make.wordpress.org/core/handbook/coding-standards/php/)
+* [Gravatar](http://es.gravatar.com/)
 * [Recuperar passwords de usuarios en WordPress](http://www.wpbeginner.com/beginners-guide/how-to-reset-a-wordpress-password-from-phpmyadmin/)
 * [Herramienta para resetear passwords de usuarios en WordPress](http://pajhome.org.uk/crypt/md5/)
 * [Curso de WordPress en Bextlán](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZDOcKsQz79wnYlTvmAdLkj)
@@ -243,22 +244,22 @@ endif;
 **[⬆ regresar al índice](#Índice)**
 
 
---------------------------------------------------------------
 ## Plantillas en WordPress
-Son los archivos que nuestro tema va utilizando dependiendo del contenido solicitado, los cuales pueden ser:
+
+Son los archivos que el tema va utilizando dependiendo del contenido solicitado, los cuales pueden ser:
 
 * **index.php**	plantilla principal
-	* **home.php**	plantilla del home del sitio
-	* **archive.php** plantilla de categorías y etiquetas
+	* **home.php**	plantilla del home
+	* **archive.php** plantilla de categorías, etiquetas y autores
 		* **category.php** plantilla de categorías
 		* **tag.php** plantilla de etiquetas
+		* **author.php** plantillas de autores
 	* **singular.php** plantilla de entradas y páginas
 		* **single.php** plantilla de entradas
 		* **page.php** plantilla de páginas estáticas
-	* **404.php** plantilla para error 404
-	* **search.php** plantilla para búsquedas
-	* **comments.php** plantillas para los comentarios
-	* **author.php** plantillas para mostrar la página de autor
+	* **404.php** plantilla del error 404
+	* **search.php** plantilla de búsquedas
+	* **comments.php** plantillas de comentarios
 * Templates personalizados:
 	* Podemos tener templates personalizados para: 
 		* Categorías
@@ -270,24 +271,11 @@ Son los archivos que nuestro tema va utilizando dependiendo del contenido solici
 
 ![Estructura de carpetas de un Tema en WP](http://bextlan.com/img/para-cursos/plantillas-secciones-separadas.png)
 
-#### Links y Funciones relacionados con Plantillas
-* [Estructura de Archivos de un tema en WP](http://blog.eamexicano.com/wordpress/wordpress-tema/)
+#### Enlaces y Funciones relacionadas con Plantillas
 * [Jerarquía de Plantillas en WP](https://developer.wordpress.org/themes/basics/template-hierarchy/)
-* [Plantillas de Categorías](https://codex.wordpress.org/Category_Templates)
-* [Plantillas de Etiquetas](https://codex.wordpress.org/Tag_Templates)
-* [Plantillas de Páginas](https://codex.wordpress.org/Pages#Page_Templates)
-* [Plantilla de Página 404](https://codex.wordpress.org/Creating_an_Error_404_Page)
-* [Función get_the_author_id()](http://codex.wordpress.org/get_the_author_id)
-* [Función get_the_author_meta()](http://codex.wordpress.org/get_the_author_meta)
-* [Función get_the_author_posts_url()](http://codex.wordpress.org/get_the_author_posts_url)
-* [Función get_the_author_posts()](http://codex.wordpress.org/get_the_author_posts)
-* [Función get_avatar()](http://codex.wordpress.org/get_avatar)
-* [Gravatar](http://es.gravatar.com/)
-* [Función comments_template()](https://codex.wordpress.org/Function_Reference/comments_template)
-* [Función comment_form()](http://codex.wordpress.org/comment_form)
-* [Función wp_list_comments()](http://codex.wordpress.org/wp_list_comments)
-* [Función get_search_form()](https://codex.wordpress.org/Function_Reference/get_search_form)
-* [Función get_search_query()](https://codex.wordpress.org/Template_Tags/get_search_query)
+* [Etiquetas Condicionales](https://codex.wordpress.org/Conditional_Tags)
+
+
 
 **[⬆ regresar al índice](#Índice)**
 
