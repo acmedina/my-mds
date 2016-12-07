@@ -19,37 +19,16 @@ Plantillas en WordPress: Son los archivos que nuestro tema va utilizando dependi
                     slug, id o comentario php
     Etiquetas Condicionales
         https://codex.wordpress.org/Conditional_Tags
+    
     https://developer.wordpress.org/themes/basics/including-css-javascript/
 
 
 
     WordPress
-        https://platzi.com/blog/email-marketing-wordpress/
-        https://wordpress.org/plugins/w3-total-cache/
-        https://wordpress.org/plugins/wp-super-cache/
-        http://www.ideaweb.es/wordpress-conoce-para-que-sirve-cada-tabla-de-la-base-de-datos/
-        https://platzi.com/blog/crear-plugin-wordpress/
-        https://platzi.com/blog/wp-api-rest/
-        http://www.desarrolloweb.com/articulos/creacion-custom-post-type-wordpress.html
-            http://metabox.io/
-            https://wordpress.org/plugins/types/
-
-        Seguridad
-            http://www.trazos-web.com/2010/10/05/21-formas-de-mejorar-la-seguridad-de-tu-blog-en-wordpress/
-            http://ignaciosantiago.com/blog/web/seguridad-en-wordpress-como-configurar-htaccess-para-evitar-hackeos/
-            http://www.cws-tech.com/es/la-seguridad-de-wordpress/
-            http://ignaciosantiago.com/blog/web/seguridad-en-wordpress-como-configurar-htaccess-para-evitar-hackeos/
-            http://www.danielnabil.com/blog/redireccion-usuarios-registro-wordpress/
-            http://www.danielnabil.com/blog/mostrar-contenidos-wordpress-usuarios-conectados/
-            http://www.danielnabil.com/blog/proteger-categoria-wordpress-usuario-contrasena/
-            https://platzi.com/blog/cambiar-url-login-wordpress/
-                https://wordpress.org/plugins/peters-login-redirect/
-            https://platzi.com/blog/medidas-de-seguridad-para-wordpress/
-            https://platzi.com/blog/facebook-login-wordpress/
-            https://www.youtube.com/watch?v=3BIoIWocR1I
-            https://platzi.com/blog/wp-config-wordpress/
-
         Plugins
+            http://metabox.io/
+            https://wordpress.org/plugins/w3-total-cache/
+            https://wordpress.org/plugins/wp-super-cache/
             https://wordpress.org/plugins/pdf-viewer/
             https://wordpress.org/plugins/pdfjs-viewer-shortcode/
             https://wordpress.org/plugins/simple-share-buttons-adder/
@@ -80,5 +59,23 @@ Plantillas en WordPress: Son los archivos que nuestro tema va utilizando dependi
                     (min-width:48em) 50vw,
                     100vw"
               alt="<?php the_post_thumbnail_caption(); ?>" />
-              
-        http://cesarhdz.com/articulos/personalizar-menus-en-wordpress-con-un-walker#personalizar-el-menu
+            
+
+Tips Wordpress
+    Revisar todos sus posts para sacar videos de tips
+        http://www.desarrolloweb.com/manuales/curso-iniciacion-wordpress.html
+    Varios
+        https://platzi.com/blog/wp-config-wordpress/
+        https://platzi.com/blog/crear-plugin-wordpress/
+        https://platzi.com/blog/facebook-login-wordpress/
+        https://platzi.com/blog/cambiar-url-login-wordpress/
+        http://www.ideaweb.es/wordpress-conoce-para-que-sirve-cada-tabla-de-la-base-de-datos/
+        http://cesarhdz.com/articulos/personalizar-menus-en-wordpress-con-un-walker
+        http://www.danielnabil.com/blog/redireccion-usuarios-registro-wordpress/
+        http://www.danielnabil.com/blog/mostrar-contenidos-wordpress-usuarios-conectados/
+        http://www.danielnabil.com/blog/proteger-categoria-wordpress-usuario-contrasena/
+    Seguridad
+        https://platzi.com/blog/medidas-de-seguridad-para-wordpress/
+        http://www.trazos-web.com/2010/10/05/21-formas-de-mejorar-la-seguridad-de-tu-blog-en-wordpress/
+        http://www.desarrolloweb.com/articulos/seguridad-wordpress-video-resumen-recomendaciones.html
+        http://ignaciosantiago.com/blog/web/seguridad-en-wordpress-como-configurar-htaccess-para-evitar-hackeos/
