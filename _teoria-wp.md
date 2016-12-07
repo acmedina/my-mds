@@ -139,7 +139,7 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 1. Exportar en formato **.sql** la BD desde el phpMyAdmin
 	* Considera que a veces phpMyAdmin no nos agrega la instrucción `CREATE DATABASE` y `USE`
 1. Abrir el archivo **.sql** y reemplazar todas las rutas locales a las del servidor en internet o viceversa, con ayuda del comando buscar y reemplazar de tu editor de código favorito
-1. Modificar las rutas de las siguientes lineas del archivo .htaccess:
+1. Modificar las rutas de las siguientes lineas del archivo **.htaccess**:
 	* **RewriteBase**
 	* **RewriteRule**
 	```htaccess
