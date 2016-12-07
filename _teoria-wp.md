@@ -6,14 +6,14 @@
 ## Índice
 
 1. [Enlaces importantes sobre WP](#enlaces-importantes-sobre-wordpress)
-1. [Taxonomía de WP](#taxonomía-de-wordpress)
+1. [Taxonomía WP](#taxonomía-wordpress)
 1. [Cuenta en WordPress.com](#cuenta-en-wordpresscom)
 1. [Instalación de WP](#instalación-de-wordpress)
 1. [Importación / Exportación de WP](#importación--exportación-de-wordpress)
-1. [Temas en WP](#temas-en-wordpress)
+1. [Temas WP](#temas-wordpress)
 1. [The Loop](#the-loop)
-1. [Plantillas en WP](#plantillas-en-wordpress)
-1. [Hooks en WP](#hooks-en-wordpress)
+1. [Plantillas WP](#plantillas-wordpress)
+1. [Hooks WP](#hooks-wordpress)
 1. [Plugins WP](#plugins-wordpress)
 
 
@@ -40,7 +40,7 @@
 **[⬆ regresar al índice](#Índice)**
 
 
-## Taxonomía de WordPress
+## Taxonomía WordPress
 
 Es la forma en como WP estructura el contenido de nuestro sitio y lo hace a través de:
 
@@ -178,7 +178,7 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 **[⬆ regresar al índice](#Índice)**
 
 
-## Temas en WordPress
+## Temas WordPress
 
 Un Tema WordPress es una colección de archivos que trabajan juntos para producir un interfaz gráfica con un diseño unificado para el sitio. Estos archivos se llaman **archivos de plantilla**
 
@@ -244,7 +244,7 @@ endif;
 **[⬆ regresar al índice](#Índice)**
 
 
-## Plantillas en WordPress
+## Plantillas WordPress
 
 Son los archivos que el tema va utilizando dependiendo del contenido solicitado, los cuales pueden ser:
 
@@ -282,7 +282,7 @@ Son los archivos que el tema va utilizando dependiendo del contenido solicitado,
 **[⬆ regresar al índice](#Índice)**
 
 
-## Hooks en WordPress
+## Hooks WordPress
 
 El archivo **functions.php**  es como una biblioteca personal de funciones, es una manera fácil de agregar o modificar el comportamiento por defecto de WordPress. Se comporta exactamente igual que un plugin, añadiendo características y funcionalidad a un tema, y se puede utilizar tanto para definir nuevas funciones PHP como para modificar las que ya incorpora WordPress, se dividen en:
 
