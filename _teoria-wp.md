@@ -88,7 +88,7 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 1. Descargar [WordPress](https://es-mx.wordpress.org/)
 1. Descomprimir WordPress en la carpeta **xampp/htdocs/**
 1. Crear una  base de datos en MySQL, lo puedes hacer desde [phpMyAdmin](http://localhost/phpmyadmin)
-1. Buscar el archivo **wp-config-sample.php** y renombrarlo como **wp-config.php**   
+1. Buscar el archivo **wp-config-sample.php** y renombrarlo como **wp-config.php**
 1. Abrir el archivo **wp-config.php** y editar los siguientes datos:
 	```php
 		define('DB_NAME', 'database_name_here');
@@ -117,14 +117,14 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion4.png)
 	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion5.png)
 	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion6.png)
-	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion7.png)
-	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion8.png)
 1. Una vez instalado:
-	* Para ver WP como usuario visitante:
-		* **http://localhost/ruta-del-sitio**
 	* Para ver WP como usuario administrador:
 		* **http://localhost/ruta-del-sitio/wp-login.php** o
 		* **http://localhost/ruta-del-sitio/wp-admin**
+		![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion7.png)
+	* Para ver WP como usuario visitante:
+		* **http://localhost/ruta-del-sitio**
+		![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion8.png)
 
 **[⬆ regresar al índice](#Índice)**
 
