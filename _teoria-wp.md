@@ -142,25 +142,25 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 1. Modificar las rutas de las siguientes lineas del archivo **.htaccess**:
 	* **RewriteBase**
 	* **RewriteRule**
-```htaccess
-	# BEGIN WordPress
-	<IfModule mod_rewrite.c>
-		RewriteEngine On
-		RewriteBase /carpeta-sitio-wp/
-		RewriteRule ^index\.php$ - [L]
-		RewriteCond %{REQUEST_FILENAME} !-f
-		RewriteCond %{REQUEST_FILENAME} !-d
-		RewriteRule ./carpeta-sitio-wp/index.php [L]
-	</IfModule>
-	# END WordPress
-```
-1. Modificar **DB_NAME**, **DB_USER**, **DB_PASSWORD** y **DB_HOST** en el archivo **wp-config.php**
-	```php
-		define('DB_NAME', 'database_name_here');
-		define('DB_USER', 'username_here');
-		define('DB_PASSWORD', 'password_here');
-		define('DB_HOST', 'localhost');
+	```htaccess
+		# BEGIN WordPress
+		<IfModule mod_rewrite.c>
+			RewriteEngine On
+			RewriteBase /carpeta-sitio-wp/
+			RewriteRule ^index\.php$ - [L]
+			RewriteCond %{REQUEST_FILENAME} !-f
+			RewriteCond %{REQUEST_FILENAME} !-d
+			RewriteRule ./carpeta-sitio-wp/index.php [L]
+		</IfModule>
+		# END WordPress
 	```
+1. Modificar **DB_NAME**, **DB_USER**, **DB_PASSWORD** y **DB_HOST** en el archivo **wp-config.php**
+```php
+	define('DB_NAME', 'database_name_here');
+	define('DB_USER', 'username_here');
+	define('DB_PASSWORD', 'password_here');
+	define('DB_HOST', 'localhost');
+```
 1. Importar la BD en el destino y cargar el nuevo contenido
 
 **Nota:**
