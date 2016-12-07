@@ -50,9 +50,9 @@ Es la forma en como WP estructura el contenido de nuestro sitio y lo hace a trav
 
 ### Categorías
 
-Son la tabla de contenidos de tu sitio web. Son utilizadas para agrupar tus contenidos y mantener una clasificación.
+Son la tabla de contenidos del sitio web. Son utilizadas para agrupar los contenidos y mantener una clasificación.
 
-Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar sub-categorías.
+Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar subcategorías.
 
 ### Etiquetas
 
@@ -62,11 +62,11 @@ Sirven como keywords para el SEO de nuestras publicaciones.
 
 ### Entradas
 
-Es el contenido final de nuestras páginas o secciones, pueden tener asociadas más de una categoría, si no le especificamos una, se guardaran como parte de la categoría que trae WP por defecto "Sin Categoría". Podemos agregarles tantas etiquetas como sean necesarias.
+Es el contenido final de nuestro sitio, pueden tener asociadas más de una categoría, si no le especificamos una, se guardaran como parte de la categoría que trae WP por defecto "Sin Categoría". Podemos agregarles tantas etiquetas como sean necesarias.
 
 ### Páginas
 
-Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas
+Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas.
 
 **[⬆ regresar al índice](#Índice)**
 
