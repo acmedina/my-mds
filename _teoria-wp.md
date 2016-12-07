@@ -14,8 +14,7 @@
 1. [The Loop](#the-loop)
 1. [Plantillas en WP](#plantillas-en-wordpress)
 1. [Hooks en WP](#hooks-en-wordpress)
-1. [Plugins en WordPress](#plugins-en-wordpress)
-1. [Widgets en WordPress](#widgets-en-wordpress)
+1. [Plugins WP](#plugins-wordpress)
 
 
 ## Enlaces importantes sobre WordPress
@@ -310,17 +309,21 @@ También se puede modificar el comportamiento de WordPress a través de:
 
 ## Plugins WordPress
 
-* [Jetpack](https://wordpress.org/plugins/jetpack/)
-* [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
-* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
+* [Duplicator](https://wordpress.org/plugins/duplicator/)
 * [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 * [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
 * [WP PageNavi](https://wordpress.org/plugins/wp-pagenavi/)
-* [Infinite Scroll](http://www.infinite-scroll.com/)
-* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
-* [Meta Box](https://metabox.io/)
-* [Insert PHP](https://wordpress.org/plugins/insert-php/)
 * [WP No Category Base](https://wordpress.org/plugins/wp-no-category-base/)
 * [WP No Tag Base](https://wordpress.org/plugins/wp-no-tag-base/)
+* [WP Most Popular](https://wordpress.org/plugins/wp-most-popular/)
+* [Meta Box](https://metabox.io/)
+* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
+* [Insert PHP](https://wordpress.org/plugins/insert-php/)
+* [Jetpack](https://wordpress.org/plugins/jetpack/)
+* [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
+* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
+* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
+* [Infinite Scroll](http://www.infinite-scroll.com/)
+* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
 
 **[⬆ regresar al índice](#Índice)**

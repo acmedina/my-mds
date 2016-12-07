@@ -1,24 +1,14 @@
-    WordPress
-        Plugins
-            http://metabox.io/
-            https://wordpress.org/plugins/w3-total-cache/
             https://wordpress.org/plugins/wp-super-cache/
             https://wordpress.org/plugins/pdf-viewer/
             https://wordpress.org/plugins/pdfjs-viewer-shortcode/
             https://wordpress.org/plugins/simple-share-buttons-adder/
-            https://wordpress.org/plugins/duplicator/
             https://wordpress.org/plugins/w3-total-cache/installation/
             https://wordpress.org/plugins/ewww-image-optimizer/
             https://wordpress.org/plugins/googleanalytics/
             https://wordpress.org/plugins/multiple-featured-images/
-            https://wordpress.org/plugins/wp-most-popular/
-            https://wordpress.org/plugins/most-popular-tags/
             https://wordpress.org/plugins/wp-spamshield/
             https://wordpress.org/plugins/gallery-images/
             https://wordpress.org/plugins/gtmetrix-for-wordpress/
-            https://wordpress.org/plugins/mailchimp-for-wp/
-            https://wordpress.org/plugins/gtmetrix-for-wordpress/
-            https://wordpress.org/plugins/w3-total-cache/installation/
     
 
     WordPress
