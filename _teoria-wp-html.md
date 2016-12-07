@@ -24,11 +24,9 @@ Plantillas en WordPress: Son los archivos que nuestro tema va utilizando dependi
 
 
     WordPress
-        http://underscores.me/ - generador theme
         https://platzi.com/blog/email-marketing-wordpress/
         https://wordpress.org/plugins/w3-total-cache/
         https://wordpress.org/plugins/wp-super-cache/
-        http://www.cristalab.com/tutoriales/agregar-y-eliminar-campos-de-perfil-en-wordpress-c108093l/
         http://www.ideaweb.es/wordpress-conoce-para-que-sirve-cada-tabla-de-la-base-de-datos/
         https://platzi.com/blog/crear-plugin-wordpress/
         https://platzi.com/blog/wp-api-rest/
@@ -51,13 +49,6 @@ Plantillas en WordPress: Son los archivos que nuestro tema va utilizando dependi
             https://www.youtube.com/watch?v=3BIoIWocR1I
             https://platzi.com/blog/wp-config-wordpress/
 
-        Authentication
-            https://wordpress.org/plugins/oa-social-login/
-            https://wordpress.org/plugins/facebook-login-afo/
-            https://wordpress.org/plugins/wordpress-social-login/
-            https://wordpress.org/plugins/super-socializer/
-            https://wordpress.org/plugins/wp-oauth/
-
         Plugins
             https://wordpress.org/plugins/pdf-viewer/
             https://wordpress.org/plugins/pdfjs-viewer-shortcode/
@@ -76,8 +67,6 @@ Plantillas en WordPress: Son los archivos que nuestro tema va utilizando dependi
             https://wordpress.org/plugins/gtmetrix-for-wordpress/
             https://wordpress.org/plugins/w3-total-cache/installation/
     
-    Link para teoria WP
-        https://generatewp.com/
 
     WordPress
         <img width="300" height="169" src="http://localhost/aCursos/WordPress/perros/wp-content/uploads/2015/08/unicos-300x169.jpg" class="Post-image wp-post-image" alt="??????????????" srcset="http://localhost/aCursos/WordPress/perros/wp-content/uploads/2015/08/unicos-300x169.jpg 300w, http://localhost/aCursos/WordPress/perros/wp-content/uploads/2015/08/unicos.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">

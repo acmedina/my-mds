@@ -50,19 +50,19 @@ Es la forma en como WP estructura el contenido de nuestro sitio y lo hace a trav
 
 ### Categorías
 
-Son la tabla de contenidos del sitio web. Son utilizadas para agrupar los contenidos y mantener una clasificación. Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar subcategorías.
+Son la tabla de contenidos del sitio web. Son utilizadas para agrupar los contenidos y mantener una clasificación. Deben ser la base de la organización ya que conservan un orden jerárquico, y podemos generar subcategorías
 
 ### Etiquetas
 
-Se utilizan como microdatos que describen detalles específicos del contenido. Sirven como keywords para el SEO de nuestras publicaciones.
+Se utilizan como microdatos que describen detalles específicos del contenido. Sirven como keywords para el SEO de nuestras publicaciones
 
 ### Entradas
 
-Es el contenido final de nuestro sitio, pueden tener asociadas más de una categoría, si no le especificamos una, se guardaran como parte de la categoría que trae WP por defecto "Sin Categoría". Podemos agregarles tantas etiquetas como sean necesarias.
+Es el contenido final de nuestro sitio, pueden tener asociadas más de una categoría, si no le especificamos una, se guardaran como parte de la categoría que trae WP por defecto "Sin Categoría". Podemos agregarles tantas etiquetas como sean necesarias
 
 ### Páginas
 
-Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas.
+Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas
 
 **Nota:** Si te quedan dudas puedes ver el siguiente **[video](https://www.youtube.com/watch?v=HgUxFFJ8osA)**
 
@@ -178,23 +178,28 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 
 
 ## Temas en WordPress
-Un Tema WordPress es una colección de archivos que trabajan juntos para producir un interfaz gráfica con un diseño unificado para el sitio. Estos archivos se llaman archivos de plantilla
+
+Un Tema WordPress es una colección de archivos que trabajan juntos para producir un interfaz gráfica con un diseño unificado para el sitio. Estos archivos se llaman **archivos de plantilla**
 
 Un tema modifica el modo en que el sitio es mostrado, sin modificar el código fuente de WordPress
 
 Los temas pueden incluir archivos de plantilla personalizados, archivos de imagen, hojas de estilo, scripts (.php o .js), así como cualquier otro archivo necesario
 
 #### Archivos Básicos de un Tema:
+
 * **index.php**	plantilla principal
 * **style.css** hoja de estilos principal del tema
 * **screenshot.png** imagen representativa del tema en el administrador de WP
 
 #### Estructura Básica de un Tema
+
 ![Estructura Básica de un Tema en WP](http://bextlan.com/img/para-cursos/estructura-tema.png)
 
-#### Links y Funciones Básicas de un Tema:
-* [Temas](https://wordpress.org/themes/)
+#### Enlaces y Funciones Básicas de un Tema:
+
+* [Temas en WordPress](https://wordpress.org/themes/)
 * [Theme Forest](http://themeforest.net/)
+* [UNDERSCORES (Buenas Prácticas en Temas)](http://underscores.me/)
 * [Función bloginfo()](https://codex.wordpress.org/Function_Reference/bloginfo)
 * [Función get_header()](https://codex.wordpress.org/Function_Reference/get_header)
 * [Función get_footer()](https://codex.wordpress.org/Function_Reference/get_footer)
@@ -202,14 +207,15 @@ Los temas pueden incluir archivos de plantilla personalizados, archivos de image
 * [Función get_template_part()](https://codex.wordpress.org/Function_Reference/get_template_part)
 
 #### Funciones de inclusión obligatorias:
-Si queremos que nuestro tema permita el correcto funcionamiento de plugins de terceros, debemos activar las siguientes funciones de esta manera WordPress permite a los plugins imprimir información en el header o el footer
+
+Si queremos que nuestro tema permita el correcto funcionamiento de plugins de terceros, debemos activar las siguientes funciones, de esta manera WordPress permite a los plugins imprimir información en el header o el footer
 
 * [Función wp_head()](https://codex.wordpress.org/Plugin_API/Action_Reference/wp_head) debe colocarse antes de `</head>`
 * [Función wp_footer()](https://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer) debe colocarse antes de `</body>`
 
 **[⬆ regresar al índice](#Índice)**
 
-
+--------------------------------------------------------------
 ## The Loop
 **The Loop** es el código PHP usado por WordPress para mostrar las publicaciones
 
