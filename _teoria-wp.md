@@ -254,15 +254,15 @@ Son los archivos que el tema va utilizando dependiendo del contenido solicitado,
 	* **archive.php** plantilla de categorías, etiquetas y autores
 		* **category.php** plantilla de categorías
 		* **tag.php** plantilla de etiquetas
-		* **author.php** plantillas de autores
+		* **author.php** plantilla de autores
 	* **singular.php** plantilla de entradas y páginas
 		* **single.php** plantilla de entradas
 		* **page.php** plantilla de páginas estáticas
 	* **404.php** plantilla del error 404
 	* **search.php** plantilla de búsquedas
-	* **comments.php** plantillas de comentarios
+	* **comments.php** plantilla de comentarios
 * Templates personalizados:
-	* Podemos tener templates personalizados para: 
+	* Podemos tener plantillas personalizados para: 
 		* Categorías
 		* Etiquetas
 		* Autores
