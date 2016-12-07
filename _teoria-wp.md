@@ -129,7 +129,7 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 		* **http://localhost/ruta-del-sitio**
 		![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion8.png)
 
-**Nota:** Si te quedan dudas puedes ver el siguiente [video](https://www.youtube.com/watch?v=lE4wO3C4Eyg)
+**Nota:** Si te quedan dudas puedes ver el siguiente **[video](https://www.youtube.com/watch?v=lE4wO3C4Eyg)**
 
 **[⬆ regresar al índice](#Índice)**
 
