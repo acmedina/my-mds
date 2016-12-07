@@ -64,7 +64,7 @@ Es el contenido final de nuestro sitio, pueden tener asociadas más de una categ
 
 Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas.
 
-**Nota:** Si te quedan dudas puedes ver el siguiente [video](https://www.youtube.com/watch?v=HgUxFFJ8osA)
+**Nota:** Si te quedan dudas puedes ver el siguiente **[video](https://www.youtube.com/watch?v=HgUxFFJ8osA)**
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -171,8 +171,8 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 
 **Nota:**
 
-* Si te quedan dudas puedes ver el siguiente [video](https://www.youtube.com/watch?v=4IRnuFqinlI)
-* También puedes usar el plugin [Duplicator](https://wordpress.org/plugins/duplicator/)
+* Si te quedan dudas puedes ver el siguiente **[video](https://www.youtube.com/watch?v=4IRnuFqinlI)**
+* También puedes usar el plugin **[Duplicator](https://wordpress.org/plugins/duplicator/)**
 
 **[⬆ regresar al índice](#Índice)**
 
