@@ -64,6 +64,8 @@ Es el contenido final de nuestro sitio, pueden tener asociadas más de una categ
 
 Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas.
 
+**Nota:** Si te quedan dudas puedes ver el siguiente [video](https://www.youtube.com/watch?v=HgUxFFJ8osA)
+
 **[⬆ regresar al índice](#Índice)**
 
 
@@ -127,6 +129,8 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 		* **http://localhost/ruta-del-sitio**
 		![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion8.png)
 
+**Nota:** Si te quedan dudas puedes ver el siguiente [video](https://www.youtube.com/watch?v=lE4wO3C4Eyg)
+
 **[⬆ regresar al índice](#Índice)**
 
 
@@ -166,7 +170,9 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 1. Importar la BD y cargar el contenido del sitio WP en el destino
 
 **Nota:**
-* Si las estructuras de carpeta se respetan en el servidor y en el localhost, cuando haya nuevos cambios, sólo hay que hacer los pasos 2,3, 4 y 7. los demás sólo la primera vez.
+
+* Si te quedan dudas puedes ver el siguiente [video](https://www.youtube.com/watch?v=4IRnuFqinlI)
+* También puedes usar el plugin [Duplicator](https://wordpress.org/plugins/duplicator/)
 
 **[⬆ regresar al índice](#Índice)**
 
