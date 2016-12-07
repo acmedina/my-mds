@@ -88,7 +88,7 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 1. Descargar [WordPress](https://es-mx.wordpress.org/)
 1. Descomprimir WordPress en la carpeta **xampp/htdocs/**
 1. Crear una  base de datos en MySQL, lo puedes hacer desde [phpMyAdmin](http://localhost/phpmyadmin)
-1. Buscar el archivo **wp-config-sample.php** y renombrarlo como wp-config.php
+1. Buscar el archivo **wp-config-sample.php** y renombrarlo como **wp-config.php**
 1. Abrir el archivo **wp-config.php** y editar los siguientes datos:
 	```php
 		define('DB_NAME', 'database_name_here');
