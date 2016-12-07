@@ -88,7 +88,7 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 1. Descargar [WordPress](https://es-mx.wordpress.org/)
 1. Descomprimir WordPress en la carpeta **xampp/htdocs/**
 1. Es recomendable renombrar la carpeta wordpress por un nombre relacionado con el proyecto a desarrollar
-1. Crear una  base de datos en MySQL para el sitio WP, lo puedes hacer desde [phpMyAdmin](http://localhost/phpmyadmin)
+1. Crear una  base de datos en MySQL para el nuevo proyecto en WordPress, lo puedes hacer desde [phpMyAdmin](http://localhost/phpmyadmin)
 1. Buscar el archivo **wp-config-sample.php** y renombrarlo como **wp-config.php**
 1. Abrir el archivo **wp-config.php** y editar los siguientes datos:
 	```php
