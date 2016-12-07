@@ -135,10 +135,10 @@ Son contenidos que difícilmente van a cambiar, por ejemplo la sección de conta
 Esto sirve para ir del localhost al servidor en internet o viceversa
 
 1. Respaldar todo el proyecto WordPress ( wp-admin, wp-includes, wp-content, archivos sueltos )
-1. Cargar o Descargar el respaldo via FTP, SSH, Git, etc
+1. Cargar o Descargar el respaldo vía FTP, SSH, Git, etc
 1. Exportar en formato **.sql** la BD desde el phpMyAdmin
 	* Considera que a veces phpMyAdmin no nos agrega la instrucción `CREATE DATABASE` y `USE`
-1. Abrir el archivo **.sql** y reemplazar todas las rutas locales a las del servidor en internet o viceversa con ayuda del comando buscar y reemplazar de tu editor de código favorito
+1. Abrir el archivo **.sql** y reemplazar todas las rutas locales a las del servidor en internet o viceversa, con ayuda del comando buscar y reemplazar de tu editor de código favorito
 1. Modificar las rutas de las siguientes lineas del archivo .htaccess:
 	* **RewriteBase**
 	* **RewriteRule**
@@ -146,11 +146,11 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 		# BEGIN WordPress
 		<IfModule mod_rewrite.c>
 			RewriteEngine On
-			RewriteBase /perros/
+			RewriteBase /carpeta-sitio-wp/
 			RewriteRule ^index\.php$ - [L]
 			RewriteCond %{REQUEST_FILENAME} !-f
 			RewriteCond %{REQUEST_FILENAME} !-d
-			RewriteRule ./perros/index.php [L]
+			RewriteRule ./carpeta-sitio-wp/index.php [L]
 		</IfModule>
 		# END WordPress
 	```
