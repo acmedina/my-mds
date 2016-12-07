@@ -3,9 +3,9 @@
 
 
 ## Índice
-1. [Slides](http://bextlan.com/slides/wordpress/)
-1. [Links importantes sobre WP](#links-importantes-sobre-wordpress)
+1. [Enlaces importantes sobre WP](#links-importantes-sobre-wordpress)
 1. [Taxonomía de WP](#taxonomía-de-wordpress)
+1. [Cuenta en WordPress.com](#cuenta-en-wordpress.com)
 1. [Instalación de WP](#instalación-de-wordpress)
 1. [Importación / Exportación de WP](#importación--exportación-de-wordpress)
 1. [Temas en WP](#temas-en-wordpress)
@@ -15,23 +15,23 @@
 1. [Plugins en WordPress](#plugins-en-wordpress)
 1. [Widgets en WordPress](#widgets-en-wordpress)
 
-Vamos  Aquí =P revisar losplugins que tengo en el archivo pendientes y en malvestida y ednica, revisar e integrar las versiones de wp-mkt y diseño digital
-
 
 ## Links importantes sobre WordPress
+* [Slides](http://bextlan.com/slides/wordpress/)
 * [WordPress.org](http://wordpress.org)
 * [WordPress.com](http://wordpress.com)
 * [WordPress.org en Español](http://es.wordpress.org)
 * [WordPress.com en Español](http://es.wordpress.com)
+* [WordPress.org en Español de México](https://es-mx.wordpress.org/)
 * [Empezando con WordPress](https://codex.wordpress.org/es:Getting_Started_with_WordPress)
 * [Codex WordPress](http://codex.wordpress.org/)
 * [Developers WordPress](https://developer.wordpress.org/)
-* [Embeds](https://codex.wordpress.org/Embeds)
-* [Roles y Capacidades en WordPress](https://codex.wordpress.org/es:Roles_y_Capacidades#Subscriber)
-* [Tabla de Roles y Capacidades en WordPress](https://codex.wordpress.org/Roles_and_Capabilities#Capability_vs._Role_Table)
-* [Buenas Prácticas de PHP en WordPress](https://make.wordpress.org/core/handbook/coding-standards/php/)
-* [Recuperar passwords de Usuarios WordPress](http://www.wpbeginner.com/beginners-guide/how-to-reset-a-wordpress-password-from-phpmyadmin/)
-* [Herramienta para resetear passwords de Usuarios WordPress](http://pajhome.org.uk/crypt/md5/)
+* [Embeds (Objetos Incrustados)](https://codex.wordpress.org/Embeds)
+* [Roles y Capacidades en WordPress](https://codex.wordpress.org/Roles_and_Capabilities)
+* [Buenas prácticas de código PHP en WordPress](https://make.wordpress.org/core/handbook/coding-standards/php/)
+* [Recuperar passwords de usuarios en WordPress](http://www.wpbeginner.com/beginners-guide/how-to-reset-a-wordpress-password-from-phpmyadmin/)
+* [Herramienta para resetear passwords de usuarios en WordPress](http://pajhome.org.uk/crypt/md5/)
+* [Curso de WordPress en Bextlán](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZDOcKsQz79wnYlTvmAdLkj)
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -59,121 +59,73 @@ Es el contenido final de nuestras páginas o secciones, pueden tener asociadas m
 ### Páginas (Contenido estático)
 Son contenidos que difícilmente van a cambiar, por ejemplo la sección de contacto o acerca, no se pueden asociar a categorías ni a etiquetas
 
-### Ejemplos de Taxonomías:
+**[⬆ regresar al índice](#Índice)**
 
-	Taxnomía de Sitio de Perros
-		Home(loop)
-		El Perro(p)
-		Comportamiento(p)
-		Sentidos(p)
-		Videos(p)
-		Razas(c)
-		En esta categoría podrás encontrar una clasificación de los perros, basada en su tamaño.
-			Gigantes(sc)
-			Esta categoría esta destinada a los perros gigantes.
-				Bobtail(e)
-				Dogo de Burdeos(e)
-				Gran Danés(e)
-				Mastín Napolitano(e)
-				San Bernardo(e)
-				Terranova(e)
-			Grandes(sc)
-			Esta categoría esta destinada a los perros grandes.
-				Boxer(e)
-				Dálmata(e)
-				Dóberman(e)
-				Husky Siberiano(e)
-				Labrador(e)
-				Pastor Alemán(e)
-			Medianos(sc)
-			Esta categoría esta destinada a los perros medianos.
-				Basset Hound(e)
-				Beagle(e)
-				Border Collie(e)
-				Bull Dog(e)
-				Cocker Spaniel(e)
-				Staffordshire Bull Terrier(e)
-			Pequeños(sc)
-			Esta categoría esta destinada a los perros pequeños.
-				Bichón(e)
-				Chihuahua(e)
-				Pug(e)
-				Schnauzer(e)
-				Xoloitzcuintle(e)
-				Yorkshire(e)
-			Sin Raza(sc)
-			Esta categoría esta destinada a los perros sin raza.
-				Únicos(e)
 
-	Taxonomía Sitio Bextlan v4
-		Home (loop)
-		Cursos (c)
-			Responsive Design (e)
-			jQuery (e)
-			WordPress (e)
-			Node.JS (e)
-		Tutoriales (c)
-			HTML5(e)
-			JS(e)
-			PHP(e)
-			AS3(e)
-			Vlog(e)
-		Acerca (p)
-		Servicios (p)
-		FAQ's (p)
-		Anualidad (p)
+## Cuenta en WordPress.com
 
-	Taxonomía Sitio mejorenvo.com
-		Inicio (loop)
-		Series(c)
-			Temporadas (e)
-		Películas(c)
-			Película (e)
-		FAQ(p)
-		Manuales(p)
-		Contacto(p)
-
-	Taxonomía Sitio mundoheroes.net
-		Home(loop)
-		VideoClips(p)
-		ReporteFallos(p)
-		Series(c)
-			Serie(e)
-		Películas(c)
-			Película(e)
-		Comics(c)
-			Comic(e)
-		Marvel(et)
-		DC Comics(et)
-		Otras(et)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-1.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-2.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-3.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-4.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-5.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-6.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-7.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-8.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-9.png)
+![Creando cuenta en WordPress.com](http://bextlan.com/img/para-cursos/cuenta-wp-10.png)
 
 **[⬆ regresar al índice](#Índice)**
 
 
 ## Instalación de WordPress
-1. Descargar WordPress http://es.wordpress.org/
-2. Descomprimir WordPress en el localhost
-3. Buscar archivo wp-config-sample.php, renombrarlo como wp-config.php y editar: 
-	* db
-	* user
-	* pwd
-	* host
-	* charset
-	* table_prefix
-	* Authentication Unique Keys
-4. Crear una  BD en MySQL desde http://localhost/phpmyadmin
-5. Ejecutar la carpeta del sitio en el navegador y llenar la información de la instalación
-6. Una vez instalado:
-	* Para ver wp como user:
-		* localhost/ruta-del-sitio
-	* Para ver wp como admin:
-		* localhost/ruta-del-sitio/wp-login.php
-		* localhost/ruta-del-sitio/wp-admin
+
+1. Descargar [WordPress](https://es-mx.wordpress.org/)
+1. Descomprimir WordPress en la carpeta **xampp/htdocs/**
+1. Crear una  base de datos en MySQL, lo puedes hacer desde [phpMyAdmin](http://localhost/phpmyadmin)
+1. Buscar el archivo **wp-config-sample.php** y renombrarlo como **wp-config.php**
+1. Abrir el archivo **wp-config.php** y editar los siguientes datos:
+	```php
+		define('DB_NAME', 'database_name_here');
+		define('DB_USER', 'username_here');
+		define('DB_PASSWORD', 'password_here');
+		define('DB_HOST', 'localhost');
+		define('DB_CHARSET', 'utf8');
+		define('DB_COLLATE', '');
+
+		define('AUTH_KEY',         'put your unique phrase here');
+		define('SECURE_AUTH_KEY',  'put your unique phrase here');
+		define('LOGGED_IN_KEY',    'put your unique phrase here');
+		define('NONCE_KEY',        'put your unique phrase here');
+		define('AUTH_SALT',        'put your unique phrase here');
+		define('SECURE_AUTH_SALT', 'put your unique phrase here');
+		define('LOGGED_IN_SALT',   'put your unique phrase here');
+		define('NONCE_SALT',       'put your unique phrase here');
+
+		$table_prefix  = 'wp_';
+	```
+1. Ejecutar la carpeta del sitio en el navegador **( http://localhost/carpeta-sitio-wp )**
+1. Llenar la información de la instalación
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion1.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion2.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion3.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion4.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion5.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion6.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion7.png)
+	![Instalación de WordPress](http://bextlan.com/img/para-cursos/wp-instalacion8.png)
+1. Una vez instalado:
+	* Para ver WP como usuario visitante:
+		* **http://localhost/ruta-del-sitio**
+	* Para ver WP como usuario administrador:
+		* **http://localhost/ruta-del-sitio/wp-login.php** o
+		* **http://localhost/ruta-del-sitio/wp-admin**
 
 **[⬆ regresar al índice](#Índice)**
 
 
 ## Importación / Exportación de WordPress
+
 Esto sirve para ir del localhost al servidor en internet o viceversa
 
 1. Respaldar todo WordPress (wp-admin,wp-includes,wp-content,archivos sueltos)
