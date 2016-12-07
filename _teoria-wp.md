@@ -187,9 +187,9 @@ Los temas pueden incluir archivos de plantilla personalizados, archivos de image
 
 #### Archivos Básicos de un Tema:
 
-* **index.php**	plantilla principal
-* **style.css** hoja de estilos principal del tema
-* **screenshot.png** imagen representativa del tema en el administrador de WP
+* Plantilla principal (**index.php**)
+* Hoja de estilos principal del tema (**style.css**)
+* Imagen representativa del tema en el administrador de WP (**screenshot.png**)
 
 #### Estructura Básica de un Tema
 
