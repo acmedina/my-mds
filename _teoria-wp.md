@@ -248,7 +248,8 @@ endif;
 
 Son los archivos que el tema va utilizando dependiendo del contenido solicitado, los cuales pueden ser:
 
-* **index.php**	plantilla principal
+* Templates básicos:
+	* **index.php**	plantilla principal
 	* **home.php**	plantilla del home
 	* **archive.php** plantilla de categorías, etiquetas y autores
 		* **category.php** plantilla de categorías
@@ -264,18 +265,19 @@ Son los archivos que el tema va utilizando dependiendo del contenido solicitado,
 	* Podemos tener templates personalizados para: 
 		* Categorías
 		* Etiquetas
+		* Autores
 		* Páginas estáticas
 	* Podemos crear templates personalizados por:
 		* slug
 		* id
+		* nicename
 
 ![Estructura de carpetas de un Tema en WP](http://bextlan.com/img/para-cursos/plantillas-secciones-separadas.png)
 
 #### Enlaces y Funciones relacionadas con Plantillas
-* [Jerarquía de Plantillas en WP](https://developer.wordpress.org/themes/basics/template-hierarchy/)
+
+* [Jerarquía de Plantillas](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 * [Etiquetas Condicionales](https://codex.wordpress.org/Conditional_Tags)
-
-
 
 **[⬆ regresar al índice](#Índice)**
 
