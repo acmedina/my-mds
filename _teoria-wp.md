@@ -310,13 +310,10 @@ También se puede modificar el comportamiento de WordPress a través de:
 ## Plugins WordPress
 
 * [Duplicator](https://wordpress.org/plugins/duplicator/)
+* [WP No Base Permalink](https://wordpress.org/plugins/wp-no-base-permalink/)
 * [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 * [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
 * [WP-PageNavi](https://wordpress.org/plugins/wp-pagenavi/)
-* [WP Remove Category Base](https://wordpress.org/plugins/wp-remove-category-base/)
-
-
-* [WP No Tag Base](https://wordpress.org/plugins/wp-no-tag-base/)
 * [WP Most Popular](https://wordpress.org/plugins/wp-most-popular/)
 * [Meta Box](https://metabox.io/)
 * [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
