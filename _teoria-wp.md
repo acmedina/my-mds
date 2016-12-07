@@ -163,7 +163,7 @@ Esto sirve para ir del localhost al servidor en internet o viceversa
 		define('DB_HOST', 'localhost');
 	```
 
-1. Importar la BD en el destino y cargar el nuevo contenido
+1. Importar la BD y cargar el contenido del sitio WP en el destino
 
 **Nota:**
 * Si las estructuras de carpeta se respetan en el servidor y en el localhost, cuando haya nuevos cambios, sólo hay que hacer los pasos 2,3, 4 y 7. los demás sólo la primera vez.
