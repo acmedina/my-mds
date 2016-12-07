@@ -215,8 +215,9 @@ Si queremos que nuestro tema permita el correcto funcionamiento de plugins de te
 
 **[⬆ regresar al índice](#Índice)**
 
---------------------------------------------------------------
+
 ## The Loop
+
 **The Loop** es el código PHP usado por WordPress para mostrar las publicaciones
 
 ```php
@@ -230,36 +231,18 @@ else:
 endif;
 ```
 
-#### Links y Funciones relacionados con The Loop
+#### Enlaces y Funciones relacionados con The Loop
+
 * [The Loop](https://codex.wordpress.org/The_Loop)
-* [Función have_posts()](https://codex.wordpress.org/Function_Reference/have_posts)
-* [Función the_post()](https://codex.wordpress.org/Function_Reference/the_post)
-* [Función the_title()](https://codex.wordpress.org/Function_Reference/the_title)
-* [Función the_permalink()](https://codex.wordpress.org/Function_Reference/the_permalink)
-* [Función the_date()](https://codex.wordpress.org/Function_Reference/the_date)
-* [Función the_time()](https://codex.wordpress.org/Function_Reference/the_time)
-* [Función the_excerpt()](https://codex.wordpress.org/Function_Reference/the_excerpt)
-* [Función the_category()](https://codex.wordpress.org/Function_Reference/the_category)
-* [Función the_tags()](https://codex.wordpress.org/Function_Reference/the_tags)
-* [Función the_author()](https://codex.wordpress.org/Function_Reference/the_author)
-* [Función the_content()](https://codex.wordpress.org/Function_Reference/the_content)
 * [Función rewind_posts()](https://codex.wordpress.org/Function_Reference/rewind_posts)
 * [Función query_posts()](https://codex.wordpress.org/Function_Reference/query_posts)
 * [Búsquedas Personalizadas en WP](http://www.anieto2k.com/2008/01/13/query_posts-personalizando-nuestros-blogs/)
 * [Parámetros para Búsquedas Personalizadas](https://codex.wordpress.org/Class_Reference/WP_Query#Parameters)
-* [Función get_the_title()](https://codex.wordpress.org/Function_Reference/get_the_title)
-* [Función get_the_permalink()](https://codex.wordpress.org/Function_Reference/get_the_permalink)
-* [Función get_the_date()](https://codex.wordpress.org/Function_Reference/get_the_date)
-* [Función get_the_time()](https://codex.wordpress.org/Function_Reference/get_the_time)
-* [Función get_the_excerpt()](https://codex.wordpress.org/Function_Reference/get_the_excerpt)
-* [Función get_the_category_list()](https://codex.wordpress.org/Function_Reference/get_the_category_list)
-* [Función get_the_tag_list()](https://codex.wordpress.org/Function_Reference/get_the_tag_list)
-* [Función get_the_author()](https://codex.wordpress.org/Function_Reference/get_the_author)
-* [Función get_the_content()](https://codex.wordpress.org/Function_Reference/get_the_content)
 
 **[⬆ regresar al índice](#Índice)**
 
 
+--------------------------------------------------------------
 ## Plantillas en WordPress
 Son los archivos que nuestro tema va utilizando dependiendo del contenido solicitado, los cuales pueden ser:
 
