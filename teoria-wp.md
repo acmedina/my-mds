@@ -239,6 +239,7 @@ endif;
 * [Función query_posts()](https://codex.wordpress.org/Function_Reference/query_posts)
 * [Búsquedas Personalizadas en WP](http://www.anieto2k.com/2008/01/13/query_posts-personalizando-nuestros-blogs/)
 * [Parámetros para Búsquedas Personalizadas](https://codex.wordpress.org/Class_Reference/WP_Query#Parameters)
+* [Función the_posts_pagination()](https://codex.wordpress.org/Function_Reference/the_posts_pagination)
 * [Clase WP_Query](https://codex.wordpress.org/Class_Reference/WP_Query)
 
 **[⬆ regresar al índice](#Índice)**
