@@ -16,11 +16,6 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ## :books: Fuentes bibliográficas del curso:
 
-* [Buenas Prácticas de Código PHP en WP](https://make.wordpress.org/core/handbook/coding-standards/php/)
-* [Codex WordPress](http://codex.wordpress.org/)
-* [Developers WordPress org](https://developer.wordpress.org)
-* [Developers WordPress com](https://developer.wordpress.com)
-* [Slides](http://jonmircha.github.io/slides-wordpress/)
 * [Teoría del Curso](./teoria-wp.md)
 
 
@@ -30,10 +25,6 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 * Introducción a WP
 * Taxonomía de un sitio en WP
-	* Categorías
-	* Etiquetas
-	* Entradas
-	* Páginas Estáticas
 * Instalación de WP
 * Gestor de Contenidos de WP
 
@@ -49,6 +40,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * Administador de WP
 * Generación de Contenido
 * Exportación e Importación de WP
+* Creación de Temas
 
 ### :pencil: Actividades para la siguiente sesión:
 
@@ -61,8 +53,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ### :clipboard: Temas y conceptos revisados: 
 
-* Creación de Temas
-* Estructura Básica de Temas
+* Estructura Básica de Temas en WP
 * Funciones Básicas de WP
 * Maquetación en WP
 * The Loop
@@ -76,11 +67,10 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ### :clipboard: Temas y conceptos revisados:
 
-* Buenas Prácticas de Código PHP en WP
 * Plantillas en WP
 * Búsquedas y Comentarios
 * Funciones y Hooks
-* Imagen destacada
+* Menús
 
 ### :pencil: Actividades para la siguiente sesión:
 
@@ -91,9 +81,9 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ### :clipboard: Temas y conceptos revisados:
 
-* Menús
-* Plugins
 * Widgets
+* Plugins
+* Terminando Tema WP
 
 ### :pencil: Actividades para la siguiente sesión:
 
@@ -105,11 +95,11 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 * 100% Avance de Proyecto Final
 	1. Revisión Editorial del contenido (10%)
 	1. Layout del Sitio Versión Desktop / Mobile (40%)
-	1. Programación PHP de tema propio (40%)
+	1. Programación PHP del tema (40%)
 	1. El proyecto debe ser desplegado en Internet (10%)
 * Notas:
-	1. Si hay contenido simulado se restarán 2 puntos a la calificación final
-	1. NO se podrán utilizar temáticas planteadas en la sesión 1 del curso
+	1. Si hay contenido simulado se restará 1 punto a la calificación final
+	1. Mínimo deberán existir 15 publicaciones (entradas o páginas) sino se restará 1 punto a la calificación final
 	1. Queda prohibido usar temas de terceros, en caso de hacerlo estará reprobado
 
 ## :date: Entrega:
