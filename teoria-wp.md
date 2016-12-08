@@ -332,5 +332,8 @@ También se puede modificar el comportamiento de WordPress a través de:
 * [Infinite Scroll](http://www.infinite-scroll.com/)
 * [Infinite Scroll and Load More Ajax Pagination](https://wordpress.org/plugins/infinite-scroll-and-load-more-ajax-pagination/)
 * [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/)
+* [Elementor Page Builder](https://wordpress.org/plugins/elementor/)
+	* [Sitio Web](https://elementor.com/)
+	* [Tutoriales](http://www.arturogarcia.com/elementor-page-builder/)
 
 **[⬆ regresar al índice](#Índice)**
