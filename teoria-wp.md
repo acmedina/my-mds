@@ -200,7 +200,7 @@ Los temas pueden incluir archivos de plantilla personalizados, archivos de image
 
 * [Listado de Temas WP](https://wordpress.org/themes/)
 * [Theme Forest](http://themeforest.net/)
-* [UNDERSCORES (Buenas Prácticas en Temas)](http://underscores.me/)
+* [underscores.me (Buenas Prácticas en Temas)](http://underscores.me/)
 * [Función bloginfo()](https://codex.wordpress.org/Function_Reference/bloginfo)
 * [Función get_header()](https://codex.wordpress.org/Function_Reference/get_header)
 * [Función get_footer()](https://codex.wordpress.org/Function_Reference/get_footer)
