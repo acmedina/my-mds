@@ -1,3 +1,0 @@
-<img width="300" height="169" src="http://localhost/aCursos/WordPress/perros/wp-content/uploads/2015/08/unicos-300x169.jpg" class="Post-image wp-post-image" alt="??????????????" srcset="http://localhost/aCursos/WordPress/perros/wp-content/uploads/2015/08/unicos-300x169.jpg 300w, http://localhost/aCursos/WordPress/perros/wp-content/uploads/2015/08/unicos.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px">
-
-<img  src="<?php the_post_thumbnail_url( 'small'); ?>" srcset="<?php the_post_thumbnail_url( 'medium'); ?> 300w, <?php the_post_thumbnail_url( 'large'); ?> 768w, <?php the_post_thumbnail_url( 'full'); ?> 1200w" sizes="(min-width:64em) 33vw, (min-width:48em) 50vw, 100vw" alt="<?php the_post_thumbnail_caption(); ?>" />
