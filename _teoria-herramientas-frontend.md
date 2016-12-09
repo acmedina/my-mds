@@ -524,7 +524,7 @@ Son soportados por plataformas web como:
 	* [Tutorial interactivo](http://www.markdowntutorial.com/)
 	* [Dillinger - md en vivo](http://dillinger.io/)
 	* [Hashify  - md en vivo](http://hashify.me/)
-* [Jade](http://jade-lang.com/)
+* [Pug](https://pugjs.org)
 * [Haml](http://haml.info/)
 * [Slim](http://slim-lang.com/)
 * [Handlebars](http://handlebarsjs.com/)
