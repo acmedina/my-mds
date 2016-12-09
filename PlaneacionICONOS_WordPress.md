@@ -23,14 +23,14 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ### :clipboard: Temas y conceptos revisados:
 
-* Introducción a WP
+* Introducción
 * Taxonomía de un sitio en WP
-* Instalación de WP
-* Gestor de Contenidos de WP
+* Instalación
+* Gestor de Contenidos
 
 ### :pencil: Actividades para la siguiente sesión: 
 
-* Taxonomía del Proyecto (Archivo txt)
+* Taxonomía del Proyecto (archivo .txt)
 
 
 ## :school: Sesión 2: 29 Septiembre 2016
@@ -39,13 +39,13 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 * Administador de WP
 * Generación de Contenido
-* Exportación e Importación de WP
+* Importación y Exportación
 * Creación de Temas
 
 ### :pencil: Actividades para la siguiente sesión:
 
 * Montar un WP en línea
-* Generar un usuario Administrador **iconos** con password **wordpress** vinculado al correo **jonmircha@gmail.com**
+* Generar un usuario Administrador vinculado al correo **jonmircha@gmail.com**
 * Taxonomía definida en el Adminitrador de WP
 
 
@@ -53,8 +53,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ### :clipboard: Temas y conceptos revisados: 
 
-* Estructura Básica de Temas en WP
-* Funciones Básicas de WP
+* Estructura Básica de Temas
 * Maquetación en WP
 * The Loop
 
@@ -67,8 +66,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 ### :clipboard: Temas y conceptos revisados:
 
-* Plantillas en WP
-* Búsquedas y Comentarios
+* Plantillas
 * Funciones y Hooks
 * Menús
 
@@ -83,7 +81,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 
 * Widgets
 * Plugins
-* Terminando Tema WP
+* Terminando Tema
 
 ### :pencil: Actividades para la siguiente sesión:
 
@@ -98,8 +96,8 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para desar
 	1. Programación PHP del tema (40%)
 	1. El proyecto debe ser desplegado en Internet (10%)
 * Notas:
-	1. Si hay contenido simulado se restará 1 punto a la calificación final
-	1. Mínimo deberán existir 15 publicaciones (entradas o páginas) sino se restará 1 punto a la calificación final
+	1. Si hay contenido simulado se restará 1 punto
+	1. Mínimo deberán existir 15 publicaciones (entradas o páginas) sino se restará 1 punto
 	1. Queda prohibido usar temas de terceros, en caso de hacerlo estará reprobado
 
 ## :date: Entrega:
