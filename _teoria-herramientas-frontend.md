@@ -37,7 +37,6 @@
 **[⬆ regresar al índice](#Índice)**
 
 
-
 ## NPM
 
 ![NPM](http://bextlan.com/img/para-cursos/npm-logo.png)
@@ -172,12 +171,6 @@ Cuando un proyecto tiene el archivo **`package.json`** se pueden instalar todas 
 
 ```
 $ > npm install
-```
-
-### Actualización de paquetes
-
-```
-$ > npm update [package]
 ```
 
 ### Desinstalación de paquetes
