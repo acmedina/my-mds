@@ -13,12 +13,7 @@
 1. [Más de Git & GitHub](#más-de-git--github)
 1. [Preprocesadores](#preprocesadores)
 1. [Gestores de Tareas](#gestores-de-tareas)
-1. [Web Performance Optimization]()
-	1. https://github.com/davidsonfellipe/awesome-wpo#benchmark---javascript
-	1. http://vanessatejada.com/analitica-web/que-es-wpo-web-performance-optimization/
-	1. http://pumpun.com/wpo-web-performance-optimization/
-	1. https://www.dariobf.com/razones-utilizar-wpo/
-	1. https://www.keycdn.com/blog/website-performance-optimization/
+
 
 ## Node.js
 
