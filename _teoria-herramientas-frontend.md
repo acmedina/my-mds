@@ -208,6 +208,7 @@ $ > npm view [package] versions
 
 
 ## Git
+
 ![Git](http://bextlan.com/img/para-cursos/logo-git.png)
 
 #### Software de Control de versiones
@@ -217,6 +218,7 @@ $ > npm view [package] versions
 #### Control de versiones distribuido
 
 Se denomina **"distribuido"** porque cada miembro del equipo dispone de una copia completa del código.
+
 ![Git es Distribuido](http://bextlan.com/img/para-cursos/git-distributed.png)
 
 #### Control de versiones descentralizado
@@ -227,6 +229,7 @@ Los miembros del equipo pueden enviarse código, recibirlo y desarrollar funcion
 ### Ventajas de usar Git
 
 ![Estadísticas Git](http://bextlan.com/img/para-cursos/git-estadisticas.png)
+
 * Estándar actual
 * Código colaborativo, versionado y distribuido
 * Recuperación de archivos
