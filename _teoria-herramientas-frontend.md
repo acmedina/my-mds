@@ -4,7 +4,7 @@
 
 ## Índice
 
-1. [Introducción](link a las slides)
+1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -19,10 +19,6 @@
 	1. http://pumpun.com/wpo-web-performance-optimization/
 	1. https://www.dariobf.com/razones-utilizar-wpo/
 	1. https://www.keycdn.com/blog/website-performance-optimization/
-1. [Node Version]()
-	1. https://frontendlabs.io/3397--node-js-como-trabajar-multiples-versiones-de-node-version-manager
-	https://github.com/coreybutler/nvm-windows
-	https://github.com/creationix/nvm
 
 ## Node.js
 
@@ -35,8 +31,11 @@
 * [io.js y el presente futuro de Node.js](http://jonmircha.github.io/slides-nodejs/#/44)
 * [Instalación](http://jonmircha.github.io/slides-nodejs/#/57)
 * [Más Info](https://www.youtube.com/playlist?list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND)
+* [Node Version Manager](https://github.com/creationix/nvm) (NVM)
+	* [NVM para Windows](https://github.com/coreybutler/nvm-windows)
 
 **[⬆ regresar al índice](#Índice)**
+
 
 
 ## NPM
