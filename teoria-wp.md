@@ -199,13 +199,19 @@ Los temas pueden incluir archivos de plantilla personalizados, archivos de image
 #### Enlaces y Funciones Básicas de un Tema:
 
 * [Listado de Temas WP](https://wordpress.org/themes/)
-* [Theme Forest](http://themeforest.net/)
 * [underscores.me (Buenas Prácticas en Temas)](http://underscores.me/)
-* [Función bloginfo()](https://codex.wordpress.org/Function_Reference/bloginfo)
-* [Función get_header()](https://codex.wordpress.org/Function_Reference/get_header)
-* [Función get_footer()](https://codex.wordpress.org/Function_Reference/get_footer)
-* [Función get_sidebar()](https://codex.wordpress.org/Function_Reference/get_sidebar)
-* [Función get_template_part()](https://codex.wordpress.org/Function_Reference/get_template_part)
+* Tiendas de Temas:
+	* [Theme Forest](http://themeforest.net/)
+	* [Template Monster](https://www.templatemonster.com/)
+	* [Woo Commerce](https://woocommerce.com/)
+	* [WP ZOOM](http://www.wpzoom.com/)
+	* [Elegant Themes](https://www.elegantthemes.com/)
+* Funciones Básicas:
+	* [Función bloginfo()](https://codex.wordpress.org/Function_Reference/bloginfo)
+	* [Función get_header()](https://codex.wordpress.org/Function_Reference/get_header)
+	* [Función get_footer()](https://codex.wordpress.org/Function_Reference/get_footer)
+	* [Función get_sidebar()](https://codex.wordpress.org/Function_Reference/get_sidebar)
+	* [Función get_template_part()](https://codex.wordpress.org/Function_Reference/get_template_part)
 
 #### Funciones de inclusión obligatorias:
 
@@ -310,31 +316,84 @@ También se puede modificar el comportamiento de WordPress a través de:
 
 ## Plugins WordPress
 
-* [Duplicator](https://wordpress.org/plugins/duplicator/)
-* [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
-* [WP No Base Permalink](https://wordpress.org/plugins/wp-no-base-permalink/)
-* [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
-* [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
-* [WP-PageNavi](https://wordpress.org/plugins/wp-pagenavi/)
-* [HUGE-IT Gallery](https://wordpress.org/plugins/gallery-images/)
-* [WP Slick Slider and Image Carousel](https://wordpress.org/plugins/wp-slick-slider-and-image-carousel/)
-* [Slider WD](https://wordpress.org/plugins/slider-wd/)
-* [Multiple Featured Images](https://wordpress.org/plugins/multiple-featured-images/)
-* [WP Most Popular](https://wordpress.org/plugins/wp-most-popular/)
-* [Meta Box](https://metabox.io/)
-* [Google Analytics](https://wordpress.org/plugins/googleanalytics/)
-* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
-* [Insert PHP](https://wordpress.org/plugins/insert-php/)
-* [Jetpack by WordPress.com](https://wordpress.org/plugins/jetpack/)
-* [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
-* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
-* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
-* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
-* [Infinite Scroll](http://www.infinite-scroll.com/)
-* [Infinite Scroll and Load More Ajax Pagination](https://wordpress.org/plugins/infinite-scroll-and-load-more-ajax-pagination/)
-* [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/)
-* [Elementor Page Builder](https://wordpress.org/plugins/elementor/)
-	* [Sitio Web](https://elementor.com/)
-	* [Tutoriales](http://www.arturogarcia.com/elementor-page-builder/)
+* BackUp
+	* [Duplicator](https://wordpress.org/plugins/duplicator/)
+	* [Simple Optimizer](https://wordpress.org/plugins/simple-optimizer/)
+* Formularios
+	* [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
+* Imágenes
+	* [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
+	* [Manual Image Crop](https://wordpress.org/plugins/manual-image-crop/)
+	* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
+	* [Multiple Featured Images](https://wordpress.org/plugins/multiple-featured-images/)
+* Galerías y Sliders
+	* [HUGE-IT Gallery](https://wordpress.org/plugins/gallery-images/)
+	* [WP Slick Slider and Image Carousel](https://wordpress.org/plugins/wp-slick-slider-and-image-carousel/)
+	* [Slider WD](https://wordpress.org/plugins/slider-wd/)
+* Videos Responsive
+	* [Advanced Responsive Video Embedder](https://wordpress.org/plugins/advanced-responsive-video-embedder/)
+	* [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/)
+* Paginación
+	* [WP-PageNavi](https://wordpress.org/plugins/wp-pagenavi/)
+	* [Infinite Scroll](http://www.infinite-scroll.com/)
+	* [Infinite Scroll and Load More Ajax Pagination](https://wordpress.org/plugins/infinite-scroll-and-load-more-ajax-pagination/)
+* Inserción de Código
+	* [Insert PHP](https://wordpress.org/plugins/insert-php/)
+	* [Ajax Custom CSS/JS](https://wordpress.org/plugins/ajax-awesome-css/)
+	* [Easy Custom Css/Js](https://wordpress.org/plugins/easy-custom-cssjs/)
+	* [Simple Custom CSS](https://wordpress.org/plugins/simple-custom-css/)
+	* [Simple Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/)
+	* [Sublime Custom CSS Editor](https://wordpress.org/plugins/sublime-custom-css-editor/)
+	* [Sublime Custom JS Editor](https://wordpress.org/plugins/sublime-custom-js-editor/)
+* Soporte SASS y SCSS
+	* [WP-SCSS](https://wordpress.org/plugins/wp-scss/)
+	* [Tuxedo CSS Editor](https://wordpress.org/plugins/tuxedo-css-editor/)
+	* [Sassify](https://wordpress.org/plugins/sassify/)
+* Categorias y Publicaciones
+	* [WP No Base Permalink](https://wordpress.org/plugins/wp-no-base-permalink/)
+	* [WP Most Popular](https://wordpress.org/plugins/wp-most-popular/)
+* Campos Adicionales
+	* [Meta Box](https://metabox.io/)
+	* [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
+* Social Media & Marketing
+	* [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
+	* [Social Share Buttons - Social Pug](https://wordpress.org/plugins/social-pug/)
+	* [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/)
+	* [Digg Digg](https://wordpress.org/plugins/digg-digg/)	
+	* [Social Count Plus](https://wordpress.org/plugins/social-count-plus/)
+	* [Share Buttons by Add This](https://wordpress.org/plugins/addthis/)
+* Adaptive Design
+	* [Any Mobile Theme Switcher](https://wordpress.org/plugins/any-mobile-theme-switcher/)
+	* [User Agent Themes Switcher](https://wordpress.org/plugins/useragent-themes-switcher/)
+* Cookies
+	* [Cookie Consent](https://wordpress.org/plugins/uk-cookie-consent/)
+	* [Cookie Bar](https://wordpress.org/plugins/cookie-bar/)
+* Administrador de Archivos
+	* [File Manager](https://wordpress.org/plugins/wp-file-manager/)
+	* [File Manager](https://wordpress.org/plugins/file-manager/)
+* Google
+	* [Google Analytics](https://wordpress.org/plugins/googleanalytics/)
+	* [WP Google Fonts](https://wordpress.org/plugins/wp-google-fonts/)
+	* [Google Map](https://wordpress.org/plugins/gmap-embed/)
+	* [Google Map](https://wordpress.org/plugins/wd-google-maps/)
+	* [YouTube Embed WordPress](https://wordpress.org/plugins/youtube-video-player/)
+	* [YouTube](https://wordpress.org/plugins/youtube-embed-plus/)
+	* [Translate WordPress with GTranslate](https://wordpress.org/plugins/gtranslate/)
+* SEO
+	* [Jetpack by WordPress.com](https://wordpress.org/plugins/jetpack/)
+	* [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
+	* [itemprop WP for SERP/SEO Rich snippets](https://wordpress.org/plugins/itempropwp/)
+	* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
+	* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
+* Foros y Comunidades
+	* [BuddyPress](https://wordpress.org/plugins/buddypress/)
+	* [bbPress](https://wordpress.org/plugins/bbpress/)
+* Otros
+	* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
+	* [Loco Translate](https://wordpress.org/plugins/loco-translate/)
+	* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
+	* [Elementor Page Builder](https://wordpress.org/plugins/elementor/)
+		* [Sitio Web](https://elementor.com/)
+		* [Tutoriales](http://www.arturogarcia.com/elementor-page-builder/)
 
 **[⬆ regresar al índice](#Índice)**
