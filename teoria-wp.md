@@ -321,15 +321,18 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [Simple Optimizer](https://wordpress.org/plugins/simple-optimizer/)
 * Formularios
 	* [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
-* Imágenes
+* Optimización de Imágenes
 	* [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
 	* [Manual Image Crop](https://wordpress.org/plugins/manual-image-crop/)
 	* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
-	* [Multiple Featured Images](https://wordpress.org/plugins/multiple-featured-images/)
 * Galerías y Sliders
 	* [HUGE-IT Gallery](https://wordpress.org/plugins/gallery-images/)
 	* [WP Slick Slider and Image Carousel](https://wordpress.org/plugins/wp-slick-slider-and-image-carousel/)
 	* [Slider WD](https://wordpress.org/plugins/slider-wd/)
+	* [Post Slider](https://wordpress.org/plugins/post-slider-wd/)
+* Imágenes Responsive
+	* [Responsify WP](https://es-mx.wordpress.org/plugins/responsify-wp/)
+	* [RICG Responsive Images](https://wordpress.org/plugins/ricg-responsive-images/)
 * Videos Responsive
 	* [Advanced Responsive Video Embedder](https://wordpress.org/plugins/advanced-responsive-video-embedder/)
 	* [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/)
@@ -352,11 +355,11 @@ También se puede modificar el comportamiento de WordPress a través de:
 * Categorias y Publicaciones
 	* [WP No Base Permalink](https://wordpress.org/plugins/wp-no-base-permalink/)
 	* [WP Most Popular](https://wordpress.org/plugins/wp-most-popular/)
+	* [Multiple Featured Images](https://wordpress.org/plugins/multiple-featured-images/)
 * Campos Adicionales
 	* [Meta Box](https://metabox.io/)
 	* [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
 * Social Media & Marketing
-	* [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
 	* [Social Share Buttons - Social Pug](https://wordpress.org/plugins/social-pug/)
 	* [Simple Share Buttons Adder](https://wordpress.org/plugins/simple-share-buttons-adder/)
 	* [Digg Digg](https://wordpress.org/plugins/digg-digg/)	
@@ -385,6 +388,14 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [itemprop WP for SERP/SEO Rich snippets](https://wordpress.org/plugins/itempropwp/)
 	* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
 	* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
+* Usuarios
+	* [User Roles and Capabilities](https://wordpress.org/plugins/user-roles-and-capabilities/)
+	* [User Groups](https://wordpress.org/plugins/user-groups/)
+	* [Paid Memberships Pro](https://wordpress.org/plugins/paid-memberships-pro/)
+* Comentarios
+	* [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
+	* [Akismet](https://wordpress.org/plugins/akismet/)
+	* [Disqus Comment System](https://wordpress.org/plugins/disqus-comment-system/)
 * Foros y Comunidades
 	* [BuddyPress](https://wordpress.org/plugins/buddypress/)
 	* [bbPress](https://wordpress.org/plugins/bbpress/)
