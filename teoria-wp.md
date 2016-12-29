@@ -404,8 +404,9 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [BuddyPress](https://wordpress.org/plugins/buddypress/)
 	* [bbPress](https://wordpress.org/plugins/bbpress/)
 * Comercio Electrónico
-	* [Estadísticas del Uso de Plataformas Ecommerce](https://trends.builtwith.com/shop)
 	* [WooCommerce](https://wordpress.org/plugins/woocommerce/)
+		* [Estadísticas del Uso de Plataformas Ecommerce](https://trends.builtwith.com/shop)
+		* [Sitio Web](https://woocommerce.com/)
 * Otros
 	* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
 	* [Loco Translate](https://wordpress.org/plugins/loco-translate/)
