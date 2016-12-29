@@ -189,6 +189,7 @@
 
 * [JavaScript The Right Way](http://jstherightway.org/es-es/)
 * [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js)
+* [plainJS](https://plainjs.com/)
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/es/)
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
 * [Can I Use](http://caniuse.com/)
