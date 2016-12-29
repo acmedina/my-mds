@@ -31,6 +31,7 @@
 * [Developers WordPress](https://developer.wordpress.org/)
 * [Buenas prácticas de código PHP en WordPress](https://make.wordpress.org/core/handbook/coding-standards/php/)
 * [Embeds (Objetos Incrustados)](https://codex.wordpress.org/Embeds)
+* [Servicios de Actualización](https://codex.wordpress.org/Update_Services)
 * [Roles y Capacidades en WordPress](https://codex.wordpress.org/Roles_and_Capabilities)
 * [Gravatar](http://es.gravatar.com/)
 * [Recuperar passwords de usuarios en WordPress](http://www.wpbeginner.com/beginners-guide/how-to-reset-a-wordpress-password-from-phpmyadmin/)
@@ -316,9 +317,12 @@ También se puede modificar el comportamiento de WordPress a través de:
 
 ## Plugins WordPress
 
-* BackUp
+* BackUp & Seguridad
 	* [Duplicator](https://wordpress.org/plugins/duplicator/)
 	* [Simple Optimizer](https://wordpress.org/plugins/simple-optimizer/)
+	* [All In One WP Security & Firewall](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
+	* [BackWPup - WordPress Backup Plugin](https://wordpress.org/plugins/backwpup/)
+	* [WordPress Backup to Dropbox](https://wordpress.org/plugins/wordpress-backup-to-dropbox/)
 * Formularios
 	* [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 * Optimización de Imágenes
@@ -399,6 +403,9 @@ También se puede modificar el comportamiento de WordPress a través de:
 * Foros y Comunidades
 	* [BuddyPress](https://wordpress.org/plugins/buddypress/)
 	* [bbPress](https://wordpress.org/plugins/bbpress/)
+* Comercio Electrónico
+	* [Estadísticas del Uso de Plataformas Ecommerce](https://trends.builtwith.com/shop)
+	* [WooCommerce](https://wordpress.org/plugins/woocommerce/)
 * Otros
 	* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
 	* [Loco Translate](https://wordpress.org/plugins/loco-translate/)
