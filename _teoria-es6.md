@@ -21,10 +21,10 @@
 	1. [Promesas](#promesas)
 	1. [Iteradores](#iteradores)
 	1. [Símbolos](#símbolos)
+	1. [Generadores](#generadores)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
-	1. [Generadores](#generadores)
 	1. Replacing IIFEs with Blocks
 	1. Módulos
 	1. Métodos de Arrays
