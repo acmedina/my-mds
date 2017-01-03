@@ -24,7 +24,7 @@
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
-	1. Generadores
+	1. [Generadores](#generadores)
 	1. Replacing IIFEs with Blocks
 	1. Módulos
 	1. Métodos de Arrays
@@ -41,7 +41,7 @@
 # ECMAScript
 
 * ECMAScript es el nombre del estándar internacional que define JavaScript
-* Definido por un comité técnico (TC-39) de ecma international.
+* Definido por un comité técnico (TC-39) de ecma international
 * Identificado como Ecma-262 y ISO/IEC 16262
 * No es parte del W3C
 * La versión actual es la ES6 o [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/)
@@ -387,7 +387,7 @@ Cuando la función tiene más de una línea (o no devuelve ningún valor) es nec
 
 ### Contexto Léxico de `this`
 
-Las arrow function tienen la capacidad de capturar el objeto `this` del contexto donde la `arrow` se ejecuta y así utilizarlo dentro de su bloque de sentencias
+Las arrow function tienen la capacidad de capturar el objeto `this` del contexto donde la `arrow` se ejecuta y así utilizarlo dentro de su bloque de sentencias.
 
 ```JavaScript
 (function () {
@@ -775,7 +775,7 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 
 ### aka Promises
 
-Es una manera alternativa a las **`callbacks`** para modelar asincronía
+Es una manera alternativa a las **`callbacks`** para modelar asincronía.
 
 * Construcción explícita del flujo de ejecución
 * Separación en bloques consecutivos
@@ -862,7 +862,7 @@ promise
 
 ### aka Iterators
 
-Un **Iterador** es un mecanismo que tienen los lenguajes de programación para recorrer secuencialmente distintas estructuras de datos
+Un **Iterador** es un mecanismo que tienen los lenguajes de programación para recorrer secuencialmente distintas estructuras de datos.
 
 Para que un objeto sea iterable en JavaScript es necesario que:
 * Implemente el tipo **`Symbol.iterator`**
@@ -886,7 +886,7 @@ Para que un objeto sea iterable en JavaScript es necesario que:
 
 ### Recorriendo iteradores con el bucle **`for...of`**
 
-Es un ciclo que nos permite recorrer objetos iterables
+Es un ciclo que nos permite recorrer objetos iterables.
 
 ```JavaScript
 (function () {
@@ -925,11 +925,11 @@ Es un ciclo que nos permite recorrer objetos iterables
 
 ### aka Symbols
 
-Un **Símbolo** es un tipo de datos único e inmutable, puede ser utilizado como un identificador para las propiedades de los objetos
+Un **Símbolo** es un tipo de datos único e inmutable, puede ser utilizado como un identificador para las propiedades de los objetos.
 
-Son útiles cuando queremos agregar métodos o atributos propios a objetos nativos del lenguaje o a los de alguna librería de terceros para evitar que, si existiése algún método o atributo con el nombre del que queremos crear evitar que el original se sobre escriba con esto se evita un **antipatrón**
+Son útiles cuando queremos agregar métodos o atributos propios a objetos nativos del lenguaje o a los de alguna librería de terceros para evitar que, si existiése algún método o atributo con el nombre del que queremos crear evitar que el original se sobre escriba con esto se evita un **antipatrón**.
 
-Cuando se recorran las propiedades de un objeto, las que sean definidas como símbolo no aparecerán
+Cuando se recorran las propiedades de un objeto, las que sean definidas como símbolo no aparecerán.
 
 ### Recorriendo los elementos de un Objeto
 
@@ -993,6 +993,104 @@ Cuando se recorran las propiedades de un objeto, las que sean definidas como sí
 **[⬆ regresar al índice](#Índice)**
 
 
+## Generadores
+
+### aka Generators
+
+Los generadores son un tipo especial de función que devuelve un valor y permite luego volver a entrar en la función en el mismo lugar en que se quedó, al tiempo que conserva el contexto de ejecución.
+
+Son funciones que pueden ser pausadas y resumidas cuando llamamos a la función generador, no ejecuta el cuerpo de la función, sino que devuelve un objeto generador. El generador implementa una interfaz que le proporciona un método **`next()`**, que ejecutará el cuerpo de la función hasta encontrar un **`yield`**. En este punto, se detendrá.
+
+El secreto del generador radica justamente en la palabra clave **`yield`**, que es un tipo especial de **`return`** que, en lugar de devolver un solo valor y salirse de la función, entrará nuevamente en esta y continuará ejecutándola hasta que se acabe o encuentre otra cláusula **`yield`**.
+
+Para que una función se considere generador debe declararse anteponiento un asterísco **`function*`**.
+
+Para obtener los resultados del generador lo hacemos con el método **`next()`** que devuelve un objeto de tipo:
+
+```JavaScript
+{
+	value: el valor retornado por yield
+	done: indica si ha finalizado o no la ejecución del cuerpo de la función
+}
+```
+
+Los generadores, al implementar **`.next()`**, son iterables y suelen ser una forma más sencilla de describir un iterador.
+
+```JavaScript
+(function () {
+	'use strict';
+
+	function* aGenerator(name) {
+	    yield `Hola ${name}`;
+	    yield 'Esta línea saldrá en la segunda ejecución';
+	    yield 'Esta otra, en la tercera';
+	    if ( name === 'Jonathan' ) {
+	    	yield 'Esta otra, saldrá en la cuarta solo si te llamas Jonathan';
+	    }
+	}
+
+	let gen = aGenerator('Jonathan');
+	console.log( gen.next() ); //Imprime Object {value: "Hola Jonathan", done: false}
+	console.log( gen.next().value ); //Imprime Esta línea saldrá la segunda ejecución
+	console.log( gen.next().value ); //Imprime Esta otra, en la tercera
+	console.log( gen.next().value ); //Imprime Esta otra, saldrá en la cuarta solo si te llamas Jonathan
+	console.log( gen.next() ); //Imprime Object {value: undefined, done: true}
+})();
+```
+
+### Más ejemplos con Generadores
+
+```JavaScript
+(function () {
+	'use strict';
+
+	class LoremIpsum {
+		constructor( text ) {
+			this._text = text;
+		}
+
+		*words() {
+			const re = /\S+/g;
+			let match;
+
+			while( match = re.exec( this._text ) ){
+				yield match[0];
+			}
+		}
+	}
+
+	const lorem = new LoremIpsum('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptatem eveniet ipsum in similique maxime sunt eaque veritatis sapiente. Fuga minus, non cumque deleniti consequatur. Odit reprehenderit non fugit cum!');
+
+	for ( let word of lorem.words() ) {
+	  console.log( word );
+	}
+
+	class Users {
+		constructor( people ) {
+			this._people = people;
+		}
+
+		*alias() {
+			for ( let person of this._people ) {
+				yield ( person.sex === 'M' ) ? `Mr. ${person.name}` : `Mrs. ${person.name}`;
+			}
+		}
+	}
+
+	const people = new Users([
+		{ sex: 'M', name: 'Jon' },
+		{ sex: 'W', name: 'Irma' }
+	]);
+
+	for ( let person of people.alias() ){
+		console.log( person );
+	}
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
 ## Tema
 
 ### aka Tema
@@ -1012,7 +1110,7 @@ Explicacion
 
 ## Métodos clase String
 
-Nuevos métodos para Cadenas de Texto
+Nuevos métodos para Cadenas de Texto.
 
 * [**`.startsWith()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
 * [**`.endsWith()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
@@ -1058,7 +1156,7 @@ Nuevos métodos para Cadenas de Texto
 
 ## Métodos clase Math
 
-Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños XP
+Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños :stuck_out_tongue_winking_eye:.
 
 * [**`.acosh()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/acosh)
 * [**`.asinh()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh)
