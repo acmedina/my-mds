@@ -23,6 +23,7 @@
 	1. [Símbolos](#símbolos)
 	1. [Generadores](#generadores)
 	1. [Proxies](#proxies)
+	1. [Reflexión](#reflexión)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
@@ -32,7 +33,6 @@
 	1. Métodos de Object
 	1. Métodos de Number
 	1. Colecciones
-	1. Reflection
 	1. Decoradores
 	1. Funciones async
 	1. Map, Weakmap, Set, Weakset
@@ -1135,6 +1135,44 @@ El **`handler`** es el encargado de modificar el comportamiento original del obj
 	console.log( person.age ); //Imprime 33
 
 	person.age = -10; //Imprime Error: Invalid value for property age
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Reflexión
+
+### aka Reflection
+
+Objeto global que proporciona funciones estáticas capaces de intereceptar operaciones de JavaScript, es muy útil cuando se trabaja con **`proxies`** y de hecho, comparten muchos métodos.
+
+La mayoría de sus métodos estáticos tienen una equivalencia en el objeto **`Object`** o **`Function`**.
+
+Las ventajas que ofrece el uso de **`Reflect`** son:
+
+* Aplicación de funciones más fiable
+* Valores de retorno más útiles
+* Sintaxis menos verbosa
+* Mejora la forma en la que se capturan los getters y setters
+* [Más info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
+
+ES5 ya incluye varias funcionalidades íntimamente relacionadas con la reflexión, como por ejemplo **`Array.isArray()`** o **`Object.getOwnPropertyDescriptor()`**. ES6 introduce la API **`Reflection`** para agrupar todos estos métodos y los nuevos que se vayan definiendo.
+
+```JavaScript
+(function () {
+	'use strict';
+	
+	const obj = { x: 1, y: 2 };
+	console.log( obj ); //Imprime Object {x: 1, y: 2}
+
+	console.log( Reflect.has( obj, 'z' ) ); //Imprime false
+	console.log( Reflect.has( obj, 'x' ) ); //Imprime true
+	
+	Reflect.deleteProperty( obj, 'x' );
+	
+	console.log( Reflect.has( obj, 'x' ) ); //Imprime false
+	console.log( obj ); //Imprime Object {y: 2}
 })();
 ```
 
