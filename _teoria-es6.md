@@ -22,6 +22,7 @@
 	1. [Iteradores](#iteradores)
 	1. [Símbolos](#símbolos)
 	1. [Generadores](#generadores)
+	1. [Proxies](#proxies)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
@@ -31,7 +32,6 @@
 	1. Métodos de Object
 	1. Métodos de Number
 	1. Colecciones
-	1. Proxies
 	1. Reflection
 	1. Decoradores
 	1. Funciones async
@@ -1085,6 +1085,56 @@ Los generadores, al implementar **`.next()`**, son iterables y suelen ser una fo
 	for ( let person of people.alias() ){
 		console.log( person );
 	}
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Proxies
+
+### aka Proxies
+
+Los proxies proporcionan una API para capturar o interceptar cualquier operación realizada sobre un objeto y para modificar cómo se comporta ese objeto. Son útiles para :
+
+* Intercepción
+* Virtualización de objetos
+* Gestión de recursos
+* Hacer profiling y generar logs durante la depuración de una aplicación
+* Seguridad y control de acceso
+* Definición de "contratos" al usar objetos
+* [Más info](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Proxy)
+
+La API Proxy define un constructor al que se le pasa como primer argumento el objeto que se va a capturar llamado **`target`** y como segundo argumento el **`handler`** que realizará la captura. Ejemplo:
+
+```JavaScript
+(function () {
+	'use strict';
+
+	let target = { /* propiedades y métodos */ },
+		handler = { /* funciones capturadoras */ },
+		proxy = new Proxy(target, handler);
+})();
+```
+El **`handler`** es el encargado de modificar el comportamiento original del objeto **`target`**. Este **`handler`** contiene métodos "capturadores" ( por ejemplo .get(), .set(), .apply() ) que se ejecutan al realizar la llamada correspondiente del proxy.
+
+```JavaScript
+(function () {
+	'use strict';
+
+	const person = new Proxy({}, {
+		set( obj, prop, val ) {
+			if ( prop === 'age' && ( !Number.isInteger( val ) || val < 0 ) ) {
+				throw new Error( `Invalid value for property ${prop}` );
+			}
+			return obj[prop] = val;
+		}
+	});
+
+	person.age = -10; //Imprime Error: Invalid value for property age
+	person.age = 33; //33
+
+	console.log( person.age );
 })();
 ```
 
