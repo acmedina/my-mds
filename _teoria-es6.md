@@ -1131,10 +1131,10 @@ El **`handler`** es el encargado de modificar el comportamiento original del obj
 		}
 	});
 
-	person.age = -10; //Imprime Error: Invalid value for property age
-	person.age = 33; //33
-
+	person.age = 33; //Imprime 33
 	console.log( person.age );
+
+	person.age = -10; //Imprime Error: Invalid value for property age
 })();
 ```
 
