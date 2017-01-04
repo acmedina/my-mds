@@ -24,6 +24,7 @@
 	1. [Generadores](#generadores)
 	1. [Proxies](#proxies)
 	1. [Reflexión](#reflexión)
+	1. [Decoradores](#decoradores)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
@@ -31,9 +32,6 @@
 	1. Módulos
 	1. Métodos de Arrays
 	1. Métodos de Object
-	1. Métodos de Number
-	1. Colecciones
-	1. Decoradores
 	1. Funciones async
 	1. Map, Weakmap, Set, Weakset
 
@@ -1020,16 +1018,16 @@ Los generadores, al implementar **`.next()`**, son iterables y suelen ser una fo
 (function () {
 	'use strict';
 
-	function* aGenerator(name) {
+	function* generador(nombre) {
 	    yield `Hola ${name}`;
 	    yield 'Esta línea saldrá en la segunda ejecución';
 	    yield 'Esta otra, en la tercera';
-	    if ( name === 'Jonathan' ) {
+	    if ( nombre === 'Jonathan' ) {
 	    	yield 'Esta otra, saldrá en la cuarta solo si te llamas Jonathan';
 	    }
 	}
 
-	let gen = aGenerator('Jonathan');
+	let gen = generador('Jonathan');
 	console.log( gen.next() ); //Imprime Object {value: "Hola Jonathan", done: false}
 	console.log( gen.next().value ); //Imprime Esta línea saldrá la segunda ejecución
 	console.log( gen.next().value ); //Imprime Esta otra, en la tercera
@@ -1065,25 +1063,25 @@ Los generadores, al implementar **`.next()`**, son iterables y suelen ser una fo
 	  console.log( word );
 	}
 
-	class Users {
-		constructor( people ) {
-			this._people = people;
+	class Usuarios {
+		constructor( gente ) {
+			this._gente = gente;
 		}
 
 		*alias() {
-			for ( let person of this._people ) {
-				yield ( person.sex === 'M' ) ? `Mr. ${person.name}` : `Mrs. ${person.name}`;
+			for ( let persona of this._gente ) {
+				yield ( persona.sexo === 'H' ) ? `Sr. ${persona.nombre}` : `Sra. ${persona.nombre}`;
 			}
 		}
 	}
 
-	const people = new Users([
-		{ sex: 'M', name: 'Jon' },
-		{ sex: 'W', name: 'Irma' }
+	const gente = new Usuarios([
+		{ sexo: 'H', nombre: 'Jon' },
+		{ sexo: 'M', nombre: 'Irma' }
 	]);
 
-	for ( let person of people.alias() ){
-		console.log( person );
+	for ( let persona of gente.alias() ){
+		console.log( persona );
 	}
 })();
 ```
@@ -1122,19 +1120,19 @@ El **`handler`** es el encargado de modificar el comportamiento original del obj
 (function () {
 	'use strict';
 
-	const person = new Proxy({}, {
+	const persona = new Proxy({}, {
 		set( obj, prop, val ) {
-			if ( prop === 'age' && ( !Number.isInteger( val ) || val < 0 ) ) {
-				throw new Error( `Invalid value for property ${prop}` );
+			if ( prop === 'edad' && ( !Number.isInteger( val ) || val < 0 ) ) {
+				throw new Error( `Valor inválido para la propiedad ${prop}` );
 			}
 			return obj[prop] = val;
 		}
 	});
 
-	person.age = 33;
-	console.log( person.age ); //Imprime 33
+	persona.edad = 33;
+	console.log( persona.edad ); //Imprime 33
 
-	person.age = -10; //Imprime Error: Invalid value for property age
+	persona.edad = -10; //Imprime Error: Valor inválido para la propiedad edad
 })();
 ```
 
@@ -1173,6 +1171,68 @@ ES5 ya incluye varias funcionalidades íntimamente relacionadas con la reflexió
 	
 	console.log( Reflect.has( obj, 'x' ) ); //Imprime false
 	console.log( obj ); //Imprime Object {y: 2}
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Decoradores
+
+### aka Decorators
+
+Permiten anotar y modificar las clases y propiedades en tiempo de diseño. Mientras que en ES5 los objetos literales admiten expresiones arbitrarias en la posición del valor, las clases de ES6 sólo admiten funciones como valores literales, un decorador restaura la capacidad de ejecutar código en tiempo de diseño, mientras se mantiene una sintaxis declarativa.
+
+Un decorador:
+
+* Es una expresión
+* Evalúa una función
+* Toma el **`target`**, **`name`** y el **`descriptor`** del decorador como argumentos
+* Opcionalmente retorna un **`descriptor`** del decorador para instalar en el objeto **`target`**
+
+Parámetros de un decorador:
+
+* **`target`:** El objeto al que queremos modificar su definición de propiedades
+* **`name`:** El nombre de la propiedad a modificar
+* **`descriptor`:** La descripción de la propiedad del objeto, que a su vez es:
+	* **`configurable`:** indica si puede ser modificada
+	* **`enumerable`:** se puede usar con un **`for...of`**
+	* **`value`:** valor asociado a la propiedad
+	* **`writable`:** indica si la propiedad puede ser cambiada con una asignación
+	* **`get`:** indica si la propiedad es un **`getter`**
+	* **`set`:** indica si la propiedad es un **`setter`**
+
+```JavaScript
+(function () {
+	'use strict';
+
+	const soloLectura = (target, name, descriptor) => {
+		descriptor.writable = false;
+		return descriptor;
+	};
+
+	class Persona {
+		constructor( {nombre, apellido} ) {
+			this.nombre = nombre;
+			this.apellido = apellido;
+		}
+
+		@soloLectura
+		nombrar() { 
+			return `${this.nombre} ${this.apellido}`;
+		}
+	}
+
+	const alguien = new Persona({
+		nombre: 'Jonathan',
+		apellido: 'MirCha'
+	});
+
+	console.log( alguien.nombrar() );
+
+	alguien.nombrar = () => { 
+		return `${this.nombre}`;
+	}
 })();
 ```
 
