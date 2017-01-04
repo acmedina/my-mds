@@ -1095,7 +1095,7 @@ Los generadores, al implementar **`.next()`**, son iterables y suelen ser una fo
 
 ### aka Proxies
 
-Los proxies proporcionan una API para capturar o interceptar cualquier operación realizada sobre un objeto y para modificar cómo se comporta ese objeto. Son útiles para :
+Los proxies proporcionan una API para capturar o interceptar cualquier operación realizada sobre un objeto y para modificar cómo se comporta ese objeto. Son útiles para:
 
 * Intercepción
 * Virtualización de objetos
