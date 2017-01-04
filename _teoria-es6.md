@@ -24,10 +24,10 @@
 	1. [Generadores](#generadores)
 	1. [Proxies](#proxies)
 	1. [Reflexión](#reflexión)
-	1. [Decoradores](#decoradores)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
+	1. [Decoradores](#decoradores)
 	1. Replacing IIFEs with Blocks
 	1. Módulos
 	1. Métodos de Arrays
@@ -1177,68 +1177,6 @@ ES5 ya incluye varias funcionalidades íntimamente relacionadas con la reflexió
 **[⬆ regresar al índice](#Índice)**
 
 
-## Decoradores
-
-### aka Decorators
-
-Permiten anotar y modificar las clases y propiedades en tiempo de diseño. Mientras que en ES5 los objetos literales admiten expresiones arbitrarias en la posición del valor, las clases de ES6 sólo admiten funciones como valores literales, un decorador restaura la capacidad de ejecutar código en tiempo de diseño, mientras se mantiene una sintaxis declarativa.
-
-Un decorador:
-
-* Es una expresión
-* Evalúa una función
-* Toma el **`target`**, **`name`** y el **`descriptor`** del decorador como argumentos
-* Opcionalmente retorna un **`descriptor`** del decorador para instalar en el objeto **`target`**
-
-Parámetros de un decorador:
-
-* **`target`:** El objeto al que queremos modificar su definición de propiedades
-* **`name`:** El nombre de la propiedad a modificar
-* **`descriptor`:** La descripción de la propiedad del objeto, que a su vez es:
-	* **`configurable`:** indica si puede ser modificada
-	* **`enumerable`:** se puede usar con un **`for...of`**
-	* **`value`:** valor asociado a la propiedad
-	* **`writable`:** indica si la propiedad puede ser cambiada con una asignación
-	* **`get`:** indica si la propiedad es un **`getter`**
-	* **`set`:** indica si la propiedad es un **`setter`**
-
-```JavaScript
-(function () {
-	'use strict';
-
-	const soloLectura = (target, name, descriptor) => {
-		descriptor.writable = false;
-		return descriptor;
-	};
-
-	class Persona {
-		constructor( {nombre, apellido} ) {
-			this.nombre = nombre;
-			this.apellido = apellido;
-		}
-
-		@soloLectura
-		nombrar() { 
-			return `${this.nombre} ${this.apellido}`;
-		}
-	}
-
-	const alguien = new Persona({
-		nombre: 'Jonathan',
-		apellido: 'MirCha'
-	});
-
-	console.log( alguien.nombrar() );
-
-	alguien.nombrar = () => { 
-		return `${this.nombre}`;
-	}
-})();
-```
-
-**[⬆ regresar al índice](#Índice)**
-
-
 ## Tema
 
 ### aka Tema
@@ -1345,6 +1283,69 @@ Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños :stuck_out_ton
 	console.log( Math.sinh(22) ); //Imprime 1792456423.065796
 	console.log( Math.tanh(19) ); //Imprime 0.9999999999999999
 	console.log( Math.trunc(40.56) ); //Imprime 40
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Decoradores
+
+### aka Decorators
+
+Permiten anotar y modificar las clases y propiedades en tiempo de diseño. Mientras que en ES5 los objetos literales admiten expresiones arbitrarias en la posición del valor, las clases de ES6 sólo admiten funciones como valores literales, un decorador restaura la capacidad de ejecutar código en tiempo de diseño, mientras se mantiene una sintaxis declarativa.
+
+Un decorador:
+
+* Es una expresión
+* Evalúa una función
+* Toma el **`target`**, **`name`** y el **`descriptor`** del decorador como argumentos
+* Opcionalmente retorna un **`descriptor`** del decorador para instalar en el objeto **`target`**
+* [Más Info](https://github.com/wycats/javascript-decorators/blob/master/README.md)
+
+Parámetros de un decorador:
+
+* **`target`:** El objeto al que queremos modificar su definición de propiedades
+* **`name`:** El nombre de la propiedad a modificar
+* **`descriptor`:** La descripción de la propiedad del objeto, que a su vez es:
+	* **`configurable`:** indica si puede ser modificada
+	* **`enumerable`:** se puede usar con un **`for...of`**
+	* **`value`:** valor asociado a la propiedad
+	* **`writable`:** indica si la propiedad puede ser cambiada con una asignación
+	* **`get`:** indica si la propiedad es un **`getter`**
+	* **`set`:** indica si la propiedad es un **`setter`**
+
+```JavaScript
+(function () {
+	'use strict';
+
+	const soloLectura = (target, name, descriptor) => {
+		descriptor.writable = false;
+		return descriptor;
+	};
+
+	class Persona {
+		constructor( {nombre, apellido} ) {
+			this.nombre = nombre;
+			this.apellido = apellido;
+		}
+
+		@soloLectura
+		nombrar() { 
+			return `${this.nombre} ${this.apellido}`;
+		}
+	}
+
+	const alguien = new Persona({
+		nombre: 'Jonathan',
+		apellido: 'MirCha'
+	});
+
+	console.log( alguien.nombrar() ); //Imprime Jonathan MirCha
+
+	alguien.nombrar = () => { 
+		return `${this.nombre}`;
+	} //Ejecutará Cannot assign to read only property 'nombrar' of object '#<Persona>'
 })();
 ```
 
