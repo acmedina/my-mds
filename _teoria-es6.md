@@ -27,10 +27,9 @@
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
+	1. [Métodos clase Array](#métodos-clase-array)
 	1. [Decoradores](#decoradores)
-	1. Replacing IIFEs with Blocks
 	1. Módulos
-	1. Métodos de Arrays
 	1. Métodos de Object
 	1. Funciones async
 	1. Map, Weakmap, Set, Weakset
@@ -1283,6 +1282,51 @@ Nuevos métodos de la Clase Matemáticas, apto sólo para ñoños :stuck_out_ton
 	console.log( Math.sinh(22) ); //Imprime 1792456423.065796
 	console.log( Math.tanh(19) ); //Imprime 0.9999999999999999
 	console.log( Math.trunc(40.56) ); //Imprime 40
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Métodos clase Array
+
+Nuevos métodos para Arreglos.
+
+* [**`.from()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+* [**`.of()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
+* [**`.copyWithin()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
+* [**`.find()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+* [**`.findIndex()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+* [**`.fill()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
+* [**`.includes()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+```JavaScript
+(function () {
+	'use strict';
+	
+	let nombre = 'Jonathan';
+		
+	console.log( Array.from(nombre) ); //Imprime Array [ "J", "o", "n", "a", "t", "h", "a", "n" ]
+
+	console.log( Array.of(7) ); //Imprime [7]
+	console.log( Array.of(1, 2, 3) ); //Imprime [1, 2, 3]
+
+	console.log( Array(7) ); //Imprime [ , , , , , , ]
+	console.log( Array(1, 2, 3) ); //Imprime [1, 2, 3]
+
+	console.log( ['a', 'b', 'c', 'd', 'e'] ); //Imprime ["a", "b", "c", "d", "e"]
+	console.log( ['a', 'b', 'c', 'd', 'e'].copyWithin(3, 0) ); //Imprime ["a", "b", "c", "a", "b"]
+
+	console.log( [20, 40, 100, 60, 80] ); //Imprime [20, 40, 100, 60, 80]
+	console.log( [20, 40, 100, 60, 80].find( n => n > 50 ) ); //Imprime 100
+	console.log( [20, 40, 100, 60, 80].findIndex( n => n > 50 ) ); //Imprime 2
+
+	console.log( [1, 2, 3].fill(4) ); //Imprime [4, 4, 4]
+	console.log( [1, 2, 3].fill(4, 1) ); //Imprime [1, 4, 4]
+	console.log( [1, 2, 3].fill(4, 0, 1) ); //Imprime [4, 2, 3]
+
+	console.log( [1, 2, 3].includes(2) ); //Imprime true
+	console.log( [1, 2, 3].includes(4) ); //Imprime false
 })();
 ```
 
