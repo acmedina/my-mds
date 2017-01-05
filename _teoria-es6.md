@@ -28,7 +28,7 @@
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
 	1. [Métodos clase Array](#métodos-clase-array)
-	1. [Métodos de Object](#métodos-clase-object)
+	1. [Métodos clase Object](#métodos-clase-object)
 	1. [Decoradores](#decoradores)
 	1. Módulos
 	1. Funciones async
