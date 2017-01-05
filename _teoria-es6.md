@@ -28,9 +28,9 @@
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
 	1. [Métodos clase Array](#métodos-clase-array)
+	1. [Métodos de Object](#métodos-clase-object)
 	1. [Decoradores](#decoradores)
 	1. Módulos
-	1. Métodos de Object
 	1. Funciones async
 	1. Map, Weakmap, Set, Weakset
 
@@ -1327,6 +1327,37 @@ Nuevos métodos para Arreglos.
 
 	console.log( [1, 2, 3].includes(2) ); //Imprime true
 	console.log( [1, 2, 3].includes(4) ); //Imprime false
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Métodos clase Object
+
+Nuevos métodos para Objetos.
+
+* [**`.assign()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+* [**`.values()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+* [**`.entries()`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+
+```JavaScript
+(function () {
+	'use strict';
+	
+	const a = { a: 1 },
+		b = { b: 2 },
+		c = {};
+
+	Object.assign(c, a, b);
+
+	console.log( a ); //Imprime {a: 1}
+	console.log( b ); //Imprime {b: 2}
+	console.log( c ); //Imprime {a: 1, b: 2}
+
+	console.log( Object.values(c) ); //Imprime [1, 2]
+	console.log( Object.entries(c) ); //Imprime [ ["a", 1], ["b", 2] ]
 })();
 ```
 
