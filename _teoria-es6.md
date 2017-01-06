@@ -858,7 +858,7 @@ export { operaciones as default };
 const rutas = require('./libs/rutas');
 ```
 
-### Importing in ES6
+### Importando en ES6
 
 En ES6 tenemos diferentes formas de importación
 
