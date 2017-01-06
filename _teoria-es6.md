@@ -772,14 +772,14 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 
 ### aka Modules
 
-Antes de ES6, utilizamos bibliotecas como [Browserify] (http://browserify.org/) para crear módulos en el lado del cliente, y [require] (https://nodejs.org/api/modules.html#modules_module_require_id) en el servidor (con **Node.js**). Con ES6, ahora podemos utilizar directamente módulos de todos los tipos (AMD, CommonJS y EcmaScript).
+Antes de ES6, utilizamos bibliotecas como [Browserify] (http://browserify.org/) para crear módulos en el lado del cliente (**navegadores**), y [require] (https://nodejs.org/api/modules.html#modules_module_require_id) en el servidor (**Node.js**). Con ES6, ahora podemos utilizar directamente módulos de todos los tipos (AMD, CommonJS y EcmaScript).
 
 ### Más info
 
 * [Documentación declaraciones de Importación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 * [Documentación declaraciones de Exportación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
 * [Writing Modular JavaScript With AMD, CommonJS & ES Harmony](https://addyosmani.com/writing-modular-js/)
-* :movie_camera: [Exportación y Requerimiento de Módulos en Node.js](https://www.youtube.com/watch?v=QZCEkMK7SKs&list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND)
+* [Exportación y Requerimiento de Módulos en Node.js](https://www.youtube.com/watch?v=QZCEkMK7SKs&list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND) :movie_camera:
 
 ### Exportando en formato CommonJS
 
