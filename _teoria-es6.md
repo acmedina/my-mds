@@ -849,7 +849,7 @@ export default operaciones;
 export { operaciones as default };
 ```
 
-> ** Mejores Prácticas **: Utiliza siempre el método **`export default`** al final del módulo, esto dejará claro lo que se está exportando. En los módulos **CommonJS** suele exportarse un sólo valor u objeto. Siguiendo con este paradigma, hacemos que nuestro código sea fácil, legible y que podamos combinar entre módulos **CommonJS** y **ES6**.
+> **Mejores Prácticas**: Utiliza siempre el método **`export default`** al final del módulo, esto dejará claro lo que se está exportando. En los módulos **CommonJS** suele exportarse un sólo valor u objeto. Siguiendo con este paradigma, hacemos que nuestro código sea fácil, legible y que podamos combinar entre módulos **CommonJS** y **ES6**.
 
 **[⬆ regresar al índice](#Índice)**
 
