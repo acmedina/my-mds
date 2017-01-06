@@ -815,6 +815,42 @@ function restar( a, b ) {
 export { sumar, restar };
 ```
 
+#### Usando **`export`** individualmente
+
+```JavaScript
+export function sumar( a, b ) {
+	return a + b;
+}
+
+export function restar( a, b ) {
+	return a - b;
+}
+```
+
+#### Usando **`default`**
+
+```JavaScript
+function sumar( a, b ) {
+	return a + b;
+}
+
+function restar( a, b ) {
+	return a - b;
+}
+
+let operaciones = {
+	sumar,
+	restar
+}
+
+export default operaciones;
+
+//otra forma
+export { operaciones as default };
+```
+
+> ** Mejores Prácticas **: Utiliza siempre el método **`export default`** al final del módulo, esto dejará claro lo que se está exportando. En los módulos **CommonJS** suele exportarse un sólo valor u objeto. Siguiendo con este paradigma, hacemos que nuestro código sea fácil, legible y que podamos combinar entre módulos **CommonJS** y **ES6**.
+
 **[⬆ regresar al índice](#Índice)**
 
 
