@@ -776,8 +776,8 @@ Antes de ES6, utilizamos bibliotecas como [Browserify] (http://browserify.org/) 
 
 ### Más info
 
-* [Documentación declaraciones de Importación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 * [Documentación declaraciones de Exportación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
+* [Documentación declaraciones de Importación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 * [Writing Modular JavaScript With AMD, CommonJS & ES Harmony](https://addyosmani.com/writing-modular-js/)
 * [Exportación y Requerimiento de Módulos en Node.js](https://www.youtube.com/watch?v=QZCEkMK7SKs&list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND) :movie_camera:
 
@@ -850,6 +850,69 @@ export { operaciones as default };
 ```
 
 > **Mejores Prácticas**: Utiliza siempre el método **`export default`** al final de módulos **ES6**, esto dejará claro lo que se está exportando y lo que no. En los módulos **CommonJS** suele exportarse un sólo valor u objeto. Siguiendo con este paradigma, hacemos que nuestro código sea fácil, legible y que podamos combinar entre módulos **CommonJS** y **ES6**.
+
+### Importando en formato CommonJS
+
+```JavaScript
+//considerando que existe una carpeta libs y dentro un archivo llamado rutas con extensión .js o .json
+const rutas = require('./libs/rutas');
+```
+
+### Importing in ES6
+
+En ES6 tenemos diferentes formas de importación
+
+#### Archivo completo
+
+```JavaScript
+import 'react';
+import './libs/operaciones';
+```
+
+#### Por nombre de las importaciones
+
+```JavaScript
+import React from 'react';
+import { sumar, restar } from './libs/operaciones';
+```
+
+#### También se pueden renombrar las importaciones
+
+```JavaScript
+import { 
+	sumar as mas,
+	restar as menos
+} from './libs/operaciones';
+```
+
+#### Importación por espacio de nombres
+
+```JavaScript
+import * as aritmetica from './libs/operaciones';
+```
+
+#### Importar una lista de valores de un módulo
+
+```JavaScript
+import * as aritmetica from './libs/operaciones';
+
+const { sumar, restar } = aritmetica;
+```
+
+#### Al importar un módulo exportado usando la sintaxis Commonjs (como React) podemos hacer lo siguiente
+
+```javascript
+import React from 'react';
+const { Component, PropTypes } = React;
+```
+
+#### Simplificando
+
+```javascript
+import React, { Component, PropTypes } from 'react';
+```
+
+> **Nota**: Los valores que se exportan son **enlaces**, no referencias. Por lo tanto, cambiar el enlace de una variable en un módulo, afectará su valor. Evita cambiar la interfaz pública de módulos exportados.
 
 **[⬆ regresar al índice](#Índice)**
 
