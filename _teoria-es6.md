@@ -772,47 +772,47 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 
 ### aka Modules
 
-Antes de ES6, utilizamos bibliotecas como [Browserify] (http://browserify.org/) para crear módulos en el lado del cliente, y [require] (https://nodejs.org/api/modules.html#modules_module_require_id) en el servidor (con ** Node.js **). Con ES6, ahora podemos utilizar directamente módulos de todos los tipos (AMD, CommonJS y EcmaScript).
+Antes de ES6, utilizamos bibliotecas como [Browserify] (http://browserify.org/) para crear módulos en el lado del cliente, y [require] (https://nodejs.org/api/modules.html#modules_module_require_id) en el servidor (con **Node.js**). Con ES6, ahora podemos utilizar directamente módulos de todos los tipos (AMD, CommonJS y EcmaScript).
 
-Más info
+### Más info
 
 * [Documentación declaraciones de Importación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 * [Documentación declaraciones de Exportación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
 * [Writing Modular JavaScript With AMD, CommonJS & ES Harmony](https://addyosmani.com/writing-modular-js/)
-* [Exportación y Requerimiento de Módulos en Node.js](https://www.youtube.com/watch?v=QZCEkMK7SKs&list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND) :movie_camera:
+* :movie_camera: [Exportación y Requerimiento de Módulos en Node.js](https://www.youtube.com/watch?v=QZCEkMK7SKs&list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND)
 
 ### Exportando en formato CommonJS
 
 ```JavaScript
-	module.exports = 1;
-	module.exports = { foo: 'bar' };
-	module.exports = ['foo', 'bar'];
-	module.exports = function bar () {};
+module.exports = 1;
+module.exports = { foo: 'bar' };
+module.exports = ['foo', 'bar'];
+module.exports = function bar () {};
 ```
 
 ### Exportando en formato ES6
 
 En ES6 tenemos diferentes formas de exportación
 
-Por nombres
+#### Por nombres
 
 ```JavaScript
-	export let nombre = 'Jonathan';
-	export let edad  = 33;​​
+export let nombre = 'Jonathan';
+export let edad  = 33;​​
 ```
 
-Por lista de objetos
+#### Por lista de objetos
 
 ```JavaScript
-	function sumar( a, b ) {
-		return a + b;
-	}
+function sumar( a, b ) {
+	return a + b;
+}
 
-	function restar( a, b ) {
-		return a - b;
-	}
+function restar( a, b ) {
+	return a - b;
+}
 
-	export { sumar, restar };
+export { sumar, restar };
 ```
 
 **[⬆ regresar al índice](#Índice)**
