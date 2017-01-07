@@ -31,7 +31,7 @@
 	1. [Métodos clase Math](#métodos-clase-math)
 	1. [Métodos clase Array](#métodos-clase-array)
 	1. [Métodos clase Object](#métodos-clase-object)
-	1. [Maps, Sets y Weaks](#maps,-sets-y-weaks)
+	1. [Maps, Sets y Weaks](#maps-sets-y-weaks)
 	1. Funciones async
 	1. Bloques
 
