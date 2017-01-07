@@ -1606,7 +1606,7 @@ Los Maps nos permiten saber de inmediato si existe una clave o borrar un par cla
 	let user = { userId: 1 };
 	map.set(user, 'Jonathan');
 
-	console.log( map );
+	console.log( map ); //Imprime Map {"clave" => 123, Object {userId: 1} => "Jonathan"}
 	console.log( map.get('clave') ); //Imprime 123
 	console.log( map.get(user) ); //Imprime Jonathan
 
@@ -1632,7 +1632,7 @@ Los Maps nos permiten saber de inmediato si existe una clave o borrar un par cla
 
 	console.log( map.keys() ); //Imprime MapIterator {"user1", "user2", "user3"}
 	console.log( map.values() ); //Imprime MapIterator {"Jonathan", "Irma", "kEnAi"}
-	console.log( map.entries() ); //Imprime MapIterator {["user1", "Jonathan"], ["user2", "Irma"], ["user3", "kEnAi"]}	
+	console.log( map.entries() ); //Imprime MapIterator {["user1", "Jonathan"], ["user2", "Irma"], ["user3", "kEnAi"]}
 })();
 ```
 
