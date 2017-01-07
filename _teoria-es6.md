@@ -31,8 +31,9 @@
 	1. [Métodos clase Math](#métodos-clase-math)
 	1. [Métodos clase Array](#métodos-clase-array)
 	1. [Métodos clase Object](#métodos-clase-object)
+	1. [Maps, Sets y Weaks](#maps,-sets-y-weaks)
 	1. Funciones async
-	1. Map, Weakmap, Set, Weakset
+	1. Bloques
 
 
 # ECMAScript
@@ -1570,6 +1571,92 @@ Nuevos métodos para Objetos.
 
 	console.log( Object.values(c) ); //Imprime [1, 2]
 	console.log( Object.entries(c) ); //Imprime [ ["a", 1], ["b", 2] ]
+})();
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Maps, Sets y Weaks
+
+### aka Map, WeakMap, Set & WeakSet
+
+ES6 incorpora 4 nuevas estructuras de datos, que son **`Map`**, **`WeakMap`**, **`Set`** y **`WeakSet`**. Si has trabajado con lenguajes como Java o Python ya te harás una idea de para que sirven.
+
+### Más info
+
+* [**`Map`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+* [**`WeakMap`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
+* [**`Set`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+* [**`WeakSet`**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
+
+### Map
+
+El objecto **`Map`** nos permite relacionar (mapear) unos valores con otros como si fuera un diccionario, en formato clave/valor. Cualquier valor (tanto objetos como valores primitivos) puede ser usados como clave o valor.
+
+Los Maps nos permiten saber de inmediato si existe una clave o borrar un par clave/valor concreto. Además, podemos crear Maps a partir de un array de pares:
+
+```JavaScript
+(function () {
+	'use strict';
+	
+	let map = new Map();
+	map.set('clave', 123);
+
+	let user = { userId: 1 };
+	map.set(user, 'Jonathan');
+
+	console.log( map );
+	console.log( map.get('clave') ); //Imprime 123
+	console.log( map.get(user) ); //Imprime Jonathan
+
+	console.log( map.size ); //Imprime 2
+
+	console.log( map.has('clave') ); // Imprime true
+	console.log( map.delete('clave') ); //Imprime true
+	console.log( map.has('clave') ); //Imprime false
+
+	map.clear(); 
+	console.log( map.size ); //Imprime 0
+
+	map = new Map( [ ['user1', 'Jonathan'], ['user2', 'Irma'], ['user3', 'kEnAi'] ] );
+	console.log( map.size ); //Imprime 3
+
+	for( let [key, value] of map ){
+	  console.log( key, value );
+	}
+
+	//Imprime user1 Jonathan
+	//Imprime user2 Irma
+	//Imprime user3 kEnAi
+
+	console.log( map.keys() ); //Imprime MapIterator {"user1", "user2", "user3"}
+	console.log( map.values() ); //Imprime MapIterator {"Jonathan", "Irma", "kEnAi"}
+	console.log( map.entries() ); //Imprime MapIterator {["user1", "Jonathan"], ["user2", "Irma"], ["user3", "kEnAi"]}	
+})();
+```
+
+```JavaScript
+(function () {
+	'use strict';
+
+	
+})();
+```
+
+```JavaScript
+(function () {
+	'use strict';
+
+	
+})();
+```
+
+```JavaScript
+(function () {
+	'use strict';
+
+	
 })();
 ```
 
