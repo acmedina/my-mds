@@ -1507,23 +1507,23 @@ Debido a que usa referencias débiles, un **`WeakMap`** NO dispone del método *
 Tampoco podemos iterar un **`WeakMap`** con el bucle **`for of`**.
 
 ```JavaScript
-let key = { userId: 1 },
-	key2 = { userId: 2 },
+let clave = { userId: 1 },
+	clave2 = { userId: 2 },
 	weakmap = new WeakMap();
 
-weakmap.set( key, 'Jonathan' );
+weakmap.set( clave, 'Jonathan' );
 console.log( weakmap ); //Imprime WeakMap {Object {userId: 1} => "Jonathan"}
 
-console.log( weakmap.has(key) ); //Imprime true
-console.log( weakmap.get(key) ); //Imprime Jonathan
+console.log( weakmap.has(clave) ); //Imprime true
+console.log( weakmap.get(clave) ); //Imprime Jonathan
 console.log( weakmap.size ); //Imprime undefined
 
-weakmap.delete(key);
-console.log( weakmap.get(key) ); //Imprime undefined
+weakmap.delete(clave);
+console.log( weakmap.get(clave) ); //Imprime undefined
 console.log( weakmap ); //Imprime WeakMap {}
 
-weakmap.set( key2, 'Irma' );
-console.log( weakmap.get(key2) ); //Imprime Irma
+weakmap.set( clave2, 'Irma' );
+console.log( weakmap.get(clave2) ); //Imprime Irma
 console.log( weakmap ); //Imprime WeakMap {Object {userId: 2} => "Irma"}
 ```
 
