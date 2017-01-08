@@ -1496,9 +1496,35 @@ console.log( map.keys() ); //Imprime MapIterator {"user1", "user2", "user3"}
 console.log( map.values() ); //Imprime MapIterator {"Jonathan", "Irma", "kEnAi"}
 console.log( map.entries() ); //Imprime MapIterator {["user1", "Jonathan"], ["user2", "Irma"], ["user3", "kEnAi"]}
 ```
+### WeakMap
+
+Los WeakMaps son similares a los Maps, pero con algunas diferencias:
+
+Un **`WeakMap`** solo acepta objetos como claves, la referencia a las claves es débil, lo que significa que si no hay otras referencias al objeto que actúa como clave, el recolector de basura podrá liberarlo.
+
+Debido a que usa referencias débiles, un **`WeakMap`** NO dispone del método **`.keys()`** para recuperar las claves, NI de propiedades o métodos relacionados con más de un elemento a la vez, como **`.values()`**, **`.entries()`**, **`.clear()`** o **`.size`**.
+
+Tampoco podemos iterar un **`WeakMap`** con el bucle **`for of`**.
 
 ```JavaScript
+let key = { userId: 1 },
+	key2 = { userId: 2 },
+	weakmap = new WeakMap();
 
+weakmap.set( key, 'Jonathan' );
+console.log( weakmap ); //Imprime WeakMap {Object {userId: 1} => "Jonathan"}
+
+console.log( weakmap.has(key) ); //Imprime true
+console.log( weakmap.get(key) ); //Imprime Jonathan
+console.log( weakmap.size ); //Imprime undefined
+
+weakmap.delete(key);
+console.log( weakmap.get(key) ); //Imprime undefined
+console.log( weakmap ); //Imprime WeakMap {}
+
+weakmap.set( key2, 'Irma' );
+console.log( weakmap.get(key2) ); //Imprime Irma
+console.log( weakmap ); //Imprime WeakMap {Object {userId: 2} => "Irma"}
 ```
 
 ```JavaScript
