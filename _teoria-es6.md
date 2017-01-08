@@ -1527,8 +1527,46 @@ console.log( weakmap.get(clave2) ); //Imprime Irma
 console.log( weakmap ); //Imprime WeakMap {Object {userId: 2} => "Irma"}
 ```
 
-```JavaScript
+### Set
 
+Los sets son conjuntos de elementos no repetidos, que pueden ser tanto objetos, como valores primitivos.
+
+Tiene métodos equivalentes a un **`Map`**, con la diferencia que utilizamos **`.add()`** para añadir elementos, y que las **`keys`** y los **`values`** son lo mismo, el valor del objeto.
+
+Del mismo modo, **`.entries()`** devuelve una pareja **`[value, value]`**
+
+```JavaScript
+let set = new Set();
+
+set.add('Jonathan');
+set.add('Irma');
+set.add('Irma');
+
+console.log( set.size ); //Imprime 2
+
+for ( let item of set ) {
+	console.log(item);
+}
+
+//Imprime Jonathan
+//Imprime Irma
+
+for ( let item of set.entries() ){
+	console.log(item);
+}
+//Imprime ["Jonathan", "Jonathan"]
+//Imprime ["Irma", "Irma"]
+
+console.log( set.has('Jonathan') ); //Imprime true
+
+set.delete('Jonathan');
+console.log( set.has('Jonathan') ); //Imprime false
+
+console.log( set.size ); //Imprime 1
+
+set.clear();
+
+console.log( set.size ); //Imprime 0
 ```
 
 ```JavaScript
