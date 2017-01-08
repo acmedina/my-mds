@@ -1496,6 +1496,7 @@ console.log( map.keys() ); //Imprime MapIterator {"user1", "user2", "user3"}
 console.log( map.values() ); //Imprime MapIterator {"Jonathan", "Irma", "kEnAi"}
 console.log( map.entries() ); //Imprime MapIterator {["user1", "Jonathan"], ["user2", "Irma"], ["user3", "kEnAi"]}
 ```
+
 ### WeakMap
 
 Los WeakMaps son similares a los Maps, pero con algunas diferencias:
@@ -1554,6 +1555,7 @@ for ( let item of set ) {
 for ( let item of set.entries() ){
 	console.log(item);
 }
+
 //Imprime ["Jonathan", "Jonathan"]
 //Imprime ["Irma", "Irma"]
 
@@ -1569,8 +1571,33 @@ set.clear();
 console.log( set.size ); //Imprime 0
 ```
 
-```JavaScript
+### WeakSet
 
+Similar al **`WeakMap`**, pero con los Sets. Las dos principales diferencias de un **`WeakSet`** respecto a un **`Set`** son:
+
+1. Únicamente pueden contener colecciones de objetos.
+1. La referencia a los objetos es débil, por lo que si no hay otra referencia a uno de los objetos contenidos en el **`WeakSet`**, el recolector de basura lo podrá liberar. Esto implica que:
+	* No hay una lista de objetos almacenados en la colección
+	* Los WeakSet no son enumerables.
+
+Básicamente, los métodos de los que dispone un **`WeakSet`** son:
+
+* **`.add()`**
+* **`.delete()`**
+* **`.has()`**
+
+```JavaScript
+let objs = [ 'Jonathan', 'Irma', 'kEnAi' ],
+	weakset = new WeakSet();
+
+console.log( weakset ); //Imprime WeakSet {}
+
+weakset.add(objs);
+console.log( weakset ); //Imprime WeakSet {["Jonathan", "Irma", "kEnAi"]}
+console.log( weakset.has(objs) ); //Imprime true
+
+weakset.delete(objs);
+console.log( weakset.has(objs) ); //Imprime false
 ```
 
 **[⬆ regresar al índice](#Índice)**
