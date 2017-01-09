@@ -10,7 +10,7 @@
 1. [Babel](#babel)
 1. [Características ECMAScript 6](#características-ecmascript-6)
 	1. [Variables de bloque y constantes](#variables-de-bloque-y-constantes)
-	1. [Bloques](#bloques)
+	1. [Nivel de Bloques](#nivel-de-bloques)
 	1. [Plantillas de cadenas de texto](#plantillas-de-cadenas-de-texto)
 	1. [Funciones flecha](#funciones-flecha)
 	1. [Objetos literales](#objetos-literales)
@@ -183,7 +183,7 @@ console.log(D.documentElement); //Imprime el elemento <html>
 **[⬆ regresar al índice](#Índice)**
 
 
-## Bloques
+## Nivel de Bloques
 
 ### aka Block level function declarations
 
