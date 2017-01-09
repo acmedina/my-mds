@@ -10,6 +10,7 @@
 1. [Babel](#babel)
 1. [Características ECMAScript 6](#características-ecmascript-6)
 	1. [Variables de bloque y constantes](#variables-de-bloque-y-constantes)
+	1. [Bloques](#bloques)
 	1. [Plantillas de cadenas de texto](#plantillas-de-cadenas-de-texto)
 	1. [Funciones flecha](#funciones-flecha)
 	1. [Objetos literales](#objetos-literales)
@@ -26,14 +27,13 @@
 	1. [Proxies](#proxies)
 	1. [Reflexión](#reflexión)
 	1. [Decoradores](#decoradores)
+	1. [Funciones Asíncronas](#funciones-asíncronas)
 	1. [Métodos clase String](#métodos-clase-string)
 	1. [Números octales y binarios](#números-octales-y-binarios)
 	1. [Métodos clase Math](#métodos-clase-math)
 	1. [Métodos clase Array](#métodos-clase-array)
 	1. [Métodos clase Object](#métodos-clase-object)
 	1. [Maps, Sets y Weaks](#maps-sets-y-weaks)
-	1. Funciones async
-	1. Bloques
 
 
 # ECMAScript
@@ -178,6 +178,43 @@ console.log(obj); //Imprime { prop: 'y' }
 const D = document;
 console.log(D); //Imprime el objeto document
 console.log(D.documentElement); //Imprime el elemento <html>
+```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Bloques
+
+### aka Block level function declarations
+
+En ES5 los ámbitos de declaración (**`scope`**) estaban diseñados a nivel de funciones, con ES6 podemos declarar funciones a nivel de bloque
+
+En ES6, como en muchos otros lenguajes de programación, el bloque se define entre llaves y genera un nuevo scope (**`block scope`**).
+
+```JavaScript
+//Sin bloques
+function f() { return 1; }
+
+console.log( f() ); //Imprime 2
+
+function f() { return 2; }
+
+console.log( f() ); //Imprime 2
+
+console.log( f() ); //Imprime 2
+
+//Con bloques
+function f() { return 1; }
+
+{
+	console.log( f() ); //Imprime 2
+
+	function f() { return 2; }
+
+	console.log( f() ); //Imprime 2
+}
+
+console.log( f() ); //Imprime 1
 ```
 
 **[⬆ regresar al índice](#Índice)**
@@ -1278,14 +1315,82 @@ alguien.nombrar = () => {
 **[⬆ regresar al índice](#Índice)**
 
 
-## Tema
+## Funciones Asíncronas
 
-### aka Tema
+### aka Async Functions
 
-Explicacion
+Son una nueva característica aun no soportada en ES6, que nos permitirá realizar las mismas cosa que se pueden lograr con Generadores y Promesas pero con menos esfuerzo. Es un gran recurso para ponerse en marcha con ES7.
+
+### Más Info
+
+* [Documentación MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+* [Async Functions](https://tc39.github.io/ecmascript-asyncawait/)
+* [ES7 async functions](https://jakearchibald.com/2014/es7-async-functions/)
+* [USING ES7 ASYNC/AWAIT TODAY WITH BABEL](http://masnun.com/2015/11/11/using-es7-asyncawait-today-with-babel.html)
 
 ```JavaScript
+function createUser(name) {
+	alert(`Usuario ${name} creado`);
+}
 
+function getFriends(name) {
+	alert( `Obteniendo amigos de ${name}` );
+	return 150;
+}
+
+async function setNewUser(name) {  
+	let newUser = await createUser(name),
+		friends = await getFriends(name);
+
+	if (friends !== 0) {
+		alert( `${name} tienes ${friends} amigos` );
+	} else {
+		alert( `${name} eres un antisocial sin amigos` );
+	}
+}
+
+setNewUser('Jonathan');
+```
+
+### En Node.js
+
+```JavaScript
+const fs = require('fs'),
+	file = './nombres.txt',
+	newFile = './nombres_async_es6.txt';
+
+
+function accessFile(file) {
+	fs.access(file, fs.F_OK, (err) => {
+		return (err) 
+			? new Error('El archivo no existe')
+			: console.log('El archivo existe');
+	});
+}
+
+function readFile(file) {
+	fs.readFile(file, (err, data) => {
+		return (err) 
+			? new Error('El archivo no se pudo leer') 
+			: data;
+	});
+}
+
+function writeFile(newFile, data) {
+	fs.writeFile(newFile, data, (err) => {
+		return (err)
+			? new Error('El archivo no se pudo copiar')
+			: console.log('El archivo se ha copiado con éxito');
+	});
+}
+
+async function copyFile() {
+	let af1 = await accessFile(file),
+		af2 = await readFile(file),
+		af3 = await writeFile(newFile, af2);
+}
+
+copyFile();
 ```
 
 **[⬆ regresar al índice](#Índice)**
