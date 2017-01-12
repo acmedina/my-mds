@@ -380,6 +380,7 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [File Manager](https://wordpress.org/plugins/file-manager/)
 * Google
 	* [Google Analytics](https://wordpress.org/plugins/googleanalytics/)
+	* [Google Analytics by MonsterInsights](https://wordpress.org/plugins/google-analytics-for-wordpress/)
 	* [WP Google Fonts](https://wordpress.org/plugins/wp-google-fonts/)
 	* [Google Map](https://wordpress.org/plugins/gmap-embed/)
 	* [Google Map](https://wordpress.org/plugins/wd-google-maps/)
