@@ -403,7 +403,7 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [Disqus Comment System](https://wordpress.org/plugins/disqus-comment-system/)
 * Listas de Correo
 	* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
-	* [MailPoet Newsletters](https://wordpress.org/plugins/wysija-newsletters/screenshots/)
+	* [MailPoet Newsletters](https://wordpress.org/plugins/wysija-newsletters/)
 * Foros y Comunidades
 	* [BuddyPress](https://wordpress.org/plugins/buddypress/)
 	* [bbPress](https://wordpress.org/plugins/bbpress/)
