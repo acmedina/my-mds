@@ -401,6 +401,9 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [Comments Evolved for WordPress](https://wordpress.org/plugins/gplus-comments/)
 	* [Akismet](https://wordpress.org/plugins/akismet/)
 	* [Disqus Comment System](https://wordpress.org/plugins/disqus-comment-system/)
+* Listas de Correo
+	* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
+	* [MailPoet Newsletters](https://wordpress.org/plugins/wysija-newsletters/screenshots/)
 * Foros y Comunidades
 	* [BuddyPress](https://wordpress.org/plugins/buddypress/)
 	* [bbPress](https://wordpress.org/plugins/bbpress/)
@@ -409,7 +412,6 @@ También se puede modificar el comportamiento de WordPress a través de:
 		* [Estadísticas del Uso de Plataformas Ecommerce](https://trends.builtwith.com/shop)
 		* [Sitio Web](https://woocommerce.com/)
 * Otros
-	* [MailChimp for WP](https://wordpress.org/plugins/mailchimp-for-wp/)
 	* [Loco Translate](https://wordpress.org/plugins/loco-translate/)
 	* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
 	* [Elementor Page Builder](https://wordpress.org/plugins/elementor/)
