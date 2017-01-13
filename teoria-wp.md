@@ -320,6 +320,7 @@ También se puede modificar el comportamiento de WordPress a través de:
 * BackUp & Seguridad
 	* [Duplicator](https://wordpress.org/plugins/duplicator/)
 	* [Simple Optimizer](https://wordpress.org/plugins/simple-optimizer/)
+	* [Autoptimize](https://wordpress.org/plugins/autoptimize/)
 	* [All In One WP Security & Firewall](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 	* [BackWPup - WordPress Backup Plugin](https://wordpress.org/plugins/backwpup/)
 	* [WordPress Backup to Dropbox](https://wordpress.org/plugins/wordpress-backup-to-dropbox/)
@@ -369,6 +370,7 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [Digg Digg](https://wordpress.org/plugins/digg-digg/)	
 	* [Social Count Plus](https://wordpress.org/plugins/social-count-plus/)
 	* [Share Buttons by Add This](https://wordpress.org/plugins/addthis/)
+	* [Social Counter for WordPress - AccessPress Social Counter](https://wordpress.org/plugins/accesspress-social-counter/)
 * Adaptive Design
 	* [Any Mobile Theme Switcher](https://wordpress.org/plugins/any-mobile-theme-switcher/)
 	* [User Agent Themes Switcher](https://wordpress.org/plugins/useragent-themes-switcher/)
@@ -391,8 +393,9 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [Jetpack by WordPress.com](https://wordpress.org/plugins/jetpack/)
 	* [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
 	* [itemprop WP for SERP/SEO Rich snippets](https://wordpress.org/plugins/itempropwp/)
-	* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
+* Cache
 	* [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
+	* [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
 * Usuarios
 	* [User Roles and Capabilities](https://wordpress.org/plugins/user-roles-and-capabilities/)
 	* [User Groups](https://wordpress.org/plugins/user-groups/)
@@ -411,11 +414,18 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [WooCommerce](https://wordpress.org/plugins/woocommerce/)
 		* [Estadísticas del Uso de Plataformas Ecommerce](https://trends.builtwith.com/shop)
 		* [Sitio Web](https://woocommerce.com/)
-* Otros
-	* [Loco Translate](https://wordpress.org/plugins/loco-translate/)
-	* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
+* Configurar la Página de Login
+	* [Custom Login Page Customizer](https://wordpress.org/plugins/login-customizer/)
+	* [WP Customize Login Page](https://wordpress.org/plugins/wp-customize-login-page/)
+	* [Customize WordPress Login Page](https://wordpress.org/plugins/admin-custom-login/)
+	* [Custom Login Page by SeedProd](https://wordpress.org/plugins/custom-login-page-wp/)
+* Pages Builders
+	* [Page Builder by SiteOrigin](https://wordpress.org/plugins/siteorigin-panels/)
 	* [Elementor Page Builder](https://wordpress.org/plugins/elementor/)
 		* [Sitio Web](https://elementor.com/)
 		* [Tutoriales](http://www.arturogarcia.com/elementor-page-builder/)
+* Otros
+	* [Loco Translate](https://wordpress.org/plugins/loco-translate/)
+	* [Max Mega Menu](https://wordpress.org/plugins/megamenu/)
 
 **[⬆ regresar al índice](#Índice)**
