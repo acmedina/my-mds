@@ -199,6 +199,7 @@ Aunque los pixeles se consideran una unidad de medida absoluta, en realidad son 
 * [Responsive Patterns](http://bradfrost.github.io/this-is-responsive/patterns.html)
 * [Guía para Móviles de Google](https://developers.google.com/webmasters/mobile-sites/?hl=es)
 * [SEO para Móviles de Google](https://developers.google.com/webmasters/mobile-sites/mobile-seo/?hl=es)
+* [Guía Responsive para imágenes](https://escss.blogspot.com/2014/10/responsive-images-picture-srcset.html)
 * [Prueba de optimización para móviles de Google](https://www.google.com/webmasters/tools/mobile-friendly/)
 * [PageSpeed Insights de Google](https://developers.google.com/speed/pagespeed/insights/)
 
