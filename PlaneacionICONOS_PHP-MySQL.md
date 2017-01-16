@@ -45,9 +45,9 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 		* SQL vs NoSQL
 	* Conceptos de BDs SQL
 	* Herramientas de Gestión
-* Análisis de la Arquitectura de Información de Sitios Web
-* Modelo Entidad-Relación
-* Normalización de Bases de Datos
+	* Análisis de la Arquitectura de Información de Sitios Web
+	* Modelo Entidad-Relación
+	* Normalización de Bases de Datos
 
 ### :pencil: TAREAS:
 
