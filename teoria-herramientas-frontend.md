@@ -33,11 +33,13 @@
 * [Eclipse](https://eclipse.org/)
 * [NetBeans](https://netbeans.org/)
 * [Aptana](http://www.aptana.com/)
-* [Web Storm](https://www.jetbrains.com/webstorm/)
-* [PHP Storm](https://www.jetbrains.com/phpstorm/)
 * [Visual Studio](https://www.visualstudio.com/)
 * [Android Studio](https://developer.android.com/studio/index.html)
 * [Xcode](https://developer.apple.com/xcode/)
+* [Web Storm](https://www.jetbrains.com/webstorm/)
+* [PHP Storm](https://www.jetbrains.com/phpstorm/)
+* [PyCharm](https://www.jetbrains.com/pycharm/)
+* [RubyMine](https://www.jetbrains.com/ruby/)
 
 ### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
 
