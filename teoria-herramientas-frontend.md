@@ -6,6 +6,7 @@
 
 1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
 1. [Editores & IDEs](#editores--ides)
+1. [Terminal de Comandos](#terminal-de-comandos)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -44,9 +45,35 @@
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [RubyMine](https://www.jetbrains.com/ruby/)
 
-### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
+#### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
 
 **[⬆ regresar al índice](#Índice)**
+
+
+## Terminal de Comandos
+
+![Terminal de Comandos](http://bextlan.com/img/para-cursos/terminal-comandos.jpg)
+
+La interfaz de línea de comandos (en inglés, command-line interface, CLI) es un método que permite a los usuarios dar instrucciones a algún programa informático por medio de una línea de texto simple.
+
+Las CLI pueden emplearse interactivamente, escribiendo instrucciones en alguna especie de entrada de texto, o pueden utilizarse de una forma mucho más automatizada, leyendo órdenes desde un archivo de scripts.
+
+### La terminal llego para quedarse en el Front end, acostúmbrate a ella
+
+Comandos Básicos
+
+* [Linux/OS X](https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)
+* [Windows](http://ss64.com/nt/index.html)
+
+Opciones para Windows
+
+* [CMD](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx)
+* [PowerShell](https://msdn.microsoft.com/en-us/powershell)
+* [Git BASH](https://git-for-windows.github.io/)
+* [Bash on Ubuntu](https://msdn.microsoft.com/en-us/commandline/wsl/about)
+
+**[⬆ regresar al índice](#Índice)**
+
 
 ## Node.js
 
