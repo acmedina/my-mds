@@ -5,7 +5,7 @@
 ## Índice
 
 1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
-1. [Editores de Código](editores-de-código)
+1. [Editores & IDEs](#editores-ides)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -15,7 +15,9 @@
 1. [Preprocesadores](#preprocesadores)
 1. [Gestores de Tareas](#gestores-de-tareas)
 
-## Editores de Código
+## Editores & IDEs
+
+### Editores de Código
 
 * [Sublime Text](https://www.sublimetext.com/)
 	* [Package Control](https://packagecontrol.io/)
@@ -23,6 +25,16 @@
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Brackets](http://brackets.io/)
 * [CodePen](http://codepen.io/)
+
+### IDE (Integrated Development Enviroment)
+
+* [Eclipse](https://eclipse.org/)
+* [NetBeans](https://netbeans.org/)
+* [Aptana](http://www.aptana.com/)
+* [PHP Storm](https://www.jetbrains.com/phpstorm/)
+* [Visual Studio](https://www.visualstudio.com/)
+* [Android Studio](https://developer.android.com/studio/index.html)
+* [Xcode](https://developer.apple.com/xcode/)
 
 ## Node.js
 
