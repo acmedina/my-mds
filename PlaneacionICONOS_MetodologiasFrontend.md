@@ -96,7 +96,6 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 1. 10% Desarrollo de componente web propio
 1. 10% Implementación de componente web propio en el proyecto
 * Notas:
-	* El sitio tiene que estar desplegado en Internet
 	* La maquetación tiene que ser usando Flexbox, queda prohibido usar floats, en caso de hacerlo estará reprobado
 	* Queda prohibido usar frameworks Frontend de terceros, en caso de hacerlo estará reprobado
 	* Proyecto desplegado en Internet
