@@ -102,6 +102,12 @@ El hospedaje web es el servicio que provee a los usuarios de Internet un sistema
 * Hosting Virtuales (VPS)
 * Hosting en la Nube (Cloud Service)
 
+#### Acceso a los Servicios de Hospedaje
+
+* Vía Web pe [cPanel](https://cpanel.com/)
+* Vía Cliente FTP pe [FileZilla](https://filezilla-project.org/download.php)
+* Vía CLI por SSH pe [PuTTY](http://www.putty.org/)
+
 Empresas de Hospedaje
 
 * [Neubox](https://neubox.com/)
