@@ -19,6 +19,8 @@
 
 ### Editores de Código
 
+![IDE-or-TextEditor](http://bextlan.com/img/para-cursos/IDE-or-TextEditor.png)
+
 * [Sublime Text](https://www.sublimetext.com/)
 	* [Package Control](https://packagecontrol.io/)
 * [ATOM](https://atom.io/)
@@ -38,6 +40,8 @@
 * [Xcode](https://developer.apple.com/xcode/)
 
 ### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
+
+**[⬆ regresar al índice](#Índice)**
 
 ## Node.js
 
