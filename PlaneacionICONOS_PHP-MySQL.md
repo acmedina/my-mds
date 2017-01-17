@@ -180,7 +180,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 		* Guarde la información en la BD
 	1. 10% Proyecto desplegado en Internet
 * Se debe proporcionar la url para navegar el sitio
-* El código fuente de la aplicación junto con el archivo .sql de la BD deberá entregarse en un archivo **.zip**
+* El código fuente del proyecto junto con el archivo .sql de la BD deberá entregarse en un archivo **.zip**
 
 
 ## :date: ENTREGA:
