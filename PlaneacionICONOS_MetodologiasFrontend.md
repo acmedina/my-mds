@@ -70,7 +70,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 * Diseño Web basado en Componentes:
 	* Imágenes Responsive
 	* Navegaciones Responsive
-	* Pestañas y Acordeónes
+	* Pestañas y Acordeones
 
 ### :pencil: TAREAS:
 
