@@ -5,6 +5,7 @@
 ## Índice
 
 1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
+1. [Editores de Código](editores-de-código)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -14,6 +15,14 @@
 1. [Preprocesadores](#preprocesadores)
 1. [Gestores de Tareas](#gestores-de-tareas)
 
+## Editores de Código
+
+* [Sublime Text](https://www.sublimetext.com/)
+	* [Package Control](https://packagecontrol.io/)
+* [ATOM](https://atom.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Brackets](http://brackets.io/)
+* [CodePen](http://codepen.io/)
 
 ## Node.js
 
@@ -25,7 +34,7 @@
 * [Características y Ventajas](http://jonmircha.github.io/slides-nodejs/#/35)
 * [io.js y el presente futuro de Node.js](http://jonmircha.github.io/slides-nodejs/#/44)
 * [Instalación](http://jonmircha.github.io/slides-nodejs/#/57)
-* [Más Info](https://www.youtube.com/playlist?list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND)
+* [Curso Node.js de Bextlán](https://www.youtube.com/playlist?list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND)
 * [Node Version Manager](https://github.com/creationix/nvm) (NVM)
 	* [NVM para Windows](https://github.com/coreybutler/nvm-windows)
 
