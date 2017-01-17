@@ -1,10 +1,10 @@
-# Materia: Metodologías Front end
+# Materia: Herramientas de Desarrollo Web
 
-![Metodologías Front end](http://bextlan.com/img/para-cursos/responsive-design.jpg)
+![Herramientas de Desarrollo Web](http://bextlan.com/img/para-cursos/herramientas-frontend.jpg)
 
 ## :chart_with_upwards_trend: Objetivo de la Materia:
 
-Al final del curso el estudiante tendrá los conocimientos necesarios para implementar metodologías, arquitecturas, estrategias y buenas prácticas de diseño y desarrollo web front end.
+Al final del curso el estudiante tendrá los conocimientos necesarios para trabajar con las herramientas más utilizadas en el ecosistema web y así poder optimizar procesos de desarrollo, colaboración, publicación y presentación de proyectos web.
 
 ## :bow: Docente:
 
@@ -14,12 +14,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 
 ## :books: Fuentes bibliográficas del curso:
 
-* [Teoría HTML](./teoria-html.md)
-* [Teoría CSS](./teoria-css.md)
-* [Teoría Responsive Design](./teoria-rwd.md)
-* [responsivedesign.is](https://responsivedesign.is/)
-* [alistapart.com](http://alistapart.com/)
-* [Curso de Responsive Design](http://bextlan.com/cursos/responsive-design/)
+* [Teoría del Curso](./teoria-herramientas-frontend.md)
 
 
 ## :school: Sesión 1: 04 Marzo 2017
@@ -36,6 +31,10 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 	* Arquitecturas CSS
 	* Sistemas de Nomenclatura
 
+### :pencil: TAREAS:
+
+* Aplicar lo visto al Proyecto Final
+
 
 ## :school: Sesión 2: 11 Marzo 2017
 
@@ -43,12 +42,20 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 
 * Modelo de Maquetación Flexbox
 
+### :pencil: TAREAS:
+
+* Aplicar lo visto al Proyecto Final
+
 
 ## :school: Sesión 3: 18 Marzo 2017
 
 ### :clipboard: TEMAS: 
 
 * Construcción de Framework Responsive Mobile First
+
+### :pencil: TAREAS:
+
+* Aplicar lo visto al Proyecto Final
 
 
 ## :school: Sesión 4: 25 Marzo 2017
@@ -60,12 +67,20 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para imple
 	* Navegaciones Responsive
 	* Pestañas y Acordeones
 
+### :pencil: TAREAS:
+
+* Aplicar lo visto al Proyecto Final
+
 
 ## :school: Sesión 5: 01 Abril 2017
 
 ### :clipboard: TEMAS:
 
 * Construcción de Landing Page basada en Componentes Web
+
+### :pencil: TAREAS:
+
+* Entrega de Proyecto
 
 
 ## :mortar_board: EVALUACIÓN:
