@@ -7,6 +7,7 @@
 1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
 1. [Editores & IDEs](#editores--ides)
 1. [Terminal de Comandos](#terminal-de-comandos)
+1. [Dominios y Hospedajes](#dominios-y-hospedajes)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -71,6 +72,49 @@ Opciones para Windows
 * [PowerShell](https://msdn.microsoft.com/en-us/powershell)
 * [Git BASH](https://git-for-windows.github.io/)
 * [Bash on Ubuntu](https://msdn.microsoft.com/en-us/commandline/wsl/about)
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Dominios y Hospedajes
+
+![Dominios y Hospedajes](http://bextlan.com/img/para-cursos/dominios-hosting.jpg)
+
+### Dominios 
+
+Un dominio de Internet es una red de identificación que es asociada a un grupo de dispositivos o equipos conectados a la red Internet.
+
+El propósito principal de los nombres de dominio en Internet y del sistema de nombres de dominio (DNS), es traducir las direcciones IP de cada nodo activo en la red, a términos memorizables y fáciles de encontrar. Esta abstracción hace posible que cualquier servicio (de red) pueda moverse de un lugar geográfico a otro en la Internet, aun cuando el cambio implique que tendrá una dirección IP diferente.
+
+Empresas de Registro de Dominios
+
+* [Name Cheap](https://www.namecheap.com/)
+* [Akky](https://www.akky.mx/)
+
+### Hospedaje
+
+El hospedaje web es el servicio que provee a los usuarios de Internet un sistema para poder almacenar información, imágenes, vídeo, o cualquier contenido accesible vía web. Es una analogía de "hospedaje o alojamiento en hoteles o habitaciones" donde uno ocupa un lugar específico, en este caso la analogía alojamiento web o alojamiento de páginas web, se refiere al lugar que ocupa una página web, sitio web, sistema, correo electrónico, archivos etc. en internet o más específicamente en un servidor que por lo general hospeda varias aplicaciones o páginas web.
+
+#### Tipos de Hospedaje
+
+* Hosting Compartido
+* Hosting Dedicados
+* Hosting Virtuales (VPS)
+* Hosting en la Nube (Cloud Service)
+
+Empresas de Hospedaje
+
+* [Neubox](https://neubox.com/)
+* [Hostinger](https://www.hostinger.mx/)
+* [Just Host](https://www.justhost.com/)
+* [Dream Host](https://www.dreamhost.com/)
+* [GoDaddy](https://mx.godaddy.com/)
+* [HostGator](https://hostgator.mx/)
+* [Digital Ocean](https://www.digitalocean.com/)
+* [Amazon Web Services](https://aws.amazon.com/es/)
+* [Google App Engine](https://appengine.google.com)
+* [Microsoft Azure](https://azure.microsoft.com/es-es/)
+* [Heroku](https://www.heroku.com/)
 
 **[⬆ regresar al índice](#Índice)**
 
