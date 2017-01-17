@@ -26,6 +26,9 @@
 * [ATOM](https://atom.io/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Brackets](http://brackets.io/)
+* [Notepad++](https://notepad-plus-plus.org/)
+* [Vim](http://www.vim.org/)
+* [GNU Emacs](http://www.gnu.org/software/emacs/)
 * [CodePen](http://codepen.io/)
 
 ### IDEs (Integrated Development Enviroment)
