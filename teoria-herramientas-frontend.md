@@ -104,9 +104,9 @@ El hospedaje web es el servicio que provee a los usuarios de Internet un sistema
 
 #### Acceso a Hospedajes
 
-* Vía Web pe [cPanel](https://cpanel.com/)
-* Vía Cliente FTP pe [FileZilla](https://filezilla-project.org/download.php)
-* Vía CLI por SSH pe [PuTTY](http://www.putty.org/)
+* Vía Web ([cPanel](https://cpanel.com/))
+* Vía Cliente FTP ([FileZilla](https://filezilla-project.org/download.php))
+* Vía CLI por SSH ([PuTTY](http://www.putty.org/))
 
 #### Empresas de Hospedaje
 
