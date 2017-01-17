@@ -18,6 +18,8 @@
 
 ## Editores & IDEs
 
+#### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
+
 ![IDE-or-TextEditor](http://bextlan.com/img/para-cursos/IDE-or-TextEditor.png)
 
 ### Editores de Código
@@ -44,8 +46,6 @@
 * [PHP Storm](https://www.jetbrains.com/phpstorm/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [RubyMine](https://www.jetbrains.com/ruby/)
-
-#### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
 
 **[⬆ regresar al índice](#Índice)**
 
