@@ -17,9 +17,9 @@
 
 ## Editores & IDEs
 
-### Editores de Código
-
 ![IDE-or-TextEditor](http://bextlan.com/img/para-cursos/IDE-or-TextEditor.png)
+
+### Editores de Código
 
 * [Sublime Text](https://www.sublimetext.com/)
 	* [Package Control](https://packagecontrol.io/)
