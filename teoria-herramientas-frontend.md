@@ -86,7 +86,7 @@ Un dominio de Internet es una red de identificación que es asociada a un grupo 
 
 El propósito principal de los nombres de dominio en Internet y del sistema de nombres de dominio (DNS), es traducir las direcciones IP de cada nodo activo en la red, a términos memorizables y fáciles de encontrar. Esta abstracción hace posible que cualquier servicio (de red) pueda moverse de un lugar geográfico a otro en la Internet, aun cuando el cambio implique que tendrá una dirección IP diferente.
 
-Empresas de Registro de Dominios
+#### Empresas de Registro de Dominios
 
 * [Name Cheap](https://www.namecheap.com/)
 * [Akky](https://www.akky.mx/)
@@ -102,13 +102,13 @@ El hospedaje web es el servicio que provee a los usuarios de Internet un sistema
 * Hosting Virtuales (VPS)
 * Hosting en la Nube (Cloud Service)
 
-#### Acceso a los Servicios de Hospedaje
+#### Acceso a Hospedajes
 
 * Vía Web pe [cPanel](https://cpanel.com/)
 * Vía Cliente FTP pe [FileZilla](https://filezilla-project.org/download.php)
 * Vía CLI por SSH pe [PuTTY](http://www.putty.org/)
 
-Empresas de Hospedaje
+#### Empresas de Hospedaje
 
 * [Neubox](https://neubox.com/)
 * [Hostinger](https://www.hostinger.mx/)
