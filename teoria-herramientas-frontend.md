@@ -5,7 +5,7 @@
 ## Índice
 
 1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
-1. [Editores & IDEs](#editores-ides)
+1. [Editores & IDEs](#editores--ides)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -26,15 +26,18 @@
 * [Brackets](http://brackets.io/)
 * [CodePen](http://codepen.io/)
 
-### IDE (Integrated Development Enviroment)
+### IDEs (Integrated Development Enviroment)
 
 * [Eclipse](https://eclipse.org/)
 * [NetBeans](https://netbeans.org/)
 * [Aptana](http://www.aptana.com/)
+* [Web Storm](https://www.jetbrains.com/webstorm/)
 * [PHP Storm](https://www.jetbrains.com/phpstorm/)
 * [Visual Studio](https://www.visualstudio.com/)
 * [Android Studio](https://developer.android.com/studio/index.html)
 * [Xcode](https://developer.apple.com/xcode/)
+
+### [Diferencias entre Editores e IDEs](https://www.youtube.com/watch?v=sdVh7nkUUG0)
 
 ## Node.js
 
