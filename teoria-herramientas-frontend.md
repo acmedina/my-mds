@@ -7,7 +7,7 @@
 1. [Introducción](https://github.com/jonmircha/slides-herramientas-frontend)
 1. [Editores & IDEs](#editores--ides)
 1. [Terminal de Comandos](#terminal-de-comandos)
-1. [Dominios y Hospedajes](#dominios-y-hospedajes)
+1. [Dominios & Hospedajes](#dominios--hospedajes)
 1. [Node.js](#nodejs)
 1. [NPM](#npm)
 1. [Paquetes NPM](#paquetes-npm)
@@ -76,7 +76,7 @@ Opciones para Windows
 **[⬆ regresar al índice](#Índice)**
 
 
-## Dominios y Hospedajes
+## Dominios & Hospedajes
 
 ![Dominios y Hospedajes](http://bextlan.com/img/para-cursos/dominios-hosting.jpg)
 
