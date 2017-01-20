@@ -335,7 +335,8 @@ También se puede modificar el comportamiento de WordPress a través de:
 	* [WP Slick Slider and Image Carousel](https://wordpress.org/plugins/wp-slick-slider-and-image-carousel/)
 	* [Slider WD](https://wordpress.org/plugins/slider-wd/)
 	* [Post Slider](https://wordpress.org/plugins/post-slider-wd/)
-	* [Simple Lightbox](https://es-mx.wordpress.org/plugins/simple-lightbox/)
+	* [HUGE-IT Lightbox](https://wordpress.org/plugins/lightbox/)
+	* [Lightbox Pop](https://wordpress.org/plugins/lightbox-pop/)
 * Imágenes Responsive
 	* [Responsify WP](https://es-mx.wordpress.org/plugins/responsify-wp/)
 	* [RICG Responsive Images](https://wordpress.org/plugins/ricg-responsive-images/)
