@@ -24,7 +24,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ## :school: Sesión 1: 06 Abril 2017
 
-### :clipboard: Temas y conceptos revisados:
+### :clipboard: TEMAS:
 
 * [Introducción al mundo de JavaScript](./teoria-intro-js.md)
 * [Introducción a la Programación](./teoria-poo-js.md)
@@ -35,7 +35,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * [Las Buenas Partes de JavaScript](./teoria-poo-js.md#las-buenas-partes-de-javascript)
 * Objetos y Clases en JavaScript
 
-### :pencil: Actividades para la siguiente sesión: 
+### :pencil: TAREAS:
 
 * Traer programado un objeto con 3 métodos y 3 atributos usando todas las formas vistas en clase para la creación de objetos en JavaScript
 * Traer maquetado con HTML y CSS un breve currículum o portafolio web donde se destaque la siguiente información:
@@ -51,56 +51,44 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ## :school: Sesión 2: 20 Abril 2017
 
-### :clipboard: Temas y conceptos revisados:
+### :clipboard: TEMAS:
 
 * [DOM](./teoria-poo-js.md#dom)
 * [Eventos](./teoria-poo-js.md#eventos)
 * [BOM](./teoria-poo-js.md#bom)
 
-### :pencil: Actividades para la siguiente sesión:
-
-* Aplicar lo visto en clase en el proyecto final
-
 
 ## :school: Sesión 3: 27 Abril 2017
 
-### :clipboard: Temas y conceptos revisados: 
+### :clipboard: TEMAS:
 
 * [Agente de Usuario](./teoria-poo-js.md#agente-de-usuario)
 * [Media Queries](./teoria-poo-js.md#media-queries)
 * [Formularios](./teoria-poo-js.md#formularios)
 
-### :pencil: Actividades para la siguiente sesión:
+### :pencil: TAREAS:
 
-* Aplicar lo visto en clase en el proyecto final
 * Del Libro Introducción a AJAX leer los siguientes capítulos:
 	* [Capítulo 7. Primeros pasos con AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 
 ## :school: Sesión 4: 04 Mayo 2017
 
-### :clipboard: Temas y conceptos revisados:
+### :clipboard: TEMAS:
 
 * [AJAX](./teoria-poo-js.md#ajax)
 * [JSON](./teoria-poo-js.md#json)
 
-### :pencil: Actividades para la siguiente sesión:
-
-* Aplicar lo visto en clase en el proyecto final
-
 
 ## :school: Sesión 5: 11 Mayo 2017
 
-### :clipboard: Temas y conceptos revisados: 
+### :clipboard: TEMAS:
 
 * [API's](./teoria-poo-js.md#apis)
 * [JavaScript Diferido y Asíncrono](./teoria-poo-js.md#javascript-diferido-y-asíncrono)
 
-### :pencil: Actividades para la siguiente sesión: 
 
-* Entrega de Proyecto
-
-## :mortar_board: Evaluación:
+## :mortar_board: EVALUACIÓN:
 
 *  5% Maquetado de Portafolio Web en HTML y CSS
 *  5% Objeto programado en JS
