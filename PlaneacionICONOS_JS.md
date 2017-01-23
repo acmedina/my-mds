@@ -9,8 +9,6 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ## :bow: Docente:
 
 * [Jonathan MirCha](http://jonmircha.com)
-* Instructor Web y Arquitecto de Front end
-* Creador de **[Bextlán](http://bextlan.com)** y **[Responsimple](http://jonmircha.github.io/responsimple/)**
 * **[@jonmircha](https://twitter.com/jonmircha)**
 * **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)**
 
@@ -24,7 +22,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * [Tutoriales JavaScript de Bextlán](http://bextlan.com/tutoriales/javascript/)
 
 
-## :school: Sesión 1: 03 Diciembre 2016
+## :school: Sesión 1: 06 Abril 2017
 
 ### :clipboard: Temas y conceptos revisados:
 
@@ -51,7 +49,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 4. Programación avanzada](http://librosweb.es/libro/javascript/capitulo_4.html)
 
 
-## :school: Sesión 2: 10 Diciembre 2016
+## :school: Sesión 2: 20 Abril 2017
 
 ### :clipboard: Temas y conceptos revisados:
 
@@ -64,7 +62,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Aplicar lo visto en clase en el proyecto final
 
 
-## :school: Sesión 3: 17 Diciembre 2016
+## :school: Sesión 3: 27 Abril 2017
 
 ### :clipboard: Temas y conceptos revisados: 
 
@@ -79,7 +77,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 7. Primeros pasos con AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 
-## :school: Sesión 4: 07 Enero 2017
+## :school: Sesión 4: 04 Mayo 2017
 
 ### :clipboard: Temas y conceptos revisados:
 
@@ -91,7 +89,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Aplicar lo visto en clase en el proyecto final
 
 
-## :school: Sesión 5: 14 Enero 2017
+## :school: Sesión 5: 11 Mayo 2017
 
 ### :clipboard: Temas y conceptos revisados: 
 
@@ -120,8 +118,8 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * El uso de frameworks o librerías es causa de reprobación inmediata
 * Para la entrega incluir un archivo `readme.txt` describiendo en que secciones se implementaron las interacciones JS, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlo el estudiante acepta la percepción del docente al evaluar dicho sitio
 
-## :date: Entrega Final: 
+## :date: ENTREGA:
 
-**Al final de la sesión 5**
+**Lunes 15 Mayo 2017 11:59:59pm**
 
-La entrega se hace presencialmente en horario de clase
+La entrega puede ser vía email, dropbox, google drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com
