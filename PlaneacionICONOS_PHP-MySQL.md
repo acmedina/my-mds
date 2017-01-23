@@ -98,7 +98,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 
 ## :school: Sesión 3: 11 Febrero 2017
 
-### :clipboard: TEMAS: 
+### :clipboard: TEMAS:
 
 * Introducción a PHP
 * Tipos de Programación PHP
