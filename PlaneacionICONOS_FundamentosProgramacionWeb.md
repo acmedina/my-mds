@@ -117,14 +117,15 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Maquetación de los componentes web comunes del proyecto
 
 
-## :mortar_board: EVALUACIÓN:
+## :mortar_board: PRIMER EVALUACIÓN:
 
+* 10% Portafolio Web
 * 10% Objeto JS (código)
 * 5% Mapa de Sitio (pdf)
 * 20% Wireframes Mobile (pdf)
 * 20% Wireframes Desktop (pdf)
 * 15% Navegación Responsive (código)
-* 30% Maquetación Comun (código)
+* 20% Maquetación Comun (código)
 
 ## :date: ENTREGA: Sesión 6
 
@@ -136,91 +137,176 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ### :clipboard: TEMAS:
 
-
 * [Formularios](./teoria-poo-js.md#formularios)
+
+### :pencil: TAREAS:
+
+* Maquetación (Mobile y Desktop) del Home del sitio, puede ser con contenido simulado
 * Del Libro Introducción a AJAX leer los siguientes capítulos:
 	* [Capítulo 7. Primeros pasos con AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 
+## :school: Sesión 7: 09 Marzo 2017
+
+### :clipboard: TEMAS:
 
 * [AJAX](./teoria-poo-js.md#ajax)
 * [JSON](./teoria-poo-js.md#json)
 
+### :pencil: TAREAS:
 
+* Maquetación (Mobile y Desktop) Sección 1 del sitio, puede ser con contenido simulado
+
+
+## :school: Sesión 8: 16 Marzo 2017
+
+### :clipboard: TEMAS:
 
 * [API's](./teoria-poo-js.md#apis)
 * [JavaScript Diferido y Asíncrono](./teoria-poo-js.md#javascript-diferido-y-asíncrono)
+* [Front end Moderno](https://github.com/jonmircha/slides-herramientas-frontend)
+* [Editores & IDEs](./teoria-herramientas-frontend.md#editores--ides)
+* [Terminal de Comandos](./teoria-herramientas-frontend.md#terminal-de-comandos)
+* [Node.js](./teoria-herramientas-frontend.md#nodejs)
+* [NPM](./teoria-herramientas-frontend.md#npm)
+* [Paquetes NPM](./teoria-herramientas-frontend.md#paquetes-npm)
+
 ### :pencil: TAREAS:
 
-## :school: Sesión 7: 09 Marzo 2017
-### :clipboard: TEMAS:
-### :pencil: TAREAS:
+* Maquetación (Mobile y Desktop) Sección 2 del sitio, puede ser con contenido simulado
 
-## :school: Sesión 8: 16 Marzo 2017
-### :clipboard: TEMAS:
-### :pencil: TAREAS:
 
 ## :school: Sesión 9: 23 Marzo 2017
+
 ### :clipboard: TEMAS:
+
+* [Gestores de Tareas](./teoria-herramientas-frontend.md#gestores-de-tareas)
+* Web Performance Optimization
+
 ### :pencil: TAREAS:
+
+* Maquetación (Mobile y Desktop) Sección 3 del sitio, puede ser con contenido simulado
+
 
 ## :school: Sesión 10: 30 Marzo 2017
+
 ### :clipboard: TEMAS:
+
+* [Git](./teoria-herramientas-frontend.md#git)
+* [GitHub](./teoria-herramientas-frontend.md#github)
+* [Más de Git & GitHub](./teoria-herramientas-frontend.md#más-de-git--github)
+
 ### :pencil: TAREAS:
 
-## :mortar_board: EVALUACIÓN:
+* Maquetación (Mobile y Desktop) Sección 4 del sitio, puede ser con contenido simulado
+
+
+## :mortar_board: SEGUNDA EVALUACIÓN:
+
+* 80% Maquetación (Mobile y Desktop) de **TODO** el sitio, puede ser con contenido simulado
+* 20% Desplegar el sitio web en GitHub Pages
+
+## :date: ENTREGA: Sesión 11
+
 
 # Fase Final
 
+
 ## :school: Sesión 11: 06 Abril 2017
+
 ### :clipboard: TEMAS:
+
+* Implementación de Componentes Web de Terceros
+
 ### :pencil: TAREAS:
 
-## Semana Santa
+* Programación y Optimización del sitio, reemplazo de contenido simulado por contenido definitivo
+
+
+## :pray: Semana Santa :pray:
+
 
 ## :school: Sesión 12: 20 Abril 2017
+
 ### :clipboard: TEMAS:
+
+* Implementación de API's HTML5
+
 ### :pencil: TAREAS:
 
-## :date: Ensayo: 21 de abril de 2017, 18:00 hrs 
+* Cumplir con los requisitos para el ensayo
+
+
+## :date: Ensayo: 21 de abril de 2017, 18:00 hrs
+
+## :pushpin: Requisitos para ensayo:
+
+* Maquetación (Mobile y Desktop) de **TODO** el sitio, 
+* El contenido del sitio puede ser simulado
+* Cumplir con los puntos 1 y 5 descritos en la [Evaluación Final]()
+* Desplegar el sitio web en GitHub Pages
+
+
 
 ## :school: Sesión 13: 27 Abril 2017
+
 ### :clipboard: TEMAS:
+
+* [Preprocesadores](./teoria-herramientas-frontend.md#preprocesadores)
+* [Babel](./teoria-es6.md#babel)
+* [EcmaScript 6](./teoria-es6.md)
+
 ### :pencil: TAREAS:
 
+* Programación y Optimización del sitio, reemplazo de contenido simulado por contenido definitivo
+
+
 ## :school: Sesión 14: 04 Mayo 2017
+
 ### :clipboard: TEMAS:
+
+* Programación Backend con JS
+	* Hola Mundo con Node.js
+	* Introducción al framework web Express.js
+	* Introducción a la plataforma Firebase
+* [Dominios & Hospedajes](./teoria-herramientas-frontend.md#dominios--hospedajes)
+
 ### :pencil: TAREAS:
+
+* Programación y Optimización del sitio, reemplazo de contenido simulado por contenido definitivo
+
+## :school: Sesión 15: 11 Mayo 2017
+
+### :clipboard: TEMAS:
+
+* Entrega de Proyecto
 
 ## :date: Presentación Final: 13 Mayo 2017
 
 ## :mortar_board: EVALUACIÓN:
 
-
-
-
-
-
-## :mortar_board: EVALUACIÓN:
-
-*  5% Maquetado de Portafolio Web en HTML y CSS
-*  5% Objeto programado en JS
-* 90% Implementar en el Portafolio Web 9 interacciones justificadas con JS una por cada uno de los siguientes temas:
-	1. Objetos
-	1. DOM
+1. 50% Implementar en el sitio web 10 interacciones justificadas con JS (5% c/u), 2 por cada uno de los siguientes temas:
+	1. DOM y/o BOM
 	1. Eventos
-	1. BOM
-	1. Agente de Usuario
-	1. Media Queries
+	1. Agente de Usuario y/o Media Queries
 	1. Formularios
-	1. JSON
-	1. AJAX
-* Prohibido usar frameworks o librerías debe ser con JavaScript puro
-* El uso de frameworks o librerías es causa de reprobación inmediata
-* Para la entrega incluir un archivo `readme.txt` describiendo en que secciones se implementaron las interacciones JS, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlo el estudiante acepta la percepción del docente al evaluar dicho sitio
+	1. JSON y AJAX
+1. 10% Implementación justificada de un Componente Web
+1. 10% Implementación justificada de un API HTML5
+1. 20% Sitio optimizado para su publicación en la Web
+	* Minificación y concatenación de archivos CSS y JS
+	* Minificación de archivos HTML
+	* Depuración de CSS e implementación de Autoprefixer
+	* Optimización y compresión de Imágenes
+1. 10% Archivo **README.md** del repositorio
 
-## :date: ENTREGA:
-
-**Lunes 15 Mayo 2017 11:59:59pm**
-
-La entrega puede ser vía email, dropbox, google drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com
+### Notas:
+	
+* La programación del sitio tiene que ser con Vanilla JS
+* Queda prohibido usar frameworks Frontend de terceros, en caso de hacerlo estará reprobado
+* Queda prohibido usar la librería jQuery o cualquier componente que dependa de ella, en caso de hacerlo estará reprobado
+* El código fuente del proyecto debe publicarse en GitHub
+* Se debe proporcionar la url del repositorio de GitHub
+* El proyecto debe desplegarse en GitHub Pages
+* El último commit deberá ser el día 11 de Mayo de 2017 a las 10:45am, si existe un commit después de esta fecha y hora se restarán 2 puntos a la calificación final
+* En el repositorio de GitHub debe existir un archivo **`README.md`** con todos los datos del proyecto y estudiante, así como una pequeña documentación describiendo en que secciones se implementaron las interacciones JS, el componente web y el API HTML5. Si no se incluye dicha documentación se restará un punto a la calificación final, además el estudiante acepta la percepción del docente al evaluar el proyecto
