@@ -223,7 +223,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Programación y Optimización del sitio, reemplazo de contenido simulado por contenido definitivo
 
 
-<div id=""></div>## :pray: Semana Santa :pray:
+### :pray: Semana Santa :pray:
 
 
 ## :school: Sesión 12: 20 Abril 2017
