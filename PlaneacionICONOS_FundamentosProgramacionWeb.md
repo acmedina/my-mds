@@ -243,7 +243,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 * Maquetación (Mobile y Desktop) de **TODO** el sitio, 
 * El contenido del sitio puede ser simulado
-* Cumplir con los puntos 1 y 5 descritos en la [Evaluación Final]()
+* Cumplir con los puntos 1 y 5 descritos en la [Evaluación Final](#mortar_board-evaluación-final)
 * Desplegar el sitio web en GitHub Pages
 
 
@@ -283,7 +283,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ## :date: Presentación Final: 13 Mayo 2017
 
-## :mortar_board: EVALUACIÓN:
+## :mortar_board: EVALUACIÓN FINAL:
 
 1. 50% Implementar en el sitio web 10 interacciones justificadas con JS (5% c/u), 2 por cada uno de los siguientes temas:
 	1. DOM y/o BOM
