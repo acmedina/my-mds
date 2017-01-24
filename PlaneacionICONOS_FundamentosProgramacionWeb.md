@@ -239,7 +239,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ## :date: Ensayo: 21 de abril de 2017, 18:00 hrs
 
-## :pushpin: Requisitos para ensayo:
+### :pushpin: Requisitos para ensayo:
 
 * Maquetación (Mobile y Desktop) de **TODO** el sitio, 
 * El contenido del sitio puede ser simulado
