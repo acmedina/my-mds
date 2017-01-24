@@ -243,7 +243,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 * Maquetación (Mobile y Desktop) de **TODO** el sitio, 
 * El contenido del sitio puede ser simulado
-* Cumplir con los puntos 1 y 5 descritos en la [Evaluación Final](#evaluación-final)
+* Cumplir con los puntos 1 y 5 descritos en la [Evaluación Final](./PlaneacionICONOS_FundamentosProgramacionWeb.md#evaluaciÓn-final)
 * Desplegar el sitio web en GitHub Pages
 
 
