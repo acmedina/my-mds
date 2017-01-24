@@ -127,7 +127,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * 15% Navegación Responsive (código)
 * 20% Maquetación Comun (código)
 
-## :date: ENTREGA: Sesión 6
+### :date: ENTREGA: Sesión 6
 
 
 # Segundo Parcial
@@ -206,7 +206,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * 80% Maquetación (Mobile y Desktop) de **TODO** el sitio, puede ser con contenido simulado
 * 20% Desplegar el sitio web en GitHub Pages
 
-## :date: ENTREGA: Sesión 11
+### :date: ENTREGA: Sesión 11
 
 
 # Fase Final
@@ -281,7 +281,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 * Entrega de Proyecto
 
-## :date: Presentación Final: 13 Mayo 2017
+### :date: Presentación Final: 13 Mayo 2017
 
 ## :mortar_board: EVALUACIÓN FINAL:
 
