@@ -27,9 +27,16 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * La clase es todos los jueves de 8am a 11am
 * La clase comenzará a las 8:15am y terminará a las 10:50am
 * No hay recesos
-* Después de las 8:15am el estudiante que deseé entrar lo hará con un punto menos en su calificación parcial
-* Si el docente llega después de las 8:15am los estudiantes presentes tendrán un punto más sobre su calificación parcial, los que lleguen después no se les restará calificación parcial
-* Por cada tarea incumplida se restará un punto a la calificación parcial
+* Si necesitas ir al baño, no pidas permiso, sal, sin interrumpir la clase
+* Después de las 8:15am el estudiante que deseé entrar tiene 2 opciones:
+	1. Hacer un [Burpee](https://www.youtube.com/watch?v=Uy2nUNX38xE) por cada minuto que haya pasado desde las 8:00am hasta su hora de llegada
+	1. Se le restará un punto en su calificación parcial
+* Después de las 8:30am ya no hay acceso a la clase
+* Por cada tarea incumplida el estudiante tiene 2 opciones:
+	1. Se harán 10 Burpees y se restará medio punto en su calificación parcial
+	1. Se le restará un punto en su calificación parcial
+* Las reglas de acceso también aplican para el docente
+
 
 
 # Primer Parcial
