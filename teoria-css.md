@@ -218,7 +218,7 @@ Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.
     * [**`overflow-y`**](http://www.w3schools.com/cssref/css3_pr_overflow-y.asp): a lo alto
 * **[Display](http://www.w3schools.com/css/css_display_visibility.asp):** Afecta la visualización de la caja
     * **Tipos de Display Básicos**
-        * **`inline`:** Ocupa sólo el espacio requerido, las propiedades `width` y `height` son ignoradas
+        * **`inline`:** Ocupa sólo el espacio requerido, las propiedades `width`/`height` y los `margin` y `padding` verticales son ignoradas
         * **`block`:** Ocupa todo el espacio disponible generando saltos de línea con los elementos adyacentes, las propiedades `width` y `height` son consideradas
         * **`inline-block`:** Se comporta como elemento de línea, pero si se definen las propiedades `width` y `height` serán consideradas
         * **`none`:** Quita la caja de la visualización del documento, carga en el navegador pero no se muestra
