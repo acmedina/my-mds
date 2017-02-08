@@ -14,7 +14,7 @@
 1. [Git](#git)
 1. [GitHub](#github)
 1. [Más de Git & GitHub](#más-de-git--github)
-1. [Preprocesadores](#preprocesadores)
+1. [Metalenguajes](#metalenguajes)
 1. [Gestores de Tareas](#gestores-de-tareas)
 
 ## Editores & IDEs
@@ -606,13 +606,13 @@ $ > git pull origin gh-pages
 **[⬆ regresar al índice](#Índice)**
 
 
-## Preprocesadores
+## Metalenguajes
 
-![Preprocesadores](http://bextlan.com/img/para-cursos/preprocesadores.png)
+![Metalenguajes](http://bextlan.com/img/para-cursos/preprocesadores.png)
 
 Son lenguajes independientes (generalmente, más amigables, potentes y prácticos) que son capaces de traducir el código al lenguaje de destino (HTML, CSS o JavaScript), que son los únicos que los navegadores son capaces de entender de forma nativa.
 
-El objetivo de los preprocesadores es tener un código más sencillo de mantener y editar. Incluyen características tales como variables, funciones, mixins, anidación y modularidad.
+El objetivo de los metalenguajes o preprocesadores es tener un código más sencillo de mantener y editar. Incluyen características tales como variables, funciones, mixins, anidación y modularidad.
 
 Son soportados por plataformas web como:
 

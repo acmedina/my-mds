@@ -40,7 +40,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para traba
 
 ### :clipboard: TEMAS: 
 
-* Preprocesadores
+* Metalenguajes
 * Gestores de Tareas
 
 
