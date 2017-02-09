@@ -620,7 +620,7 @@ Son soportados por plataformas web como:
 * [JSFiddle](https://jsfiddle.net/)
 * [JS Bin](http://jsbin.com/)
 
-### Preprocesadores HTML
+### Metalenguajes HTML
 
 * Markdown
 	* [¿Qué es?](http://whatismarkdown.com/)
@@ -636,7 +636,7 @@ Son soportados por plataformas web como:
 * [Handlebars](http://handlebarsjs.com/)
 * [EJS](http://ejs.co/)
 
-### Preprocesadores CSS
+### Metalenguajes CSS
 
 * [Less](http://lesscss.org/)
 * [Stylus](http://stylus-lang.com/)
@@ -646,7 +646,7 @@ Son soportados por plataformas web como:
 * [PostCSS](http://postcss.org/)
 	* [CSSNext](http://cssnext.io/)
 
-### Preprocesadores JS
+### Metalenguajes JS
 
 * [LiveScript](http://livescript.net/)
 * [CoffeeScript](http://coffeescript.org/)
