@@ -92,8 +92,8 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* de Catálogos
 	* de Datos (por lo menos 10 completos)
 * Leer del libro [POO y MVC en PHP de Eugenia Bahit](http://www.etnassoft.com/biblioteca/poo-y-mvc-en-php/):
-	* Introducción a la programación orientada a objetos POO (Págs 11 - 12)
-	* Programación Orientada a Objetos en PHP 5 (Págs 14 - 21)
+	* Introducción a la programación orientada a objetos POO (Págs. 11 - 12)
+	* Programación Orientada a Objetos en PHP 5 (Págs. 14 - 21)
 
 ## :school: Sesión 3: 11 Febrero 2017
 
