@@ -91,10 +91,9 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 * Inserción de Registros:
 	* de Catálogos
 	* de Datos (por lo menos 10 completos)
-* Ver y hacer los siguientes videotutoriales:
-	* [Conceptos Básicos de PHP](https://www.youtube.com/watch?v=9VyLJy6tNgI&index=2&list=PL469D93BF3AE1F84F)	
-	* [Envío de Datos GET y POST](https://www.youtube.com/watch?v=uxi5zaqs_yc&index=3&list=PL469D93BF3AE1F84F)
-
+* Leer del libro [POO y MVC en PHP de Eugenia Bahit](http://www.etnassoft.com/biblioteca/poo-y-mvc-en-php/):
+	* Introducción a la programación orientada a objetos POO (Págs 11 - 12)
+	* Programación Orientada a Objetos en PHP 5 (Págs 14 - 21)
 
 ## :school: Sesión 3: 11 Febrero 2017
 
@@ -105,9 +104,10 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* Preprocesador HTML
 	* Programación Estructurada
 	* Programación Orientada a Objetos
+* Formularios con PHP
 * POO en PHP
 	* Clases y Objetos
-	* Métodos, Atributos y Constantes
+	* Métodos y Atributos
 	* Modificadores de Acceso
 		* `public`
 		* `private`
