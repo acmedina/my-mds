@@ -148,14 +148,14 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ### :clipboard: TEMAS:
 
 * Desarrollo Web con PHP
+	* Interacción con AJAX
+		* Formularios
+		* Envío de Correo
 	* Interacción con Front end
 		* Estructura de carpetas
 		* Rutas y Accesos
 		* Archivos `.htaccess`
 		* Urls Amigables
-	* Interacción con AJAX
-		* Formularios
-		* Envío de Correo
 
 ### :pencil: TAREAS:
 
