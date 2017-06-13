@@ -3,7 +3,7 @@
 * [Concepto](#arquitectura)
 * [Componentes Modulares](#componentes-modulares)
 * [Patrones de Diseño](#patrones-de-diseño)
-* [Guías de Éstilo](#guías-de-estilo)
+* [Guías de Estilo](#guías-de-estilo)
 * [Sistemas de Nomenclaturas](#sistemas-de-nomenclaturas)
 * [Tipos de Arquitecturas](#tipos-de-arquitecturas)
 * [Buenas Prácticas de Código](#buenas-prácticas-de-código)
