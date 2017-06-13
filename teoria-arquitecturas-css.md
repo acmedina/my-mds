@@ -2,7 +2,7 @@
 
 * [Concepto](./#arquitectura)
 * [Componentes Modulares](./#componentes-modulares)
-* [Patrones de Diseño](./#patrones-de-diseno)
+* [Patrones de Diseño](./#patrones-de-diseño)
 * [Guías de Éstilo](./#guías-de-estilo)
 * [Sistemas de Nomenclaturas](./#sistemas-de-nomenclaturas)
 * [Tipos de Arquitecturas](./#tipos-de-arquitecturas)
@@ -62,7 +62,7 @@ Un patrón resulta ser una solución a un problema. Para que una solución sea c
 **[⬆ regresar](#arquitecturas-css)**
 
 
-## Guías de Estilos
+## Guías de Estilo
 
 Genera un código más legible y fácil de mantener, disminuyen la cantidad de errores y refuerzan las buenas prácticas, además permiten trabajar en un mismo proyecto a varios desarrolladores
 
