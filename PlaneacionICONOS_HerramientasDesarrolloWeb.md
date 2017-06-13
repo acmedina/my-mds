@@ -14,7 +14,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para traba
 
 ## :books: Fuentes bibliográficas del curso:
 
-* [Teoría del Curso](./teoria-herramientas-frontend.md)
+* [Teoría del Curso](https://escuelait.github.io/taller-frontend-2017/#/)
 
 
 ## :school: Sesión 1: 08 Abril 2017
