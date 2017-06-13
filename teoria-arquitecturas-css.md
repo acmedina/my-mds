@@ -112,7 +112,7 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 **[⬆ regresar](#arquitecturas-css)**
 
 
-## Tipos de Arquitectura
+## Tipos de Arquitecturas
 
 * [OOCSS](http://oocss.org/)
 * [SMACSS](https://smacss.com/)
