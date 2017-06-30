@@ -2,8 +2,8 @@
 
 Sistemas de Maquetación CSS:
 
-1. Grid: Bidimensional, pensado para planificar las estructuras y secciones externas de la UI
-1. Flexbox: Unidimensional, pensado para el acomodo interno de los elementos, componentes y/o widgets de la UI
+1. **Grid:** Bidimensional, pensado para planificar las estructuras y secciones externas de la UI
+1. **Flexbox:** Unidimensional, pensado para el acomodo interno de los elementos, componentes y/o widgets de la UI
 
 
 ## Grid
