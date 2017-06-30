@@ -32,4 +32,4 @@ Sistemas de Maquetación CSS:
   * [Flexbox Defense](http://www.flexboxdefense.com/)
   * [Flexbox Froggy](http://flexboxfroggy.com/)
 
-### Puedes aprender más sobre Grid y Flexbox con el [Curso CSS Avanzado: Grid + Flexbox](https://ed.team/cursos/css-avanzado) de EDteam.
+### Puedes aprender más sobre Grid y Flexbox en el [Curso CSS Avanzado: Grid + Flexbox](https://ed.team/cursos/css-avanzado) de EDteam.
