@@ -9,31 +9,31 @@
 1. [ECMAScript](#ecmascript)
 1. [Babel](#babel)
 1. [Características ECMAScript 6](#características-ecmascript-6)
-	1. [Variables de bloque y constantes](#variables-de-bloque-y-constantes)
-	1. [Nivel de Bloques](#nivel-de-bloques)
-	1. [Plantillas de cadenas de texto](#plantillas-de-cadenas-de-texto)
-	1. [Funciones flecha](#funciones-flecha)
-	1. [Objetos literales](#objetos-literales)
-	1. [Destructuración](#destructuración)
-	1. [Parámetros por defecto](#parámetros-por-defecto)
-	1. [Parámetros rest](#parámetros-rest)
-	1. [Operador de propagación](#operador-de-propagación)
-	1. [Clases](#clases)
-	1. [Módulos](#módulos)
-	1. [Promesas](#promesas)
-	1. [Iteradores](#iteradores)
-	1. [Símbolos](#símbolos)
-	1. [Generadores](#generadores)
-	1. [Proxies](#proxies)
-	1. [Reflexión](#reflexión)
-	1. [Decoradores](#decoradores)
-	1. [Funciones Asíncronas](#funciones-asíncronas)
-	1. [Métodos clase String](#métodos-clase-string)
-	1. [Números octales y binarios](#números-octales-y-binarios)
-	1. [Métodos clase Math](#métodos-clase-math)
-	1. [Métodos clase Array](#métodos-clase-array)
-	1. [Métodos clase Object](#métodos-clase-object)
-	1. [Maps, Sets y Weaks](#maps-sets-y-weaks)
+  1. [Variables de bloque y constantes](#variables-de-bloque-y-constantes)
+  1. [Nivel de Bloques](#nivel-de-bloques)
+  1. [Plantillas de cadenas de texto](#plantillas-de-cadenas-de-texto)
+  1. [Funciones flecha](#funciones-flecha)
+  1. [Objetos literales](#objetos-literales)
+  1. [Destructuración](#destructuración)
+  1. [Parámetros por defecto](#parámetros-por-defecto)
+  1. [Parámetros rest](#parámetros-rest)
+  1. [Operador de propagación](#operador-de-propagación)
+  1. [Clases](#clases)
+  1. [Módulos](#módulos)
+  1. [Promesas](#promesas)
+  1. [Iteradores](#iteradores)
+  1. [Símbolos](#símbolos)
+  1. [Generadores](#generadores)
+  1. [Proxies](#proxies)
+  1. [Reflexión](#reflexión)
+  1. [Decoradores](#decoradores)
+  1. [Funciones Asíncronas](#funciones-asíncronas)
+  1. [Métodos clase String](#métodos-clase-string)
+  1. [Números octales y binarios](#números-octales-y-binarios)
+  1. [Métodos clase Math](#métodos-clase-math)
+  1. [Métodos clase Array](#métodos-clase-array)
+  1. [Métodos clase Object](#métodos-clase-object)
+  1. [Maps, Sets y Weaks](#maps-sets-y-weaks)
 
 
 # ECMAScript
@@ -85,14 +85,14 @@ Es un compilador de JavaScript, te permite usar el JavaScript del futuro, **HOY*
 ### Instalación de paquetes
 
 ```Terminal
-npm install -D babel-cli babel-preset-es2015 babel-preset-stage-2
+npm install -D babel-cli babel-core babel-preset-env
 ```
 
 ### Crear el archivo de configuarción **`.babelrc`**
 
 ```JSON
 {
-  "presets": [ "es2015", "stage-2" ],
+  "presets": [ "env" ],
   "plugins": []
 }
 ```
@@ -111,9 +111,9 @@ npm install -D babel-cli babel-preset-es2015 babel-preset-stage-2
   "author": "Jonathan MirCha <jonmircha@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-stage-2": "^6.18.0"
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.0"
   }
 }
 ```
@@ -141,14 +141,14 @@ En ES6 se agrega una nueva forma de definir variables usando la palabra **`let`*
 let x = 'Hola kEnAi';
 
 if (true) {
-	let x = 'Hola Jon';
-	console.log(x);  // Imprime en consola Hola Jon
+  let x = 'Hola Jon';
+  console.log(x);  // Imprime en consola Hola Jon
 }
 
 console.log(x);  // Imprime en consola Hola kEnAi
 
 for (let i = 0; i < 5; i++) {
-	console.log(i); // Imprime del 0 al 4
+  console.log(i); // Imprime del 0 al 4
 };
 
 console.log(i); // Imprime Uncaught ReferenceError: i is not defined
@@ -207,11 +207,11 @@ console.log( f() ); //Imprime 2
 function f() { return 1; }
 
 {
-	console.log( f() ); //Imprime 2
+  console.log( f() ); //Imprime 2
 
-	function f() { return 2; }
+  function f() { return 2; }
 
-	console.log( f() ); //Imprime 2
+  console.log( f() ); //Imprime 2
 }
 
 console.log( f() ); //Imprime 1
@@ -238,9 +238,9 @@ console.log(saludo); //Imprime Hola soy un Template String
 let mensaje = `No es quien seas en el interior,
 tus actos son los que te definen...
 Batman`;
-console.log(mensaje); 
+console.log(mensaje);
 /*
-Imprime 
+Imprime
 No es quien seas en el interior,
 tus actos son los que te definen...
 Batman
@@ -255,21 +255,21 @@ console.log(`Hola ${nombre}, tienes ${30 + 2} años`); //Imprime Hola Jonathan, 
 
 //ejecutar funciones
 let estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno'],
-	ol = `<ol>
-		${
-			estaciones.map(function (estacion) {
-				return `<li>${estacion}</li>`;
-			}).join('')
-		}
-	</ol>`;
+  ol = `<ol>
+    ${
+      estaciones.map(function (estacion) {
+        return `<li>${estacion}</li>`;
+      }).join('')
+    }
+  </ol>`;
 
 console.log(ol); //Imprime <ol><li>Primavera</li><li>Verano</li><li>Otoño</li><li>Invierno</li></ol>
 
 //función de etiquetado
 const etiqueta = function (cadena, variable) {
-	console.log(cadena); //Imprime ["Hola ", "", raw: Array[2]]
-	console.log(variable); //Imprime Ulises
-	console.log(cadena[0] + variable); //Imprime Hola Ulises
+  console.log(cadena); //Imprime ["Hola ", "", raw: Array[2]]
+  console.log(variable); //Imprime Ulises
+  console.log(cadena[0] + variable); //Imprime Hola Ulises
 };
 
 let otroNombre = 'Ulises';
@@ -293,7 +293,7 @@ Al crear una arrow function de un solo parámetro no es necesario escribír los 
 ```JavaScript
 //Antes
 var saludo = function (nombre) {
-	return 'Hola ' + nombre;
+  return 'Hola ' + nombre;
 };
 console.log( saludo('Jonathan') ); //Imprime Hola Jonathan
 
@@ -309,7 +309,7 @@ Cuando la función tenga más de un parámetro es necesario envolver el nombre d
 ```JavaScript
 //Antes
 var sumar = function (a, b) {
-	return a + b;
+  return a + b;
 };
 console.log( sumar(10, 9) ); //Imprime 19
 
@@ -325,7 +325,7 @@ Cuando la función no reciba parámetros también son necesarios los paréntesis
 ```JavaScript
 //Antes
 var saludo = function () {
-	return 'Hola a tod@s';
+  return 'Hola a tod@s';
 };
 console.log( saludo() ); //Imprime Hola a tod@s
 
@@ -341,36 +341,36 @@ Cuando la función tiene más de una línea (o no devuelve ningún valor) es nec
 ```JavaScript
 //Antes
 var fecha = new Date(),
-	hora = fecha.getHours();
+  hora = fecha.getHours();
 
 var saludo = function (hr) {
-	if (hr <= 5) {
-		return 'No me jodas!!!';
-	} else if(hr >= 6 && hr <= 11) {
-		return 'Buenos días!!!';
-	} else if(hr >= 12 && hr <= 18) {
-		return 'Buenas tardes!!!';
-	} else {
-		return 'Buenas noches!!!';
-	}
+  if (hr <= 5) {
+    return 'No me jodas!!!';
+  } else if(hr >= 6 && hr <= 11) {
+    return 'Buenos días!!!';
+  } else if(hr >= 12 && hr <= 18) {
+    return 'Buenas tardes!!!';
+  } else {
+    return 'Buenas noches!!!';
+  }
 };
 
 console.log( saludo(hora) ); //Imprime el saludo dependiendo la hora del día
 
 //Ahora
 let fecha = new Date(),
-	hora = fecha.getHours();
+  hora = fecha.getHours();
 
 let saludo = (hr) => {
-	if (hr <= 5) {
-		return 'No me jodas!!!';
-	} else if(hr >= 6 && hr <= 11) {
-		return 'Buenos días!!!';
-	} else if(hr >= 12 && hr <= 18) {
-		return 'Buenas tardes!!!';
-	} else {
-		return 'Buenas noches!!!';
-	}
+  if (hr <= 5) {
+    return 'No me jodas!!!';
+  } else if(hr >= 6 && hr <= 11) {
+    return 'Buenos días!!!';
+  } else if(hr >= 12 && hr <= 18) {
+    return 'Buenas tardes!!!';
+  } else {
+    return 'Buenas noches!!!';
+  }
 };
 
 console.log( saludo(hora) ); //Imprime el saludo dependiendo la hora del día
@@ -379,16 +379,16 @@ console.log( saludo(hora) ); //Imprime el saludo dependiendo la hora del día
 var numeros = [1, 2, 3, 4];
 
 numeros.forEach(function (num) {
-	console.log(num); //Imprime el número en turno
-	console.log(num * 10); //Imprime el número en turno por 10
+  console.log(num); //Imprime el número en turno
+  console.log(num * 10); //Imprime el número en turno por 10
 });
 
 //Ahora
 let numeros = [1, 2, 3, 4];
 
 numeros.forEach((num) => {
-	console.log(num); //Imprime el número en turno
-	console.log(num * 10); //Imprime el número en turno por 10
+  console.log(num); //Imprime el número en turno
+  console.log(num * 10); //Imprime el número en turno por 10
 });
 ```
 
@@ -399,14 +399,14 @@ Las arrow function tienen la capacidad de capturar el objeto `this` del contexto
 ```JavaScript
 //El problema de `this` Antes
 function Persona(nombre) {
-	//El constructor Persona() define `this` como una instancia de él mismo
-	this.nombre = nombre;
-	this.edad = 0;
+  //El constructor Persona() define `this` como una instancia de él mismo
+  this.nombre = nombre;
+  this.edad = 0;
 
-	setInterval(function () {
-		//La función anónima define `this` como una instancia de ella misma
-		this.edad++;
-	}, 1000);
+  setInterval(function () {
+    //La función anónima define `this` como una instancia de ella misma
+    this.edad++;
+  }, 1000);
 }
 
 var jon = new Persona('Jonathan');
@@ -415,16 +415,16 @@ console.log(jon); //Imprime la edad en 0 por cada segundo que pasa
 
 //La solución al problema de `this` Antes
 function Persona(nombre) {
-	//Se declara una variable self (algunos prefieren that) para guardar el `this` del constructor Persona()
-	var self = this;
+  //Se declara una variable self (algunos prefieren that) para guardar el `this` del constructor Persona()
+  var self = this;
 
-	self.nombre = nombre;
-	self.edad = 0;
+  self.nombre = nombre;
+  self.edad = 0;
 
-	setInterval(function () {
-		//La función anónima define su propio `this` pero el valor que aumenta es edad del `this` de Persona()
-		self.edad++;
-	}, 1000);
+  setInterval(function () {
+    //La función anónima define su propio `this` pero el valor que aumenta es edad del `this` de Persona()
+    self.edad++;
+  }, 1000);
 }
 
 var jon = new Persona('Jonathan');
@@ -433,14 +433,14 @@ console.log(jon); //Imprime el valor de edad más uno por cada segundo que pasa
 
 //La solución al problema de `this` Ahora
 function Persona(nombre) {
-	//El constructor Persona() define `this` como una instancia de él mismo
-	this.nombre = nombre;
-	this.edad = 0;
+  //El constructor Persona() define `this` como una instancia de él mismo
+  this.nombre = nombre;
+  this.edad = 0;
 
-	setInterval(() => {
-		//`this` hace referencia al objeto Persona()
-		this.edad++;
-	}, 1000);
+  setInterval(() => {
+    //`this` hace referencia al objeto Persona()
+    this.edad++;
+  }, 1000);
 }
 
 const jon = new Persona('Jonathan');
@@ -455,17 +455,17 @@ console.log(jon.edad); //Imprime la edad
 
 ### Atajos en la escritura de atributos y métodos
 
-```JavaScript	
+```JavaScript
 //Antes
 var nombre = 'kEnAi',
-	edad = 4;
+  edad = 4;
 
 var perro = {
-	nombre : nombre,
-	edad : edad,
-	ladrar : function () {
-		alert('guau guau!!!');
-	}
+  nombre : nombre,
+  edad : edad,
+  ladrar : function () {
+    alert('guau guau!!!');
+  }
 };
 
 console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
@@ -473,14 +473,14 @@ perro.ladrar(); //Manda alerta
 
 //Ahora
 let nombre = 'kEnAi',
-	edad = 4;
+  edad = 4;
 
 const perro = {
-	nombre,
-	edad,
-	ladrar() {
-		alert('guau guau!!!');
-	}
+  nombre,
+  edad,
+  ladrar() {
+    alert('guau guau!!!');
+  }
 };
 
 console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
@@ -491,15 +491,15 @@ perro.ladrar(); //Manda alerta
 
 ```JavaScript
 let nombreAtributo = 'nombre',
-	nombreOtroAtributo = 'ad',
-	nombreMetodo = 'ladrar';
+  nombreOtroAtributo = 'ad',
+  nombreMetodo = 'ladrar';
 
 const perro = {
-	[nombreAtributo] : 'kEnAi',
-	[`ed${nombreOtroAtributo}`] : 4,
-	[nombreMetodo]() {
-		alert('guau guau!!!');
-	}
+  [nombreAtributo] : 'kEnAi',
+  [`ed${nombreOtroAtributo}`] : 4,
+  [nombreMetodo]() {
+    alert('guau guau!!!');
+  }
 };
 
 console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
@@ -513,7 +513,7 @@ perro.ladrar(); //Manda alerta
 
 ### aka Destructuring o Descomposición
 
-Nuevas formas de asignar valores a Arrays y Objetos. 
+Nuevas formas de asignar valores a Arrays y Objetos.
 
 ```JavaScript
 //Destructuración de Arreglos
@@ -521,8 +521,8 @@ let numeros = [1, 2, 3];
 
 //sin destructuración
 let uno = numeros[0],
-	dos = numeros[1],
-	tres = numeros[2];
+  dos = numeros[1],
+  tres = numeros[2];
 
 console.log(numeros, uno, dos, tres); //Imprime [1, 2, 3] 1 2 3
 
@@ -560,8 +560,8 @@ Ahora es completamente posible definir un valor por defecto a los parámetros de
 ```JavaScript
 //Antes
 function pais(nombre) {
-	nombre = nombre || 'Terrestre';
-	console.log(nombre);
+  nombre = nombre || 'Terrestre';
+  console.log(nombre);
 }
 
 pais(); //Imprime Terrestre
@@ -569,7 +569,7 @@ pais('México'); //Imprime México
 
 //Ahora
 function pais(nombre = 'Terrestre') {
-	console.log(nombre);
+  console.log(nombre);
 }
 
 pais(); //Imprime Terrestre
@@ -586,14 +586,14 @@ pais('México'); //Imprime México
 Los parámetros rest son una forma de utilizar parámetros virtualmente infinitos, se definen agregando **`...`** adelante del nombre del parámetro rest, éste tiene que ser siempre el último parámetro de la función.
 
 ```JavaScript
-function sumar(a, b, ...c) {	
-	let resultado = a + b;
+function sumar(a, b, ...c) {
+  let resultado = a + b;
 
-	c.forEach(n => {
-		resultado += n;
-	});
+  c.forEach(n => {
+    resultado += n;
+  });
 
-	return console.log(resultado);
+  return console.log(resultado);
 }
 
 sumar(1,2); //Imprime 3
@@ -613,7 +613,7 @@ Permite que una expresión sea expandida en situaciones donde se esperan múltip
 
 ```JavaScript
 let arr1 = [1, 2, 3, 4],
-	arr2 = [5, 6, 7, 8];
+  arr2 = [5, 6, 7, 8];
 
 console.log(arr1); //Imprime [1, 2, 3, 4]
 console.log(...arr1); //Imprime 1 2 3 4
@@ -622,8 +622,8 @@ arr1.push(...arr2);
 console.log(arr1); //Imprime [1, 2, 3, 4, 5, 6, 7, 8]
 
 let superiores = ['hombros', 'brazos', 'tronco'],
-	inferiores = ['pelvis', 'piernas', 'rodillas'],
-	cuerpo = ['cabeza', ...superiores, ...inferiores, 'pies'];
+  inferiores = ['pelvis', 'piernas', 'rodillas'],
+  cuerpo = ['cabeza', ...superiores, ...inferiores, 'pies'];
 
 console.log(cuerpo); //Imprime ["cabeza", "hombros", "brazos", "tronco", "pelvis", "piernas", "rodillas", "pies"]
 
@@ -643,33 +643,33 @@ En ES6 se incorporan al lenguaje clases para poder hacer Programación Orientada
 
 ```JavaScript
 class Animal {
-	//el constructor es un método especial que se ejecuta en el momento de instanciar la clase
-	constructor(nombre, edad, genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.genero = genero;
-	}
+  //el constructor es un método especial que se ejecuta en el momento de instanciar la clase
+  constructor(nombre, edad, genero) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.genero = genero;
+  }
 
-	//métodos públicos de la clase
-	comunicar() {
-		console.log('Me comunico con sonidos');
-	}
+  //métodos públicos de la clase
+  comunicar() {
+    console.log('Me comunico con sonidos');
+  }
 
-	comer() {
-		console.log('Ingiero alimentos');
-	}
+  comer() {
+    console.log('Ingiero alimentos');
+  }
 
-	respirar() {
-		console.log('Respiro oxígeno');
-	}
+  respirar() {
+    console.log('Respiro oxígeno');
+  }
 
-	reproducir() {
-		console.log('Me reproduzco sexualmente');
-	}
+  reproducir() {
+    console.log('Me reproduzco sexualmente');
+  }
 }
 
 let lucy = new Animal('Lucy', 20, 'Hembra');
-console.log(lucy); //Imprime Animal {nombre: "Lucy", edad: 20, genero: "Hembra"} 
+console.log(lucy); //Imprime Animal {nombre: "Lucy", edad: 20, genero: "Hembra"}
 lucy.comunicar(); //Imprime Me comunico con sonidos
 lucy.comer(); //Imprime Ingiero alimentos
 lucy.respirar(); //Imprime Respiro oxígeno
@@ -681,48 +681,48 @@ lucy.reproducir(); //Imprime Me reproduzco sexualmente
 ```JavaScript
 //con la palabra extends la clase Humano hereda de Animal
 class Humano extends Animal {
-	//el constructor es un método especial que se ejecuta en el momento de instanciar la clase
-	constructor(nombre, edad, genero) {
-		//con el método super() se manda a llamar el constructor de la clase padre
-		super(nombre, edad, genero);
-		this.razonar = true;
-		this._nacionalidad = 'Terrestre';
-	}
+  //el constructor es un método especial que se ejecuta en el momento de instanciar la clase
+  constructor(nombre, edad, genero) {
+    //con el método super() se manda a llamar el constructor de la clase padre
+    super(nombre, edad, genero);
+    this.razonar = true;
+    this._nacionalidad = 'Terrestre';
+  }
 
-	//un método estático se pueden ejecutar sin necesidad de instanciar la clase
-	static saludar() {
-		console.log('Hola soy un Humano');
-	}
+  //un método estático se pueden ejecutar sin necesidad de instanciar la clase
+  static saludar() {
+    console.log('Hola soy un Humano');
+  }
 
-	//Los setters y getters son métodos especiales que nos permiten establecer y obtener los valores de atributos de nuestra clase
-	set nacionalidad(pais) {
-		this._nacionalidad = pais;
-	}
+  //Los setters y getters son métodos especiales que nos permiten establecer y obtener los valores de atributos de nuestra clase
+  set nacionalidad(pais) {
+    this._nacionalidad = pais;
+  }
 
-	get nacionalidad() {
-		return this._nacionalidad;
-	}
+  get nacionalidad() {
+    return this._nacionalidad;
+  }
 
-	//métodos públicos de la clase redefinidos gracias al polimorfismo
-	comunicar() {
-		console.log('Me comunico hablando');
-	}
+  //métodos públicos de la clase redefinidos gracias al polimorfismo
+  comunicar() {
+    console.log('Me comunico hablando');
+  }
 
-	comer() {
-		console.log('Como de todo, soy omnívoro');
-	}
+  comer() {
+    console.log('Como de todo, soy omnívoro');
+  }
 
-	respirar() {
-		console.log('Respiro oxígeno con ayuda de mis pulmones');
-	}
+  respirar() {
+    console.log('Respiro oxígeno con ayuda de mis pulmones');
+  }
 
-	reproducir() {
-		console.log('Me reproduzco sexualmente, soy mamífero y vivíparo');
-	}
+  reproducir() {
+    console.log('Me reproduzco sexualmente, soy mamífero y vivíparo');
+  }
 
-	pensar() {
-		console.log('Pienso por que tengo intelecto');
-	}
+  pensar() {
+    console.log('Pienso por que tengo intelecto');
+  }
 }
 
 Humano.saludar(); //Imprime Hola soy un Humano
@@ -778,11 +778,11 @@ export let edad  = 33;​​
 
 ```JavaScript
 function sumar( a, b ) {
-	return a + b;
+  return a + b;
 }
 
 function restar( a, b ) {
-	return a - b;
+  return a - b;
 }
 
 export { sumar, restar };
@@ -792,11 +792,11 @@ export { sumar, restar };
 
 ```JavaScript
 export function sumar( a, b ) {
-	return a + b;
+  return a + b;
 }
 
 export function restar( a, b ) {
-	return a - b;
+  return a - b;
 }
 ```
 
@@ -804,16 +804,16 @@ export function restar( a, b ) {
 
 ```JavaScript
 function sumar( a, b ) {
-	return a + b;
+  return a + b;
 }
 
 function restar( a, b ) {
-	return a - b;
+  return a - b;
 }
 
 let operaciones = {
-	sumar,
-	restar
+  sumar,
+  restar
 }
 
 export default operaciones;
@@ -852,9 +852,9 @@ import { sumar, restar } from './libs/operaciones';
 #### También se pueden renombrar las importaciones
 
 ```JavaScript
-import { 
-	sumar as mas,
-	restar as menos
+import {
+  sumar as mas,
+  restar as menos
 } from './libs/operaciones';
 ```
 
@@ -910,62 +910,62 @@ Es una manera alternativa a las **`callbacks`** para modelar asincronía.
 
 ```JavaScript
 function adivinarNumero() {
-	return new Promise((resolve, reject) => {
-		setTimeout(() => {
-			let n = Math.floor(Math.random() * 10);
-			
-			return (n >= 1 && n <= 5)
-				? resolve(`Adivinaste el número: ${n}`)
-				: reject(new Error(`No adivinaste el número: ${n}`));
-		}, 1000);
-	});
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      let n = Math.floor(Math.random() * 10);
+
+      return (n >= 1 && n <= 5)
+        ? resolve(`Adivinaste el número: ${n}`)
+        : reject(new Error(`No adivinaste el número: ${n}`));
+    }, 1000);
+  });
 }
 
 adivinarNumero()
-	.then( num => console.log(num) )
-	.catch(error => console.log(error) );
+  .then( num => console.log(num) )
+  .catch(error => console.log(error) );
 ```
 
 ### Promesas en el servidor
 
 ```JavaScript
 const fs = require('fs'),
-	file = './nombres.txt',
-	newFile = './nombres_promises_es6.txt';
+  file = './nombres.txt',
+  newFile = './nombres_promises_es6.txt';
 
 let promise = new Promise((resolve, reject) => {
-	fs.access(file, fs.F_OK, (err) => {
-		return (err) 
-			? reject( new Error('El archivo no existe') ) 
-			: resolve(true);
-	});
+  fs.access(file, fs.F_OK, (err) => {
+    return (err)
+      ? reject( new Error('El archivo no existe') )
+      : resolve(true);
+  });
 });
 
 promise
-	.then((dataPromise) => {
-		console.log('El archivo existe');
-		
-		return new Promise((resolve, reject) => {
-			fs.readFile(file, (err, data) => {
-				return (err) 
-				? reject( new Error('El archivo no se pudo leer') ) 
-				: resolve(data);
-			});
-		});
-	})
-	.then((dataPromise) => {
-		console.log('El archivo se ha leído exitosamente');
+  .then((dataPromise) => {
+    console.log('El archivo existe');
 
-		return new Promise((resolve, reject) => {
-			fs.writeFile(newFile, dataPromise, (err) => {
-				return (err)
-					? reject( new Error('El archivo no se pudo copiar') ) 
-					: resolve('El archivo se ha copiado con éxito');
-			});
-		});
-	})
-	.then((dataPromise) => { console.log(dataPromise); })
-	.catch((err) => { console.log(err.message); });
+    return new Promise((resolve, reject) => {
+      fs.readFile(file, (err, data) => {
+        return (err)
+        ? reject( new Error('El archivo no se pudo leer') )
+        : resolve(data);
+      });
+    });
+  })
+  .then((dataPromise) => {
+    console.log('El archivo se ha leído exitosamente');
+
+    return new Promise((resolve, reject) => {
+      fs.writeFile(newFile, dataPromise, (err) => {
+        return (err)
+          ? reject( new Error('El archivo no se pudo copiar') )
+          : resolve('El archivo se ha copiado con éxito');
+      });
+    });
+  })
+  .then((dataPromise) => { console.log(dataPromise); })
+  .catch((err) => { console.log(err.message); });
 ```
 
 **[⬆ regresar al índice](#Índice)**
@@ -980,8 +980,8 @@ Un **Iterador** es un mecanismo que tienen los lenguajes de programación para r
 Para que un objeto sea iterable en JavaScript es necesario que:
 * Implemente el tipo **`Symbol.iterator`**
 * Implemente la función **`next`** que devuelve un objeto con dos valores:
-	1. **`done`** que indica si ha terminado de iterar y 
-	1. **`value`** que devuelve el valor actual
+  1. **`done`** que indica si ha terminado de iterar y
+  1. **`value`** que devuelve el valor actual
 
 ### Ejemplos de Iteradores
 
@@ -1000,26 +1000,26 @@ Es un ciclo que nos permite recorrer objetos iterables.
 ```JavaScript
 //Antes
 var anArray = ['Hola', 1, true, {}],
-	aString = 'Hola soy iterable';
+  aString = 'Hola soy iterable';
 
 for (var i = 0; i < anArray.length; i++) {
-	console.log( anArray[i] );
+  console.log( anArray[i] );
 }
 
 for (var i = 0; i < aString.length; i++) {
-	console.log( aString[i] );
+  console.log( aString[i] );
 }
 
 //Ahora
 let anArray = ['Hola', 1, true, {}],
-	aString = 'Hola soy iterable';
+  aString = 'Hola soy iterable';
 
 for ( let item of anArray ) {
-	console.log( item ); //Imprime cada elemento del arreglo
+  console.log( item ); //Imprime cada elemento del arreglo
 }
 
 for ( let character of aString ) {
-	console.log( character ); //Imprime cada caracter de la cadena de texto
+  console.log( character ); //Imprime cada caracter de la cadena de texto
 }
 ```
 
@@ -1040,22 +1040,22 @@ Cuando se recorran las propiedades de un objeto, las que sean definidas como sí
 
 ```JavaScript
 let anObject = {
-		name: 'Jonathan',
-		age: 32,
-		email: 'jonmircha@gmail.com'
-	},
-	//Un símbolo se instancia sin new, porque no es un objeto y por tal no tiene constructor
-	email = Symbol('email');
+    name: 'Jonathan',
+    age: 32,
+    email: 'jonmircha@gmail.com'
+  },
+  //Un símbolo se instancia sin new, porque no es un objeto y por tal no tiene constructor
+  email = Symbol('email');
 
 //Asignación de un símbolo en un objeto
 anObject[email] = 'jonmircha@bextlan.com';
 
 for( let item of anObject ) {
-	console.log(item); //Uncaught TypeError: anObject[Symbol.iterator] is not a function
+  console.log(item); //Uncaught TypeError: anObject[Symbol.iterator] is not a function
 }
 
 for( let item in anObject ) {
-	console.log(item); //Imprime name, age, email
+  console.log(item); //Imprime name, age, email
 }
 
 console.log( Object.keys(anObject) ); // Imprime ["name", "age", "email"]
@@ -1063,11 +1063,11 @@ console.log( Object.getOwnPropertyNames(anObject) ); // Imprime ["name", "age", 
 console.log( Object.getOwnPropertySymbols(anObject) ); // Imprime [Symbol(email)]
 
 console.log(
-	anObject, //Imprime Object {name: "Jonathan", age: 32, email: "jonmircha@gmail.com", Symbol(email): "jonmircha@bextlan.com"}
-	anObject.name, //Imprime "Jonathan"
-	anObject.age, //Imprime 32
-	anObject.email, //Imprime "jonmircha@gmail.com"
-	anObject[email] //Imprime "jonmircha@bextlan.com"
+  anObject, //Imprime Object {name: "Jonathan", age: 32, email: "jonmircha@gmail.com", Symbol(email): "jonmircha@bextlan.com"}
+  anObject.name, //Imprime "Jonathan"
+  anObject.age, //Imprime 32
+  anObject.email, //Imprime "jonmircha@gmail.com"
+  anObject[email] //Imprime "jonmircha@bextlan.com"
 );
 ```
 
@@ -1075,15 +1075,15 @@ console.log(
 
 ```JavaScript
 let iterable = {
-	0: 'Jonathan',
-	1: 32,
-	2: 'jonmircha@gmail.com',
-	length: 3,
-	[Symbol.iterator]: Array.prototype[Symbol.iterator]
+  0: 'Jonathan',
+  1: 32,
+  2: 'jonmircha@gmail.com',
+  length: 3,
+  [Symbol.iterator]: Array.prototype[Symbol.iterator]
 };
 
 for (let item of iterable) {
-	console.log(item); //Imprime Jonathan, 32, jonmircha@gmail.com
+  console.log(item); //Imprime Jonathan, 32, jonmircha@gmail.com
 }
 ```
 
@@ -1106,8 +1106,8 @@ Para obtener los resultados del generador lo hacemos con el método **`next()`**
 
 ```JavaScript
 {
-	value: el valor retornado por yield
-	done: indica si ha finalizado o no la ejecución del cuerpo de la función
+  value: el valor retornado por yield
+  done: indica si ha finalizado o no la ejecución del cuerpo de la función
 }
 ```
 
@@ -1119,7 +1119,7 @@ function* generador(nombre) {
     yield 'Esta línea saldrá en la segunda ejecución';
     yield 'Esta otra, en la tercera';
     if ( nombre === 'Jonathan' ) {
-    	yield 'Esta otra, saldrá en la cuarta solo si te llamas Jonathan';
+      yield 'Esta otra, saldrá en la cuarta solo si te llamas Jonathan';
     }
 }
 
@@ -1135,18 +1135,18 @@ console.log( gen.next() ); //Imprime Object {value: undefined, done: true}
 
 ```JavaScript
 class LoremIpsum {
-	constructor( text ) {
-		this._text = text;
-	}
+  constructor( text ) {
+    this._text = text;
+  }
 
-	*words() {
-		const re = /\S+/g;
-		let match;
+  *words() {
+    const re = /\S+/g;
+    let match;
 
-		while( match = re.exec( this._text ) ){
-			yield match[0];
-		}
-	}
+    while( match = re.exec( this._text ) ){
+      yield match[0];
+    }
+  }
 }
 
 const lorem = new LoremIpsum('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptatem eveniet ipsum in similique maxime sunt eaque veritatis sapiente. Fuga minus, non cumque deleniti consequatur. Odit reprehenderit non fugit cum!');
@@ -1156,24 +1156,24 @@ for ( let word of lorem.words() ) {
 }
 
 class Usuarios {
-	constructor( gente ) {
-		this._gente = gente;
-	}
+  constructor( gente ) {
+    this._gente = gente;
+  }
 
-	*alias() {
-		for ( let persona of this._gente ) {
-			yield ( persona.sexo === 'H' ) ? `Sr. ${persona.nombre}` : `Sra. ${persona.nombre}`;
-		}
-	}
+  *alias() {
+    for ( let persona of this._gente ) {
+      yield ( persona.sexo === 'H' ) ? `Sr. ${persona.nombre}` : `Sra. ${persona.nombre}`;
+    }
+  }
 }
 
 const gente = new Usuarios([
-	{ sexo: 'H', nombre: 'Jon' },
-	{ sexo: 'M', nombre: 'Irma' }
+  { sexo: 'H', nombre: 'Jon' },
+  { sexo: 'M', nombre: 'Irma' }
 ]);
 
 for ( let persona of gente.alias() ){
-	console.log( persona );
+  console.log( persona );
 }
 ```
 
@@ -1198,19 +1198,19 @@ La API Proxy define un constructor al que se le pasa como primer argumento el ob
 
 ```JavaScript
 let target = { /* propiedades y métodos */ },
-	handler = { /* funciones capturadoras */ },
-	proxy = new Proxy(target, handler);
+  handler = { /* funciones capturadoras */ },
+  proxy = new Proxy(target, handler);
 ```
 El **`handler`** es el encargado de modificar el comportamiento original del objeto **`target`**. Este **`handler`** contiene métodos "capturadores" ( por ejemplo .get(), .set(), .apply() ) que se ejecutan al realizar la llamada correspondiente del proxy.
 
 ```JavaScript
 const persona = new Proxy({}, {
-	set( obj, prop, val ) {
-		if ( prop === 'edad' && ( !Number.isInteger( val ) || val < 0 ) ) {
-			throw new Error( `Valor inválido para la propiedad ${prop}` );
-		}
-		return obj[prop] = val;
-	}
+  set( obj, prop, val ) {
+    if ( prop === 'edad' && ( !Number.isInteger( val ) || val < 0 ) ) {
+      throw new Error( `Valor inválido para la propiedad ${prop}` );
+    }
+    return obj[prop] = val;
+  }
 });
 
 persona.edad = 33;
@@ -1275,40 +1275,40 @@ Parámetros de un decorador:
 * **`target`:** El objeto al que queremos modificar su definición de propiedades
 * **`name`:** El nombre de la propiedad a modificar
 * **`descriptor`:** La descripción de la propiedad del objeto, que a su vez es:
-	* **`configurable`:** indica si puede ser modificada
-	* **`enumerable`:** se puede usar con un **`for...of`**
-	* **`value`:** valor asociado a la propiedad
-	* **`writable`:** indica si la propiedad puede ser cambiada con una asignación
-	* **`get`:** indica si la propiedad es un **`getter`**
-	* **`set`:** indica si la propiedad es un **`setter`**
+  * **`configurable`:** indica si puede ser modificada
+  * **`enumerable`:** se puede usar con un **`for...of`**
+  * **`value`:** valor asociado a la propiedad
+  * **`writable`:** indica si la propiedad puede ser cambiada con una asignación
+  * **`get`:** indica si la propiedad es un **`getter`**
+  * **`set`:** indica si la propiedad es un **`setter`**
 
 ```JavaScript
 const soloLectura = (target, name, descriptor) => {
-	descriptor.writable = false;
-	return descriptor;
+  descriptor.writable = false;
+  return descriptor;
 };
 
 class Persona {
-	constructor( {nombre, apellido} ) {
-		this.nombre = nombre;
-		this.apellido = apellido;
-	}
+  constructor( {nombre, apellido} ) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+  }
 
-	@soloLectura
-	nombrar() { 
-		return `${this.nombre} ${this.apellido}`;
-	}
+  @soloLectura
+  nombrar() {
+    return `${this.nombre} ${this.apellido}`;
+  }
 }
 
 const alguien = new Persona({
-	nombre: 'Jonathan',
-	apellido: 'MirCha'
+  nombre: 'Jonathan',
+  apellido: 'MirCha'
 });
 
 console.log( alguien.nombrar() ); //Imprime Jonathan MirCha
 
-alguien.nombrar = () => { 
-	return `${this.nombre}`;
+alguien.nombrar = () => {
+  return `${this.nombre}`;
 } //Ejecutará Cannot assign to read only property 'nombrar' of object '#<Persona>'
 ```
 
@@ -1330,23 +1330,23 @@ Son una nueva característica aun no soportada en ES6, que nos permitirá realiz
 
 ```JavaScript
 function createUser(name) {
-	alert(`Usuario ${name} creado`);
+  alert(`Usuario ${name} creado`);
 }
 
 function getFriends(name) {
-	alert( `Obteniendo amigos de ${name}` );
-	return 150;
+  alert( `Obteniendo amigos de ${name}` );
+  return 150;
 }
 
-async function setNewUser(name) {  
-	let newUser = await createUser(name),
-		friends = await getFriends(name);
+async function setNewUser(name) {
+  let newUser = await createUser(name),
+    friends = await getFriends(name);
 
-	if (friends !== 0) {
-		alert( `${name} tienes ${friends} amigos` );
-	} else {
-		alert( `${name} eres un antisocial sin amigos` );
-	}
+  if (friends !== 0) {
+    alert( `${name} tienes ${friends} amigos` );
+  } else {
+    alert( `${name} eres un antisocial sin amigos` );
+  }
 }
 
 setNewUser('Jonathan');
@@ -1356,38 +1356,38 @@ setNewUser('Jonathan');
 
 ```JavaScript
 const fs = require('fs'),
-	file = './nombres.txt',
-	newFile = './nombres_async_es6.txt';
+  file = './nombres.txt',
+  newFile = './nombres_async_es6.txt';
 
 
 function accessFile(file) {
-	fs.access(file, fs.F_OK, (err) => {
-		return (err) 
-			? new Error('El archivo no existe')
-			: console.log('El archivo existe');
-	});
+  fs.access(file, fs.F_OK, (err) => {
+    return (err)
+      ? new Error('El archivo no existe')
+      : console.log('El archivo existe');
+  });
 }
 
 function readFile(file) {
-	fs.readFile(file, (err, data) => {
-		return (err) 
-			? new Error('El archivo no se pudo leer') 
-			: data;
-	});
+  fs.readFile(file, (err, data) => {
+    return (err)
+      ? new Error('El archivo no se pudo leer')
+      : data;
+  });
 }
 
 function writeFile(newFile, data) {
-	fs.writeFile(newFile, data, (err) => {
-		return (err)
-			? new Error('El archivo no se pudo copiar')
-			: console.log('El archivo se ha copiado con éxito');
-	});
+  fs.writeFile(newFile, data, (err) => {
+    return (err)
+      ? new Error('El archivo no se pudo copiar')
+      : console.log('El archivo se ha copiado con éxito');
+  });
 }
 
 async function copyFile() {
-	let af1 = await accessFile(file),
-		af2 = await readFile(file),
-		af3 = await writeFile(newFile, af2);
+  let af1 = await accessFile(file),
+    af2 = await readFile(file),
+    af3 = await writeFile(newFile, af2);
 }
 
 copyFile();
@@ -1493,7 +1493,7 @@ Nuevos métodos para Arreglos.
 
 ```JavaScript
 let nombre = 'Jonathan';
-	
+
 console.log( Array.from(nombre) ); //Imprime Array [ "J", "o", "n", "a", "t", "h", "a", "n" ]
 
 console.log( Array.of(7) ); //Imprime [7]
@@ -1531,8 +1531,8 @@ Nuevos métodos para Objetos.
 
 ```JavaScript
 const a = { a: 1 },
-	b = { b: 2 },
-	c = {};
+  b = { b: 2 },
+  c = {};
 
 Object.assign(c, a, b);
 
@@ -1583,7 +1583,7 @@ console.log( map.has('clave') ); // Imprime true
 console.log( map.delete('clave') ); //Imprime true
 console.log( map.has('clave') ); //Imprime false
 
-map.clear(); 
+map.clear();
 console.log( map.size ); //Imprime 0
 
 map = new Map( [ ['user1', 'Jonathan'], ['user2', 'Irma'], ['user3', 'kEnAi'] ] );
@@ -1614,8 +1614,8 @@ Tampoco podemos iterar un **`WeakMap`** con el bucle **`for of`**.
 
 ```JavaScript
 let clave = { userId: 1 },
-	clave2 = { userId: 2 },
-	weakmap = new WeakMap();
+  clave2 = { userId: 2 },
+  weakmap = new WeakMap();
 
 weakmap.set( clave, 'Jonathan' );
 console.log( weakmap ); //Imprime WeakMap {Object {userId: 1} => "Jonathan"}
@@ -1651,14 +1651,14 @@ set.add('Irma');
 console.log( set.size ); //Imprime 2
 
 for ( let item of set ) {
-	console.log(item);
+  console.log(item);
 }
 
 //Imprime Jonathan
 //Imprime Irma
 
 for ( let item of set.entries() ){
-	console.log(item);
+  console.log(item);
 }
 
 //Imprime ["Jonathan", "Jonathan"]
@@ -1682,8 +1682,8 @@ Similar al **`WeakMap`**, pero con los Sets. Las dos principales diferencias de 
 
 1. Únicamente pueden contener colecciones de objetos.
 1. La referencia a los objetos es débil, por lo que si no hay otra referencia a uno de los objetos contenidos en el **`WeakSet`**, el recolector de basura lo podrá liberar. Esto implica que:
-	* No hay una lista de objetos almacenados en la colección
-	* Los WeakSet no son enumerables.
+  * No hay una lista de objetos almacenados en la colección
+  * Los WeakSet no son enumerables.
 
 Básicamente, los métodos de los que dispone un **`WeakSet`** son:
 
@@ -1693,7 +1693,7 @@ Básicamente, los métodos de los que dispone un **`WeakSet`** son:
 
 ```JavaScript
 let objs = [ 'Jonathan', 'Irma', 'kEnAi' ],
-	weakset = new WeakSet();
+  weakset = new WeakSet();
 
 console.log( weakset ); //Imprime WeakSet {}
 

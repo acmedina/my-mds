@@ -2,7 +2,7 @@
 
 **Lenguaje de Marcado de Hiper Texto basado en etiquetas y atributos, nos define estructura y contenido**
 
-![HTML](http://bextlan.com/img/para-cursos/html5-logo.png)
+![HTML5](http://bextlan.com/img/para-cursos/html5-logo.png)
 
 
 ## Índice
@@ -35,7 +35,7 @@
 **[⬆ regresar al índice](#Índice)**
 
 
-#HTML5
+# HTML5
 
 * Sitio Oficial [HTML5](https://www.w3.org/html/logo/)
 * No es un software, no se instala, no se descarga, no se necesita licencia, no cuesta, vive y existe en los navegadores web
@@ -91,7 +91,7 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 * Atributo de idioma
 * Juego de caractéres
 * Area de Visualización
-    
+
 ### Definir
 
 * Título único máx 65 caractéres
@@ -113,13 +113,13 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<title>Título de mi documento, este deberá ser único max 65 caracteres</title>
-	<meta name="description" content="Breve descripción de lo que los usuarios 
+	<meta name="description" content="Breve descripción de lo que los usuarios
 	encontrarán en este documento, deberá ser única max 156 caracteres">
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 	<h1>Estructura de Documento HTML5</h1>
-	<!-- 
+	<!--
 		AQUÍ EL CONTENIDO HTML
 		Esto es un comentaerio HTML
 	-->
@@ -133,8 +133,9 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 
 ## Más Info
 
-* [Introducción a XHTML](http://librosweb.es/libro/xhtml/)
+* [HTML Reference](http://htmlreference.io/)
 * [Guía de Referencia HTML en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
+* [Introducción a XHTML](http://librosweb.es/libro/xhtml/)
 * [Estandar HTML 5.1](https://www.w3.org/TR/html51/)
 * [Estandar HTML 5.2](https://www.w3.org/TR/html52/)
 * [Guía de Buenas Prácticas en Código Front end](http://mdo.github.io/code-guide/)
