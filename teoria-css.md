@@ -17,12 +17,12 @@
 1. [Visualización](#visualización)
 1. [Posicionamiento](#posicionamiento)
 1. [Modelo de Caja](#modelo-de-caja)
-1. [Técnicas de Maquetación](#técnicas-de-maquetación)
-1. [Patrones de Diseño](#patrones-de-diseño)
+1. [Sistemas de Maquetación](#sistemas-de-maquetación)
 1. [Guías de Estilo](#guías-de-estilos)
-1. [Arquitectura CSS](#arquitectura-css)
-1. [Sistemas de Nomenclaturas](#sistemas-de-nomenclaturas)
 1. [Buenas Prácticas](#buenas-prácticas)
+1. [Sistemas de Nomenclaturas](#sistemas-de-nomenclaturas)
+1. [Arquitectura CSS](#arquitectura-css)
+1. [Patrones de Diseño](#patrones-de-diseño)
 1. [Frameworks](#frameworks)
 1. [Preprocesadores](#preprocesadores)
 1. [PostCSS](#postcss)
@@ -36,10 +36,10 @@ Provee presentación (diseño) al contenido HTML
 
 Su principal objetivo es separar el contenido (HTML) de su presentación (CSS)
 
-* [Introducción a CSS](http://librosweb.es/libro/css/)
 * [CSS Reference](http://cssreference.io/)
 * [CSS-TRICKS](https://css-tricks.com/)
 * [Documentación Oficial](https://www.w3.org/Style/CSS/)
+* [Libro: Introducción a CSS](http://librosweb.es/libro/css/)
 
 ~~~~~~~~~~~~~~
 selector {
@@ -73,7 +73,7 @@ Elemento(s) al que se le aplican reglas CSS
 * **Adyacentes** `h1 + h2 { ... }`
 * **de Atributos** `input[type="text"] { ... }`
 * [Más Info](http://librosweb.es/libro/css_avanzado/capitulo_3.html)
-    
+
 ### Pseudo-selectores
 
 Nos ayudan a aplicar estilos especiales a nuestros elementos HTML, dependiendo de su contexto, posición o estado
@@ -86,7 +86,7 @@ Existen 2 tipos:
 #### Pseudo-clases
 
 * **Estatus de Enlaces** `:link :visited`
-* **Interacciones del Usuario** `:active :hover :focus`    
+* **Interacciones del Usuario** `:active :hover :focus`
 * **Elementos de Formularios** `:checked :disabled :in-range :invalid :out-of-range :required :target :valid`
 * **Posición del Elemento** `:first-child :first-of-type :last-child :last-of-type :nth-child() :nth-last-child() :nth-of-type() :only-child :only-of-type :default`
 * **CSS3** `:dir() :empty :first :fullscreen :indeterminate :lang() :left :not() :optional :read-only :read-write :right :root :scope`
@@ -120,7 +120,7 @@ A grandes rasgos podemos ordenar los diferentes tipos de selectores de menor a m
 
 * **Absolutas** `px, pt, pc, cm, mm, in`
 * **Relativas**
-    * **al Contenedor** 
+    * **al Contenedor**
         * `% (Porcentajes)`
     * **a la Tipografía**
         * `em` basada en la anchura de la letra M del contenedor
@@ -167,7 +167,7 @@ En HTML el RGB se maneja en código hexadecimal
 
 * Externas:
     * [Google Fonts](https://www.google.com/fonts)
-    
+
 * Icónicas
     * [Font Awesome](http://fontawesome.io/)
     * [IcoMoon](https://icomoon.io/)
@@ -232,7 +232,7 @@ Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.
 * **Estático**: Es el que viene por defecto, un elemento detrás del otro
 * **Relativo**: Se desplaza respecto de su posición original
 * **Absoluto**: Se desplaza respecto de:
-    * la posición del body del documento o 
+    * la posición del body del documento o
     * del primer elemento padre relativo que tenga
 * **Fijo**: Permite mantener fijo un elemento
 * **Flotante**: Convierte un elemento en flotante desplazándolo hasta la zona más a la izquierda o más a la derecha de la posición en la que originalmente se encontraba
@@ -245,7 +245,7 @@ Para no escribirlos manualmente puedes usar [Autoprefixer](https://autoprefixer.
 
 ## Modelo de Caja
 
-El modelo de caja o "**box model**" es una de las característica más importante de CSS, ya que condiciona el diseño de la web; hace que todos los elementos de un documento HTML se representen mediante cajas rectangulares. 
+El modelo de caja o "**box model**" es una de las característica más importante de CSS, ya que condiciona el diseño de la web; hace que todos los elementos de un documento HTML se representen mediante cajas rectangulares.
 
 CSS controla el aspecto de todas las cajas (contenedores), permite definir la altura y anchura de cada caja, el margen existente entre cajas y el espacio de relleno interior que muestra cada una; además controla la forma en la que se visualizan pero la mayoría no muestran ningún color de fondo ni borde, no son visibles a simple vista
 
@@ -330,43 +330,38 @@ CSS controla el aspecto de todas las cajas (contenedores), permite definir la al
 **[⬆ regresar al índice](#Índice)**
 
 
-## Técnicas de Maquetación
+## Sistemas de Maquetación
 
-* **`display: table;`**
-    * [Puedo usarlo](http://caniuse.com/#search=table)
-    * [Guía DesarrolloWeb](http://www.desarrolloweb.com/articulos/modelo-tabla-css-propiedad-display-explicaciones-ejemplos.html)
-    * [Más Info W3C](https://www.w3.org/TR/CSS21/tables.html)
-* **`display: flex;`**
-    * [Puedo usarlo](http://caniuse.com/#search=flex)
-    * [Guía Completa de CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-    * [Más Info Propiedad Flex en CSS-Tricks](https://css-tricks.com/almanac/properties/f/flex/)
-    * [Más Info W3C](https://www.w3.org/TR/css-flexbox/)
-* **`display: grid;`**
-    * [Puedo usarlo](http://caniuse.com/#search=grid)
-    * [Guía Completa de CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-    * [Grid by Example](http://gridbyexample.com/presentations/)
-    * [Más Info W3C](https://www.w3.org/TR/css-grid-1/)
+1. **Grid:** Bidimensional, pensado para planificar las estructuras y secciones externas de la UI
+1. **Flexbox:** Unidimensional, pensado para el acomodo interno de los elementos, componentes y/o widgets de la UI
 
-**[⬆ regresar al índice](#Índice)**
+### Grid
 
+![Terminología Grid](http://bextlan.com/img/para-cursos/terminologia-grid.svg)
 
-## Patrones de Diseño
+* [A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)
+* [Learn CSS Grid](http://learncssgrid.com/)
+* [Grid W3C](https://www.w3.org/TR/css3-grid-layout/)
+* [Introducción a Grid](https://ed.team/blog/introduccion-grid-css)
+* [Posicionamiento Grid](https://ed.team/blog/posicionamiento-grid-css)
+* Aprende interactuando:
+  * [Colección de Ejercicios](https://codepen.io/collection/DgwjNL/)
+  * [Grid Template Builder](http://codepen.io/anthonydugois/pen/RpYBmy)
+  * [Grid Garden](http://cssgridgarden.com/)
+  * [Griddy](http://griddy.io/)
 
-Los patrones de diseño son la base para la búsqueda de soluciones a problemas comunes en el desarrollo de software y otros ámbitos referentes al diseño de interacción o interfaces.
+### Flexbox
 
-Un patrón resulta ser una solución a un problema. Para que una solución sea considerada patrón debe:
+![Terminología Flexbox](http://bextlan.com/img/para-cursos/flex-direction-terms.svg)
 
-* Comprobar su efectividad resolviendo problemas similares
-* Ser reutilizable, lo que significa que es aplicable a diferentes problemas en distintas circunstancias
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox  W3C](https://www.w3.org/TR/css-flexbox/)
+* Aprende interactuando:
+  * [Propiedades Flexbox](http://codepen.io/jonmircha/pen/aWWbre)
+  * [Flexbox Defense](http://www.flexboxdefense.com/)
+  * [Flexbox Froggy](http://flexboxfroggy.com/)
 
-**¿Por qué usar Patrones en CSS?**
-
-* Construimos sistemas, no páginas
-* Necesidad de modularidad
-* Mejora flujo de trabajo
-* Ya han sido probados y validados
-* Si trabajamos en equípo mantiene el órden
-* Promueven la filosofía DRY **(Don't Repeat Yourself)**
+#### Puedes aprender más sobre Grid y Flexbox en el [Curso CSS Avanzado: Grid + Flexbox](https://ed.team/cursos/css-avanzado) de EDteam.
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -384,30 +379,26 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 **[⬆ regresar al índice](#Índice)**
 
 
-## Arquitectura CSS
+## Buenas Prácticas
 
-Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y componentes que permitirán aumentar la escalabilidad de manera estructurada
-
-### Componentes Modulares
-
-> “It's a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS and possibly JavaScript.”
-
-> > [Nicole Sullivan](https://vimeo.com/72759139)
-
-* Son un fragmento de la interfaz que cumple una única función
-* Son independientes, tanto de su contexto como del resto de componentes
-* Son reutilizables
-* Son autocontenidos, no filtran estilos a otros componentes
-
-![Componentes Modulares](http://bextlan.com/img/para-cursos/componentes-css.png)
-
-### Tipos de Arquitectura CSS
-
-* [OOCSS](http://oocss.org/)
-* [SMACSS](https://smacss.com/)
-* [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
-* [7-1 Pattern​](https://sass-guidelin.es/#architecture)
-* [GEL by BBC](http://www.bbc.co.uk/gel)
+* Preferir **`<link>`** sobre **`@import`** para invocar hojas de estilo
+* Definir siempre un **`font-size`** al elemento root (**`html`**) y hacerlo en **`px`**
+* Usar [**`box-sizing: border-box;`**](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+* Estandarizar los estilos iniciales de nuestras etiquetas HTML para todos los navegadores
+    * [Reset.css](http://meyerweb.com/eric/tools/css/reset/)
+    * [Normalize.css](https://necolas.github.io/normalize.css/)
+    * o crear uno propio :smile:
+* Evitar el uso de selectores de etiquetas e identificadores y trabajar en su mayoria con clases
+* Maquetar bajo un enfoque **Mobile First**
+* Escribir CSS pensando en reutilizar código (**DRY - Don't Repeat Yourself**)
+* Tener precaución con los shorthand de CSS
+    * **`padding, margin, font, background, border, border-radius`**
+    * preferible **`background-color: #FFF`** que **`background: #FFF`**
+* Ordenar el código en cada selector usando la fórmula **PC-TV**:
+    * Posicionamiento **`position, top, left, right, bottom, clear, z-index`**
+    * Modelo de Caja **`display, float, margin, padding, width, height`**
+    * Tipografía **`font-family, font-size, line-height, color, text-align`**
+    * Visual **`background-color, border, border-radius, outline, opacity`**
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -449,26 +440,51 @@ Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y component
 **[⬆ regresar al índice](#Índice)**
 
 
-## Buenas Prácticas
+## Arquitectura CSS
 
-* Preferir **`<link>`** sobre **`@import`** para invocar hojas de estilo
-* Definir siempre un **`font-size`** al elemento root (**`html`**) y hacerlo en **`px`**
-* Usar [**`box-sizing: border-box;`**](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
-* Estandarizar los estilos iniciales de nuestras etiquetas HTML para todos los navegadores
-    * [Reset.css](http://meyerweb.com/eric/tools/css/reset/)
-    * [Normalize.css](https://necolas.github.io/normalize.css/)
-    * o crear uno propio :smile:
-* Evitar el uso de selectores de etiquetas e identificadores y trabajar en su mayoria con clases
-* Maquetar bajo un enfoque **Mobile First**
-* Escribir CSS pensando en reutilizar código (**DRY**)
-* Tener precaución con los shorthand de CSS
-    * **`padding, margin, font, background, border, border-radius`**
-    * preferible **`background-color: #FFF`** que **`background: #FFF`**
-* Ordenar el código en cada selector usando la fórmula **PC-TV**:
-    * Posicionamiento **`position, top, left, right, bottom, clear, z-index`**
-    * Modelo de Caja **`display, float, margin, padding, width, height`**
-    * Tipografía **`font-family, font-size, line-height, color, text-align`**
-    * Visual **`background-color, border, border-radius, outline, opacity`**
+Nos ayudan a organizar nuestro código CSS, dividiendolo en módulos y componentes que permitirán aumentar la escalabilidad de manera estructurada
+
+### Componentes Modulares
+
+> “It's a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS and possibly JavaScript.”
+
+> > [Nicole Sullivan](https://vimeo.com/72759139)
+
+* Son un fragmento de la interfaz que cumple una única función
+* Son independientes, tanto de su contexto como del resto de componentes
+* Son reutilizables
+* Son autocontenidos, no filtran estilos a otros componentes
+
+![Componentes Modulares](http://bextlan.com/img/para-cursos/componentes-css.png)
+
+### Tipos de Arquitectura CSS
+
+* [OOCSS](http://oocss.org/)
+* [SMACSS](https://smacss.com/)
+* [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
+* [7-1 Pattern​](https://sass-guidelin.es/#architecture)
+* [GEL by BBC](http://www.bbc.co.uk/gel)
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Patrones de Diseño
+
+Los patrones de diseño son la base para la búsqueda de soluciones a problemas comunes en el desarrollo de software y otros ámbitos referentes al diseño de interacción o interfaces.
+
+Un patrón resulta ser una solución a un problema. Para que una solución sea considerada patrón debe:
+
+* Comprobar su efectividad resolviendo problemas similares
+* Ser reutilizable, lo que significa que es aplicable a diferentes problemas en distintas circunstancias
+
+**¿Por qué usar Patrones en CSS?**
+
+* Construimos sistemas, no páginas
+* Necesidad de modularidad
+* Mejora flujo de trabajo
+* Ya han sido probados y validados
+* Si trabajamos en equípo mantiene el órden
+* Promueven la filosofía DRY **(Don't Repeat Yourself)**
 
 **[⬆ regresar al índice](#Índice)**
 
