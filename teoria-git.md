@@ -5,8 +5,9 @@
 ## Índice
 
 1. [Introducción a Git](#introducción-a-git)
-1. [Flujo de trabajo básico en Git](#flujo-de-trabajo-básico-en-Git)
-1. [GitHub](#github)
+1. [Flujo de trabajo básico con Git & GitHub](#flujo-de-trabajo-básico-con-git--github)
+1. [Haciendo más cosas con Git & GitHub](#haciendo-más-cosas-con-git--github)
+1. [GitHub Pages](#github-pages)
 1. [Aprende más](#aprende-más)
 
 
@@ -101,16 +102,14 @@ Confirmas los cambios, lo que toma los archivos tal y como están en el área de
 * [BitBucket](https://bitbucket.org/)
 * etc.
 
-**[⬆ regresar al índice](#Índice)**
-
-
-## GitHub
-
 **[Crea tu cuenta](https://github.com/)**
 
 ![GitHub](http://bextlan.com/img/para-cursos/octocat.png)
 
-### Flujo de trabajo básico con Git & GitHub
+**[⬆ regresar al índice](#Índice)**
+
+
+## Flujo de trabajo básico con Git & GitHub
 
 El flujo se distribuye en tres estados locales y uno remoto
 
@@ -121,7 +120,7 @@ El flujo se distribuye en tres estados locales y uno remoto
 * Estado Remoto:
 	* **Remote Origin:** El directorio remoto donde almacenamos los archivos en GitHub
 
-#### 1. Working Dir
+**1. Working Dir**
 
 El primer nivel es nuestra carpeta de trabajo. Podemos añadir, quitar, editar archivos y Git sólo se encargará de controlar los archivos que han sido modificados.
 
@@ -136,7 +135,7 @@ $ > git add -A //shortcut todos los archivos
 $ > git add . //otro shortcut todos los archivos
 ```
 
-#### 2. Staging
+**2. Staging**
 
 En el segundo nivel nuestros archivos están preparados para ser empaquetados. Podemos seguir trabajando y repetir el proceso tantas veces como necesitemos.
 
@@ -148,13 +147,13 @@ Cuando hemos completado un conjunto de cambios, los "empaquetamos" mediante la i
 $ > git commit -m 'mensaje descriptivo'
 ```
 
-#### 3. HEAD
+**3. HEAD**
 
 Nuestro conjunto de cambios está listo para enviar al repositorio remoto. El **HEAD** es nuestra "bandeja de salida". Podemos seguir trabajando y crear más "commits".
 
 ![HEAD](http://bextlan.com/img/para-cursos/git-level-head.png)
 
-#### 4. Remote Origin
+**4. Remote Origin**
 
 Ahora vincularemos nuestro repositorio local con uno remoto en Github.
 
@@ -173,9 +172,12 @@ $ > git push //para las subsecuentes actualizaciones
 
 ![Remote Origin](http://bextlan.com/img/para-cursos/git-level-origin-master.png)
 
-### Más de Git & GitHub
+**[⬆ regresar al índice](#Índice)**
 
-#### Sincronizando versiones
+
+## Haciendo más cosas con Git & GitHub
+
+**Sincronizando versiones**
 
 Antes de enviar nuestros cambios tenemos que bajarnos la última versión del repositorio remoto, obtenemos los últimos cambios de **origin** y los combinamos con la rama **master**
 
@@ -188,7 +190,7 @@ $ > git pull //para las subsecuentes actualizaciones
 
 ![Git Pull](http://bextlan.com/img/para-cursos/git-level-pull.png)
 
-#### Revisando el Historial
+**Revisando el Historial**
 
 **`git log`** nos permite conocer todo el historial de un proyecto, con la información de la fecha, el autor y id de cada cambio
 
@@ -198,7 +200,7 @@ $ > git log --oneline
 $ > git log > commits.txt
 ```
 
-### Ramas
+**Ramas**
 
 Una rama nos permite aislar una nueva funcionalidad en nuestro código que después podremos añadir a la versión principal.
 
@@ -209,7 +211,7 @@ $ > git branch -D [nombre-rama] //eliminar rama (forzado)
 $ > git branch //listar ramas
 ```
 
-### Moverse en el Historial
+**Moverse en el Historial**
 
 Podemos desplazarnos en el historial del proyecto hacia atrás o adelante en cambios o ramas , sin afectar el proyecto como tal.
 
@@ -218,7 +220,7 @@ $ > git checkout [nombre-rama] //cambiar a una rama
 $ > git checkout [id-commit] //cambiar a un cambio
 ```
 
-### Resetear
+**Resetear**
 
 Podemos eliminar el historial de cambios del proyecto hacia adelante con respecto de un punto de referencia.
 
@@ -228,7 +230,7 @@ $ > git reset --mixed //borra el HEAD y el Staging
 $ > git reset --hard //borra el HEAD, Staging y WorkingDir
 ```
 
-### Fusiones
+**Fusiones**
 
 Une dos ramas. Para hacer una fusión necesitamos:
 
@@ -245,7 +247,7 @@ $ > git checkout [rama-principal] //Nos cambiamos a la rama principal que quedar
 $ > git merge [rama-secundaria] //Ejecutamos el comando merge con la rama secundaria a fusionar
 ```
 
-### Etiquetas
+**Etiquetas**
 
 Con esta opción git nos permite versionar nuestro código, librería o proyecto
 
@@ -260,13 +262,16 @@ $ > git commit -m 'v1.0.0'
 $ > git push origin [numero-versión] //compartir etiqueta en GitHub
 ```
 
-### Clonar repositorios
+**Clonar repositorios**
 
 ```git
 $ > git clone [url-repositorio]
 ```
 
-### GitHub Pages
+**[⬆ regresar al índice](#Índice)**
+
+
+## GitHub Pages
 
 [**`gh-pages`**](https://pages.github.com/) es una rama especial para crear un sitio web a tu proyecto alojado directamente en tu repositorio de Github.
 
