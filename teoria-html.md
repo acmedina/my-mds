@@ -135,7 +135,7 @@ Recuerda que las etiquetas semánticas no tienen una posición fija en el layout
 
 * [HTML Reference](http://htmlreference.io/)
 * [Guía de Referencia HTML en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
-* [Introducción a XHTML](http://librosweb.es/libro/xhtml/)
+* [Libro: Introducción a XHTML](http://librosweb.es/libro/xhtml/)
 * [Estandar HTML 5.1](https://www.w3.org/TR/html51/)
 * [Estandar HTML 5.2](https://www.w3.org/TR/html52/)
 * [Guía de Buenas Prácticas en Código Front end](http://mdo.github.io/code-guide/)
