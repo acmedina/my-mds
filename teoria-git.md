@@ -289,6 +289,8 @@ $ > git push origin gh-pages
 $ > git pull origin gh-pages
 ```
 
+![GitHub Pages con soporte HTTPS](http://bextlan.com/img/para-cursos/github-pages-with-https.png)
+
 **[⬆ regresar al índice](#Índice)**
 
 
@@ -316,6 +318,6 @@ También acepta código a HTML.
 * [Guías Oficiales de GitHub](https://guides.github.com/)
 * [Try GitHub](https://try.github.io)
 
-![Aprende más de GitHub](http://bextlan.com/img/para-cursos/octocat.png)
+![Aprende más de Git & GitHub](http://bextlan.com/img/para-cursos/octocat.png)
 
 **[⬆ regresar al índice](#Índice)**
