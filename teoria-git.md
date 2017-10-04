@@ -8,6 +8,7 @@
 1. [Flujo de trabajo básico con Git & GitHub](#flujo-de-trabajo-básico-con-git--github)
 1. [Haciendo más cosas con Git & GitHub](#haciendo-más-cosas-con-git--github)
 1. [GitHub Pages](#github-pages)
+1. [Markdown](#markdown)
 1. [Aprende más](#aprende-más)
 
 
@@ -59,10 +60,10 @@ $ > git help [comando a buscar]
 
 **Inicializar Git en un directorio local**
 
-* **`git init`** crea un directorio oculto **`.git`** donde se almacena toda la información utilizada por git
-* El comando UNIX **`touch`** nos crea un nuevo archivo
-* En el archivo **`.gitignore`** incluimos todo lo que NO queramos incluir en nuestro repositorio. Lo podemos crear con [gitignore.io](https://www.gitignore.io/)
-* **`git status`** nos muestra el listado de archivos nuevos (untracked), borrados o editados
+* **`git init`** crea un directorio oculto **`.git`** donde se almacena toda la información utilizada por git.
+* El comando UNIX **`touch`** nos crea un nuevo archivo.
+* En el archivo **`.gitignore`** incluimos todo lo que NO queramos incluir en nuestro repositorio. Lo podemos crear con [gitignore.io](https://www.gitignore.io/).
+* **`git status`** nos muestra el listado de archivos nuevos (untracked), borrados o editados.
 
 ```git
 $ > mkdir carpeta
@@ -111,14 +112,14 @@ Confirmas los cambios, lo que toma los archivos tal y como están en el área de
 
 ## Flujo de trabajo básico con Git & GitHub
 
-El flujo se distribuye en tres estados locales y uno remoto
+El flujo se distribuye en tres estados locales y uno remoto:
 
 * Estados Locales:
-	* **Working Dir:** El directorio donde almacenamos los archivos
-	* **Staging:** El estado en el que avisamos a Git de que hemos realizado cambios
-	* **HEAD:** El puntero hacia el último bloque de código (commit)
+	* **Working Dir:** El directorio donde almacenamos los archivos.
+	* **Staging:** El estado en el que avisamos a Git de que hemos realizado cambios.
+	* **HEAD:** El puntero hacia el último bloque de código (commit).
 * Estado Remoto:
-	* **Remote Origin:** El directorio remoto donde almacenamos los archivos en GitHub
+	* **Remote Origin:** El directorio remoto donde almacenamos los archivos en GitHub.
 
 **1. Working Dir**
 
@@ -179,7 +180,7 @@ $ > git push //para las subsecuentes actualizaciones
 
 **Sincronizando versiones**
 
-Antes de enviar nuestros cambios tenemos que bajarnos la última versión del repositorio remoto, obtenemos los últimos cambios de **origin** y los combinamos con la rama **master**
+Antes de enviar nuestros cambios tenemos que bajarnos la última versión del repositorio remoto, obtenemos los últimos cambios de **origin** y los combinamos con la rama **master**.
 
 Cuando obtenemos archivos del repositorio remoto a nuestra copia local Git obtiene todos los archivos nuevos que se hayan añadido y elimina los que se hayan quitado.
 
@@ -192,7 +193,7 @@ $ > git pull //para las subsecuentes actualizaciones
 
 **Revisando el Historial**
 
-**`git log`** nos permite conocer todo el historial de un proyecto, con la información de la fecha, el autor y id de cada cambio
+**`git log`** nos permite conocer todo el historial de un proyecto, con la información de la fecha, el autor y id de cada cambio.
 
 ```git
 $ > git log
@@ -249,7 +250,7 @@ $ > git merge [rama-secundaria] //Ejecutamos el comando merge con la rama secund
 
 **Etiquetas**
 
-Con esta opción git nos permite versionar nuestro código, librería o proyecto
+Con esta opción git nos permite versionar nuestro código, librería o proyecto.
 
 ```git
 $ > git tag [numero-versión] //crear una etiqueta
@@ -291,6 +292,21 @@ $ > git push origin gh-pages
 
 $ > git pull origin gh-pages
 ```
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Markdown
+
+Es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
+
+En plataformas como GitHub que trabajan con Git, se utiliza para crear la documentación de los proyectos en un archivo que suele llamarse **`README.md`**.
+
+También acepta código a HTML.
+
+* [¿Qué es?](http://whatismarkdown.com/)
+* [Guía Rápida](http://joedicastro.com/pages/markdown.html)
+* [Tutorial interactivo](http://www.markdowntutorial.com/)
 
 **[⬆ regresar al índice](#Índice)**
 
