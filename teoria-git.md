@@ -98,14 +98,10 @@ Confirmas los cambios, lo que toma los archivos tal y como están en el área de
 
 ![Git no es GitHub](http://bextlan.com/img/para-cursos/git-github.png)
 
-* [GitHub](https://github.com/)
+* Crea tu cuenta en [GitHub](https://github.com/)
 * [GitLab](https://gitlab.com/)
 * [BitBucket](https://bitbucket.org/)
 * etc.
-
-**[Crea tu cuenta](https://github.com/)**
-
-![GitHub](http://bextlan.com/img/para-cursos/octocat.png)
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -298,7 +294,7 @@ $ > git pull origin gh-pages
 
 ## Markdown
 
-Es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
+Es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
 
 En plataformas como GitHub que trabajan con Git, se utiliza para crear la documentación de los proyectos en un archivo que suele llamarse **`README.md`**.
 
@@ -307,6 +303,8 @@ También acepta código a HTML.
 * [¿Qué es?](http://whatismarkdown.com/)
 * [Guía Rápida](http://joedicastro.com/pages/markdown.html)
 * [Tutorial interactivo](http://www.markdowntutorial.com/)
+
+![Sintaxis Markdown](http://bextlan.com/img/para-cursos/markdownpreview.png)
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -317,5 +315,7 @@ También acepta código a HTML.
 * [Libro Pro Git](https://git-scm.com/book/es/v2)
 * [Guías Oficiales de GitHub](https://guides.github.com/)
 * [Try GitHub](https://try.github.io)
+
+![Aprende más de GitHub](http://bextlan.com/img/para-cursos/octocat.png)
 
 **[⬆ regresar al índice](#Índice)**
