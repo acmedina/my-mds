@@ -317,7 +317,7 @@ CSS controla el aspecto de todas las cajas (contenedores), permite definir la al
     padding-top | padding-right | padding-bottom | padding-left
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-> **Nota**: Los atributos del modelo de caja (`border`, `margin` y `padding`) por defecto aumentarán el ancho (`width`) y alto (`height`) de la misma, es decir, crecen el [tamaño de la caja](https://css-tricks.com/box-sizing/) (`box-sizing`)
+> **Nota**: Los atributos del modelo de caja (`border`, `margin` y `padding`) por defecto aumentarán el ancho (`width`) y alto (`height`) de la misma, es decir, crecen el [tamaño de la caja](https://www.paulirish.com/2012/box-sizing-border-box-ftw/) (`box-sizing`)
 
 **[⬆ regresar al índice](#Índice)**
 
